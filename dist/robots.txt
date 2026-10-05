@@ -1,3 +1,25 @@
 User-agent: *
 Allow: /
+
+# Googlebot & Bingbot
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Generative AI & Answer Engines (GEO / AEO)
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# Canonical Sitemap & LLM Knowledge File
 Sitemap: https://nasaqfitout.ae/sitemap.xml

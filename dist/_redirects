@@ -1,0 +1,4 @@
+# Canonical apex domain enforcement
+https://www.nasaqfitout.ae/* https://nasaqfitout.ae/:splat 301
+http://www.nasaqfitout.ae/* https://nasaqfitout.ae/:splat 301
+http://nasaqfitout.ae/* https://nasaqfitout.ae/:splat 301
