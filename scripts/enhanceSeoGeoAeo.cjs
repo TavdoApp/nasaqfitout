@@ -107,11 +107,17 @@ const businessEntity = {
     "15+ years UAE decor expertise",
     "11+ years UAE interior fit-out execution",
     "1000s of completed projects across UAE",
-    "أعمال فيت آوت أبوظبي",
-    "تنفيذ التصميم الداخلي والديكور",
+    "Mr. Ossama decor founder",
+    "All 7 Emirates interior execution",
+    "Architectural gypsum & false ceilings",
+    "Acoustic drywall partitions UAE",
+    "Level-5 interior finishing UAE",
+    "Turnkey fit out contractor Abu Dhabi & Dubai",
+    "أعمال فيت آوت أبوظبي ودبي",
+    "تنفيذ التصميم الداخلي والديكور في الإمارات",
     "أعمال جبس بورد وأسقف معلقة",
     "قواطع جدارية وجبسية",
-    "تشطيب وترميم فلل ومكاتب"
+    "تشطيب وترميم فلل ومكاتب عبر الإمارات السبع"
   ]
 };
 
@@ -156,8 +162,8 @@ const pagesConfig = {
   "about/index.html": {
     path: "about/index.html",
     canonical: "https://nasaqfitout.ae/about/",
-    title: "About Our UAE Fit-Out & Decor Company | NASAQ",
-    description: "Founded by Mr. Ossama with 15+ years in UAE decor, NASAQ brings 11+ years of team execution and 1,000s of completed projects across all 7 Emirates.",
+    title: "About NASAQ | 15+ Yrs UAE Fit-Out & Decor Contractor",
+    description: "Founded by Mr. Ossama with 15+ years in UAE decor, NASAQ brings 11+ years of team execution and 1,000s of completed fit-out projects across all 7 Emirates.",
     image: "https://nasaqfitout.ae/assets/villa.webp",
     breadcrumbs: [
       { name: "Home", url: "https://nasaqfitout.ae/" },
@@ -165,20 +171,32 @@ const pagesConfig = {
     ],
     faqs: [
       {
-        q: "Who founded NASAQ and what is the team’s background?",
-        a: "NASAQ was founded by Mr. Ossama, an interior decor and design implementation specialist with over 15 years of industry experience in the UAE. Supported by a core team with 11+ years of UAE site execution and thousands of completed projects across all seven Emirates, NASAQ delivers precision villa, office, and commercial interior fit-outs."
+        q: "Who founded NASAQ and what is Mr. Ossama's background?",
+        a: "NASAQ was founded by Mr. Ossama, an interior decor and architectural fit-out specialist with over 15 years of industry experience across the UAE. His hands-on background spans luxury gypsum ceiling engineering, drywall partitions, bespoke decorative finishes, and end-to-end design implementation."
       },
       {
-        q: "How many projects has NASAQ's team delivered across the UAE?",
-        a: "NASAQ’s team has successfully executed thousands of decor, gypsum, false ceiling, partition, and interior fit-out projects across Abu Dhabi, Dubai, and all seven Emirates over more than 11 years of active UAE operations."
+        q: "How long has NASAQ's execution team operated in the UAE?",
+        a: "NASAQ's dedicated in-house execution team has been working continuously on UAE residential, commercial, and retail sites for over 11 years, bringing seasoned familiarity with UAE climate conditions, material durability, and developer standards."
+      },
+      {
+        q: "How many projects has NASAQ completed across the UAE?",
+        a: "Over 11+ years of active UAE operations, NASAQ's crews have successfully delivered thousands (1,000s) of completed fit-out, gypsum, false ceiling, partition, and interior renovation projects across all seven Emirates."
+      },
+      {
+        q: "What does the name NASAQ (نسق) mean?",
+        a: "In Arabic, NASAQ (نسق) signifies harmony, orderly arrangement, and disciplined method. It reflects our founding philosophy: executing approved architectural drawings with uncompromising fidelity, strict dimensional tolerances, and balanced aesthetics."
+      },
+      {
+        q: "Which Emirates and areas does NASAQ cover?",
+        a: "NASAQ serves clients across all seven Emirates: Abu Dhabi (headquarters), Dubai, Sharjah, Ajman, Umm Al Quwain, Ras Al Khaimah, and Fujairah. Regularly served communities include Saadiyat Island, Yas Island, Al Reem Island, Khalifa City, MBZ City, Al Shamkhah, Al Raha, and Downtown Dubai."
       },
       {
         q: "What is NASAQ's licensed activity in Abu Dhabi?",
-        a: "NASAQ is legally registered as NASAQ Interior Design Implementation Works – L.L.C – S.P.C in Abu Dhabi, specializing in Interior Design Implementation Works (Decor)."
+        a: "NASAQ is legally registered in Abu Dhabi as NASAQ Interior Design Implementation Works – L.L.C – S.P.C, with the official licensed activity of Interior Design Implementation Works (Decor)."
       },
       {
-        q: "What is NASAQ's approach to interior fit-out projects?",
-        a: "NASAQ follows an implementation-first mindset: reviewing approved drawings and BOQs, coordinating materials, managing site works, and executing architectural details with precision finishing."
+        q: "How can I request a fit-out quotation from Mr. Ossama and NASAQ?",
+        a: "You can send your approved architectural drawings, layout concepts, or Bill of Quantities (BOQ) directly via WhatsApp at +971 50 533 4861 or email info@nasaqfitout.ae (general inquiries) and ossama@nasaqfitout.ae (commercial/business inquiries). Quotations are provided within 24 to 48 hours."
       }
     ]
   },
@@ -580,43 +598,123 @@ function processHtmlFile(cfg) {
     html = html.replace(oldFooterEmailsRegex, newFooterEmails);
   }
 
-  // Special enhancement for about page (Founder story & 11+ years UAE track record)
+  // Special enhancement for about page (Founder story, 11+ years UAE track record, 1,000s of projects, 7 Emirates)
   if (cfg.path === "about/index.html") {
     const mainRegex = /<main id="main">[\s\S]*?<\/main>/;
     const newMainContent = `<main id="main">` +
       `<section class="intro">` +
-        `<p class="eyebrow">About NASAQ · Abu Dhabi</p>` +
-        `<h1>15+ years of craft.<br>Spaces in harmony.</h1>` +
-        `<p>Founded by Mr. Ossama with over 15 years in UAE decor, and backed by an execution team with 11+ years and thousands of completed projects delivered across all seven Emirates.</p>` +
+        `<p class="eyebrow">About NASAQ · United Arab Emirates</p>` +
+        `<h1>15+ years of craft.<br>1,000s of spaces transformed.</h1>` +
+        `<p>Founded by Mr. Ossama with over 15 years in UAE interior decor and architectural finishes, backed by an in-house execution team with 11+ years of site mastery delivering turnkey interior fit-outs across all seven Emirates.</p>` +
       `</section>` +
       `<div class="ribbon">` +
-        `<span>15+ Years Founder Expertise</span>` +
+        `<span>15+ Years Founder Mastery</span>` +
         `<span>11+ Years UAE Team Presence</span>` +
         `<span>1,000s of Projects Delivered</span>` +
         `<span>Across All 7 Emirates</span>` +
       `</div>` +
-      `<section class="section split">` +
-        `<h2>From the plan<br>to the last detail.</h2>` +
-        `<div>` +
-          `<p class="lead">NASAQ brings an implementation mindset to interior fit-out and decor across the United Arab Emirates.</p>` +
-          `<p>NASAQ (نسق) was founded by Mr. Ossama, who has dedicated more than 15 years to mastering interior decor, gypsum ceiling engineering, and interior design implementation in the UAE. Over the past 11 years, our dedicated teams have executed thousands of interior fit-out, gypsum, and decor projects across Abu Dhabi, Dubai, and the wider Emirates.</p>` +
-          `<p>We understand that an exceptional interior is never just a collection of materials; it is the discipline of how approved architectural drawings become physical reality. We bridge the gap between design concepts and site delivery: coordinating material supply, supervising precision site works, and executing architectural details to exacting standards.</p>` +
-          `<p>Our licensed activity in Abu Dhabi is <em>Interior Design Implementation Works (Decor)</em>. Our scope covers comprehensive villa fit-out, corporate office interiors, commercial spaces, architectural false ceilings, high-precision gypsum board works, interior drywall partitions, and thoughtful interior renovations.</p>` +
-          `<div class="principles">` +
-            `<h3>Founder-Led Standards</h3>` +
-            `<p>Drawing on Mr. Ossama’s 15+ years of UAE decor heritage, every project benefits from hands-on quality oversight, true alignment with approved drawings, and meticulous surface finishing.</p>` +
-            `<h3>11+ Years of UAE Site Knowledge</h3>` +
-            `<p>Having executed thousands of spaces across the Emirates, our team understands local site conditions, material behavior, and programme coordination inside out.</p>` +
-            `<h3>Clarity, Care & Communication</h3>` +
-            `<p>From the initial review of your drawings and BOQ to final snagging inspection and handover, we maintain transparent communication and disciplined execution.</p>` +
+      `<section class="stats-banner" aria-label="Key Milestones and Track Record">` +
+        `<div class="stats-grid">` +
+          `<div class="stat-item">` +
+            `<div class="stat-num">15+</div>` +
+            `<div class="stat-title">Founder Heritage</div>` +
+            `<p class="stat-sub">Years of hands-on decor, gypsum, and interior craftsmanship led by Mr. Ossama in the UAE.</p>` +
+          `</div>` +
+          `<div class="stat-item">` +
+            `<div class="stat-num">11+</div>` +
+            `<div class="stat-title">UAE Site Presence</div>` +
+            `<p class="stat-sub">Years our core execution crews have continuously operated across UAE construction sites.</p>` +
+          `</div>` +
+          `<div class="stat-item">` +
+            `<div class="stat-num">1,000s</div>` +
+            `<div class="stat-title">Projects Delivered</div>` +
+            `<p class="stat-sub">Villas, corporate offices, retail spaces, and decorative renovations successfully handed over.</p>` +
+          `</div>` +
+          `<div class="stat-item">` +
+            `<div class="stat-num">7</div>` +
+            `<div class="stat-title">Emirates Covered</div>` +
+            `<p class="stat-sub">Full mobilization readiness across Abu Dhabi, Dubai, Sharjah, and all Northern Emirates.</p>` +
           `</div>` +
         `</div>` +
       `</section>` +
+      `<section class="section split">` +
+        `<div>` +
+          `<p class="eyebrow">The Origin & Craft</p>` +
+          `<h2>From raw blueprint<br>to living harmony.</h2>` +
+          `<p class="small" style="color:#9b7145;text-transform:uppercase;letter-spacing:0.12em;font-weight:600;margin-top:24px;">Licensed Specialization</p>` +
+          `<p style="font-size:14px;color:#62635d;margin-top:4px;">Interior Design Implementation Works (Decor) · Abu Dhabi, UAE</p>` +
+        `</div>` +
+        `<div>` +
+          `<p class="story-lead">At NASAQ, we believe exceptional interiors are never an accident of luck—they are the deliberate triumph of site discipline, material chemistry, and architectural precision over raw space.</p>` +
+          `<p>NASAQ (نسق) was founded by <strong>Mr. Ossama</strong>, who has dedicated more than 15 years to mastering the specialized crafts of interior decor, architectural gypsum ceiling engineering, and turnkey interior design implementation in the United Arab Emirates. Over a decade and a half on active UAE project sites, Mr. Ossama worked alongside leading architects, structural engineers, and European material specialists, mastering every detail from shadow-gap perimeters to high-acoustic partition engineering.</p>` +
+          `<p>Over the past <strong>11 uninterrupted years</strong>, Mr. Ossama and his core execution teams have brought that exacting standard to life across <strong>thousands of interior projects</strong>. From expansive private family villas in Abu Dhabi’s Saadiyat Island and Khalifa City to dynamic corporate headquarters and retail boutiques across Dubai and the Northern Emirates, our crews have proven that true craftsmanship is defined by how well a space performs year after year.</p>` +
+          `<div class="quote-block">` +
+            `<p class="quote-text">“An architectural drawing is a sacred promise between designer and client. Our mission on site is to honor every line, every millimeter of tolerance, and every texture so the finished interior feels calm, effortless, and timeless.”</p>` +
+            `<p class="quote-author">— Mr. Ossama, Founder & Managing Director</p>` +
+          `</div>` +
+          `<p>The name <strong>NASAQ (نسق)</strong> is an Arabic word embodying order, harmonious rhythm, and disciplined arrangement. In an industry where 3D visual concepts frequently get compromised by generic sub-contractors, NASAQ operates as a dedicated implementation partner. We do not substitute inferior materials; we do not cut corners behind drywall; and we do not compromise on the final Level-5 surface skim.</p>` +
+        `</div>` +
+      `</section>` +
+      `<section class="section pale">` +
+        `<div class="sectionhead">` +
+          `<div>` +
+            `<p class="eyebrow">Our Technical Pillars</p>` +
+            `<h2>Why UAE clients & architects trust NASAQ.</h2>` +
+          `</div>` +
+          `<p>Every interior we deliver is governed by four non-negotiable operational principles developed over 11+ years of UAE site execution.</p>` +
+        `</div>` +
+        `<div class="craft-pillars">` +
+          `<div class="craft-card">` +
+            `<span class="craft-tag">01 · Ceiling Artistry</span>` +
+            `<h3>Architectural Gypsum & False Ceilings</h3>` +
+            `<p>Mastery of multi-level suspended ceilings, concealed cove lighting recesses, linear AC diffuser integration, and razor-sharp shadow gap details with zero sagging or cracking.</p>` +
+          `</div>` +
+          `<div class="craft-card">` +
+            `<span class="craft-tag">02 · Spatial Geometry</span>` +
+            `<h3>Drywall Partitions & Acoustic Zoning</h3>` +
+            `<p>Engineered acoustic and fire-rated drywall partition systems designed to optimize room flow, preserve quiet sanctuary in residential villas, and maintain privacy in executive suites.</p>` +
+          `</div>` +
+          `<div class="craft-card">` +
+            `<span class="craft-tag">03 · Surface Mastery</span>` +
+            `<h3>Turnkey Decor & Precision Finishing</h3>` +
+            `<p>Level-5 skim coating, decorative wall cladding, micro-cement treatments, custom moldings, and architectural paintwork applied to exacting international tolerances.</p>` +
+          `</div>` +
+          `<div class="craft-card">` +
+            `<span class="craft-tag">04 · Drawing Integrity</span>` +
+            `<h3>Strict BOQ Adherence & Clean Handover</h3>` +
+            `<p>Direct alignment with your architect's approved drawings and Bill of Quantities (BOQ). We maintain disciplined milestone timelines, daily site cleanliness, and a transparent snag-free handover.</p>` +
+          `</div>` +
+        `</div>` +
+      `</section>` +
+      `<section class="section split">` +
+        `<div>` +
+          `<p class="eyebrow">Nationwide Coverage</p>` +
+          `<h2>Active across all seven Emirates.</h2>` +
+          `<p>From our Abu Dhabi headquarters to sites across Dubai, Sharjah, and the Northern Emirates, our teams are fully equipped for rapid mobilization.</p>` +
+        `</div>` +
+        `<div>` +
+          `<p class="lead">Wherever your project is located in the UAE, NASAQ brings the same founder-led supervision, vetted material supply chains, and seasoned craftsmen.</p>` +
+          `<div class="emirates-grid">` +
+            `<div class="emirate-badge">Abu Dhabi<span>Capital & Islands</span></div>` +
+            `<div class="emirate-badge">Dubai<span>Commercial & Villas</span></div>` +
+            `<div class="emirate-badge">Sharjah<span>Residential & Retail</span></div>` +
+            `<div class="emirate-badge">Ajman<span>Refurbishment & Decor</span></div>` +
+            `<div class="emirate-badge">Umm Al Quwain<span>Interiors & Gypsum</span></div>` +
+            `<div class="emirate-badge">Ras Al Khaimah<span>Coastal & Luxury</span></div>` +
+            `<div class="emirate-badge">Fujairah<span>Private & Commercial</span></div>` +
+          `</div>` +
+          `<p class="small" style="color:#62635d;line-height:1.7;">Key Abu Dhabi communities regularly served include Yas Island, Saadiyat Island, Al Reem Island, Khalifa City, Mohammed Bin Zayed City (MBZ), Shakhbout City, Al Shamkhah, Al Falah, Al Raha, Al Bateen, Al Mushrif, Al Maryah Island, and Mussafah.</p>` +
+        `</div>` +
+      `</section>` +
       `<section class="cta">` +
-        `<p class="eyebrow">Your next space starts here</p>` +
-        `<h2>Let’s bring your<br>interior to life.</h2>` +
-        `<a class="button" href="/contact/">Request a quotation</a>` +
-        `<a class="plain" href="tel:+971505334861">Call +971 50 533 4861</a>` +
+        `<p class="eyebrow">Start your journey with NASAQ</p>` +
+        `<h2>Bring 15+ years of craft to your space.</h2>` +
+        `<p style="margin:0 auto 30px;max-width:560px;color:#454640;">Share your drawings or BOQ with our estimation team. We review specifications thoroughly and return a transparent, itemized quotation within 24 to 48 hours.</p>` +
+        `<div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;">` +
+          `<a class="button" href="/contact/">Request a quotation</a>` +
+          `<a class="button" href="https://wa.me/971505334861?text=Hello%20Mr.%20Ossama%20and%20NASAQ%20team%2C%20I%20would%20like%20to%20discuss%20an%20interior%20fit-out%20project." style="background:#222321;color:#fff;border-color:#222321;">WhatsApp Mr. Ossama's Team</a>` +
+        `</div>` +
+        `<a class="plain" href="tel:+971505334861">Direct line: +971 50 533 4861</a>` +
       `</section>` +
     `</main>`;
     html = html.replace(mainRegex, newMainContent);
