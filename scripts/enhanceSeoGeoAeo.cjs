@@ -25,6 +25,12 @@ const businessEntity = {
   "priceRange": "$$",
   "currenciesAccepted": "AED",
   "paymentAccepted": "Cash, Bank Transfer, Cheque",
+  "founder": {
+    "@type": "Person",
+    "name": "Mr. Ossama",
+    "jobTitle": "Founder & Managing Director",
+    "description": "Decor, gypsum, and interior design implementation specialist with over 15 years of hands-on expertise across the United Arab Emirates."
+  },
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Abu Dhabi",
@@ -98,6 +104,9 @@ const businessEntity = {
     "Commercial Fit-Out",
     "Villa Fit-Out",
     "Office Fit-Out",
+    "15+ years UAE decor expertise",
+    "11+ years UAE interior fit-out execution",
+    "1000s of completed projects across UAE",
     "أعمال فيت آوت أبوظبي",
     "تنفيذ التصميم الداخلي والديكور",
     "أعمال جبس بورد وأسقف معلقة",
@@ -147,14 +156,22 @@ const pagesConfig = {
   "about/index.html": {
     path: "about/index.html",
     canonical: "https://nasaqfitout.ae/about/",
-    title: "About Our Abu Dhabi Fit-Out Company | NASAQ",
-    description: "Meet NASAQ, an Abu Dhabi interior design implementation and fit-out company delivering villa, office, and commercial interiors.",
+    title: "About Our UAE Fit-Out & Decor Company | NASAQ",
+    description: "Founded by Mr. Ossama with 15+ years in UAE decor, NASAQ brings 11+ years of team execution and 1,000s of completed projects across all 7 Emirates.",
     image: "https://nasaqfitout.ae/assets/villa.webp",
     breadcrumbs: [
       { name: "Home", url: "https://nasaqfitout.ae/" },
       { name: "About", url: "https://nasaqfitout.ae/about/" }
     ],
     faqs: [
+      {
+        q: "Who founded NASAQ and what is the team’s background?",
+        a: "NASAQ was founded by Mr. Ossama, an interior decor and design implementation specialist with over 15 years of industry experience in the UAE. Supported by a core team with 11+ years of UAE site execution and thousands of completed projects across all seven Emirates, NASAQ delivers precision villa, office, and commercial interior fit-outs."
+      },
+      {
+        q: "How many projects has NASAQ's team delivered across the UAE?",
+        a: "NASAQ’s team has successfully executed thousands of decor, gypsum, false ceiling, partition, and interior fit-out projects across Abu Dhabi, Dubai, and all seven Emirates over more than 11 years of active UAE operations."
+      },
       {
         q: "What is NASAQ's licensed activity in Abu Dhabi?",
         a: "NASAQ is legally registered as NASAQ Interior Design Implementation Works – L.L.C – S.P.C in Abu Dhabi, specializing in Interior Design Implementation Works (Decor)."
@@ -563,6 +580,48 @@ function processHtmlFile(cfg) {
     html = html.replace(oldFooterEmailsRegex, newFooterEmails);
   }
 
+  // Special enhancement for about page (Founder story & 11+ years UAE track record)
+  if (cfg.path === "about/index.html") {
+    const mainRegex = /<main id="main">[\s\S]*?<\/main>/;
+    const newMainContent = `<main id="main">` +
+      `<section class="intro">` +
+        `<p class="eyebrow">About NASAQ · Abu Dhabi</p>` +
+        `<h1>15+ years of craft.<br>Spaces in harmony.</h1>` +
+        `<p>Founded by Mr. Ossama with over 15 years in UAE decor, and backed by an execution team with 11+ years and thousands of completed projects delivered across all seven Emirates.</p>` +
+      `</section>` +
+      `<div class="ribbon">` +
+        `<span>15+ Years Founder Expertise</span>` +
+        `<span>11+ Years UAE Team Presence</span>` +
+        `<span>1,000s of Projects Delivered</span>` +
+        `<span>Across All 7 Emirates</span>` +
+      `</div>` +
+      `<section class="section split">` +
+        `<h2>From the plan<br>to the last detail.</h2>` +
+        `<div>` +
+          `<p class="lead">NASAQ brings an implementation mindset to interior fit-out and decor across the United Arab Emirates.</p>` +
+          `<p>NASAQ (نسق) was founded by Mr. Ossama, who has dedicated more than 15 years to mastering interior decor, gypsum ceiling engineering, and interior design implementation in the UAE. Over the past 11 years, our dedicated teams have executed thousands of interior fit-out, gypsum, and decor projects across Abu Dhabi, Dubai, and the wider Emirates.</p>` +
+          `<p>We understand that an exceptional interior is never just a collection of materials; it is the discipline of how approved architectural drawings become physical reality. We bridge the gap between design concepts and site delivery: coordinating material supply, supervising precision site works, and executing architectural details to exacting standards.</p>` +
+          `<p>Our licensed activity in Abu Dhabi is <em>Interior Design Implementation Works (Decor)</em>. Our scope covers comprehensive villa fit-out, corporate office interiors, commercial spaces, architectural false ceilings, high-precision gypsum board works, interior drywall partitions, and thoughtful interior renovations.</p>` +
+          `<div class="principles">` +
+            `<h3>Founder-Led Standards</h3>` +
+            `<p>Drawing on Mr. Ossama’s 15+ years of UAE decor heritage, every project benefits from hands-on quality oversight, true alignment with approved drawings, and meticulous surface finishing.</p>` +
+            `<h3>11+ Years of UAE Site Knowledge</h3>` +
+            `<p>Having executed thousands of spaces across the Emirates, our team understands local site conditions, material behavior, and programme coordination inside out.</p>` +
+            `<h3>Clarity, Care & Communication</h3>` +
+            `<p>From the initial review of your drawings and BOQ to final snagging inspection and handover, we maintain transparent communication and disciplined execution.</p>` +
+          `</div>` +
+        `</div>` +
+      `</section>` +
+      `<section class="cta">` +
+        `<p class="eyebrow">Your next space starts here</p>` +
+        `<h2>Let’s bring your<br>interior to life.</h2>` +
+        `<a class="button" href="/contact/">Request a quotation</a>` +
+        `<a class="plain" href="tel:+971505334861">Call +971 50 533 4861</a>` +
+      `</section>` +
+    `</main>`;
+    html = html.replace(mainRegex, newMainContent);
+  }
+
   // Special enhancement for contact page
   if (cfg.path === "contact/index.html") {
     const contactSectionRegex = /<section class="section contact">[\s\S]*?<\/section>/;
@@ -606,9 +665,9 @@ function processHtmlFile(cfg) {
   }
 
   fs.writeFileSync(filePath, html, 'utf8');
-  console.log(`Updated SEO/GEO/AEO and Contact for: ${cfg.path}`);
+  console.log(`Updated SEO/GEO/AEO, About & Contact for: ${cfg.path}`);
 }
 
-console.log("Applying enhanced Local SEO, GEO & AEO metadata, dual emails, and contact form...");
+console.log("Applying enhanced Local SEO, GEO & AEO metadata, founder story, and track record...");
 Object.values(pagesConfig).forEach(cfg => processHtmlFile(cfg));
 console.log("All 14 pages successfully updated!");
