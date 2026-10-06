@@ -3,7 +3,7 @@ const path = require('path');
 
 const distDir = path.join(__dirname, '..', 'dist');
 
-// Common business entity definition
+// Common business entity definition with advanced UAE Local SEO, GEO & AEO attributes
 const businessEntity = {
   "@type": "HomeAndConstructionBusiness",
   "@id": "https://nasaqfitout.ae/#business",
@@ -13,10 +13,11 @@ const businessEntity = {
     "نسق",
     "نسق لأعمال تنفيذ التصميم الداخلي شركة الشخص الواحد ذ.م.م",
     "NASAQ Fit Out Abu Dhabi",
-    "نسق فيت آوت"
+    "نسق فيت آوت أبوظبي",
+    "شركة نسق للديكور والتشطيبات"
   ],
   "url": "https://nasaqfitout.ae/",
-  "logo": "https://nasaqfitout.ae/assets/logo.png",
+  "logo": "https://nasaqfitout.ae/assets/logo.svg",
   "image": "https://nasaqfitout.ae/assets/villa.webp",
   "description": "NASAQ is an Abu Dhabi-based interior fit-out and design implementation company delivering villa, office, and commercial interiors, gypsum works, false ceilings, interior partitions, and interior renovations across the UAE.",
   "telephone": "+971505334861",
@@ -36,6 +37,24 @@ const businessEntity = {
     "longitude": 54.3773
   },
   "hasMap": "https://maps.google.com/?q=Abu+Dhabi,+United+Arab+Emirates",
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+971505334861",
+      "contactType": "General Enquiries & Quotations",
+      "email": "info@nasaqfitout.ae",
+      "areaServed": "AE",
+      "availableLanguage": ["English", "Arabic"]
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+971505334861",
+      "contactType": "Commercial & Executive Management",
+      "email": "ossama@nasaqfitout.ae",
+      "areaServed": "AE",
+      "availableLanguage": ["English", "Arabic"]
+    }
+  ],
   "areaServed": [
     { "@type": "City", "name": "Abu Dhabi" },
     { "@type": "AdministrativeArea", "name": "Yas Island" },
@@ -78,7 +97,12 @@ const businessEntity = {
     "Residential Fit-Out",
     "Commercial Fit-Out",
     "Villa Fit-Out",
-    "Office Fit-Out"
+    "Office Fit-Out",
+    "أعمال فيت آوت أبوظبي",
+    "تنفيذ التصميم الداخلي والديكور",
+    "أعمال جبس بورد وأسقف معلقة",
+    "قواطع جدارية وجبسية",
+    "تشطيب وترميم فلل ومكاتب"
   ]
 };
 
@@ -112,7 +136,7 @@ const pagesConfig = {
       },
       {
         q: "How can I request a fit-out quotation from NASAQ?",
-        a: "You can request a quotation by sharing your project drawings, BOQ, or scope details directly via WhatsApp at +971 50 533 4861 or emailing info@nasaqfitout.ae. Our team reviews your requirements and provides a structured quotation."
+        a: "You can request a quotation by sharing your project drawings, BOQ, or scope details directly via WhatsApp at +971 50 533 4861 or emailing info@nasaqfitout.ae (or ossama@nasaqfitout.ae for commercial projects). Our team reviews your requirements and provides a structured quotation within 24 to 48 hours."
       },
       {
         q: "Does NASAQ execute gypsum ceiling and partition works for existing properties?",
@@ -145,7 +169,7 @@ const pagesConfig = {
     path: "contact/index.html",
     canonical: "https://nasaqfitout.ae/contact/",
     title: "Contact NASAQ | Fit-Out Quotation Abu Dhabi | NASAQ",
-    description: "Contact NASAQ on +971 50 533 4861 or info@nasaqfitout.ae for interior fit-out, gypsum and ceiling quotations in Abu Dhabi.",
+    description: "Contact NASAQ on +971 50 533 4861 or info@nasaqfitout.ae / ossama@nasaqfitout.ae for interior fit-out, gypsum and ceiling quotations in Abu Dhabi.",
     image: "https://nasaqfitout.ae/assets/villa.webp",
     breadcrumbs: [
       { name: "Home", url: "https://nasaqfitout.ae/" },
@@ -154,7 +178,7 @@ const pagesConfig = {
     faqs: [
       {
         q: "How do I contact NASAQ for a site visit or consultation?",
-        a: "You can reach NASAQ directly via phone or WhatsApp at +971 50 533 4861, secondary line +971 52 860 0115, or email info@nasaqfitout.ae to schedule a site consultation."
+        a: "You can reach NASAQ directly via phone or WhatsApp at +971 50 533 4861, secondary line +971 52 860 0115, or email info@nasaqfitout.ae / ossama@nasaqfitout.ae to schedule a site consultation."
       },
       {
         q: "What should I send to get an accurate fit-out quotation?",
@@ -493,7 +517,8 @@ function processHtmlFile(cfg) {
   metaTags.push(`<meta name="description" content="${cfg.description}">`);
   metaTags.push(`<meta name="theme-color" content="#181918">`);
   metaTags.push(`<link rel="canonical" href="${cfg.canonical}">`);
-  metaTags.push(`<link rel="icon" href="/assets/favicon.png">`);
+  metaTags.push(`<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">`);
+  metaTags.push(`<link rel="alternate icon" href="/assets/favicon.png">`);
   metaTags.push(`<link rel="stylesheet" href="/style.css">`);
 
   // UAE Geo Meta Tags
@@ -531,10 +556,59 @@ function processHtmlFile(cfg) {
   const newHeadContent = `<head>${metaTags.join('')}</head>`;
   html = html.substring(0, headStart) + newHeadContent + html.substring(headEnd + 7);
 
+  // Synchronize footer email links across all pages
+  const oldFooterEmailsRegex = /<a href="mailto:[^"]*">[^<]*<\/a>(?:<a href="mailto:[^"]*">[^<]*<\/a>)?/;
+  const newFooterEmails = `<a href="mailto:info@nasaqfitout.ae">info@nasaqfitout.ae</a><a href="mailto:ossama@nasaqfitout.ae">ossama@nasaqfitout.ae</a>`;
+  if (oldFooterEmailsRegex.test(html)) {
+    html = html.replace(oldFooterEmailsRegex, newFooterEmails);
+  }
+
+  // Special enhancement for contact page
+  if (cfg.path === "contact/index.html") {
+    const contactSectionRegex = /<section class="section contact">[\s\S]*?<\/section>/;
+    const newContactSection = `<section class="section contact">` +
+      `<div>` +
+        `<p class="eyebrow">Direct to our team</p>` +
+        `<h2>Let’s talk.</h2>` +
+        `<a class="contactlink" href="tel:+971505334861">+971 50 533 4861</a>` +
+        `<p style="margin-bottom:4px;font-size:13px;color:#9b7145;text-transform:uppercase;letter-spacing:0.12em;font-weight:600;">General Inquiries & Quotations</p>` +
+        `<a href="mailto:info@nasaqfitout.ae" style="margin-bottom:18px;">info@nasaqfitout.ae</a>` +
+        `<p style="margin-bottom:4px;font-size:13px;color:#9b7145;text-transform:uppercase;letter-spacing:0.12em;font-weight:600;">Business & Commercial</p>` +
+        `<a href="mailto:ossama@nasaqfitout.ae" style="margin-bottom:22px;">ossama@nasaqfitout.ae</a>` +
+        `<p style="margin-bottom:6px;">Abu Dhabi, United Arab Emirates</p>` +
+        `<p style="margin-bottom:18px;">Secondary phone: <a href="tel:+971528600115" style="display:inline;margin-bottom:0;">+971 52 860 0115</a></p>` +
+        `<p>Have architectural drawings or a BOQ? Send them directly via WhatsApp or email for immediate review.</p>` +
+      `</div>` +
+      `<form id="enquiry">` +
+        `<label>Your name<input name="name" autocomplete="name" required placeholder="Full name"></label>` +
+        `<label>Phone / WhatsApp<input type="tel" name="phone" required placeholder="+971 50 123 4567"></label>` +
+        `<label>Email address<input type="email" name="email" required placeholder="name@domain.com"></label>` +
+        `<label>Project type<select name="type">` +
+          `<option value="Villa fit-out">Villa fit-out</option>` +
+          `<option value="Office fit-out">Office fit-out</option>` +
+          `<option value="Commercial fit-out">Commercial fit-out</option>` +
+          `<option value="Gypsum board works">Gypsum board works</option>` +
+          `<option value="False ceilings">False ceilings</option>` +
+          `<option value="Interior partitions">Interior partitions</option>` +
+          `<option value="Interior renovation">Interior renovation</option>` +
+          `<option value="Residential fit-out">Residential fit-out</option>` +
+        `</select></label>` +
+        `<label>Project location<input name="location" required placeholder="Area or community (e.g. Yas Island, Khalifa City)"></label>` +
+        `<label>Tell us about the project<textarea name="details" rows="4" required placeholder="Scope, approximate area (sqm/sqft), and preferred start timeline"></textarea></label>` +
+        `<div class="form-actions" style="display:flex;gap:14px;flex-wrap:wrap;margin-top:10px;">` +
+          `<button class="button" type="submit" data-action="whatsapp">Send via WhatsApp</button>` +
+          `<button class="button" type="submit" data-action="email" style="background:#222321;color:#fff;border-color:#222321;">Send via Email</button>` +
+        `</div>` +
+        `<p class="small" style="margin-top:15px;">Submitting via WhatsApp connects directly with our estimators at +971 50 533 4861. Submitting via Email prepares a detailed brief to info@nasaqfitout.ae and ossama@nasaqfitout.ae.</p>` +
+      `</form>` +
+    `</section>`;
+    html = html.replace(contactSectionRegex, newContactSection);
+  }
+
   fs.writeFileSync(filePath, html, 'utf8');
-  console.log(`Updated SEO/GEO/AEO for: ${cfg.path}`);
+  console.log(`Updated SEO/GEO/AEO and Contact for: ${cfg.path}`);
 }
 
-console.log("Applying Local SEO, GEO & AEO metadata and schema to all 14 pages...");
+console.log("Applying enhanced Local SEO, GEO & AEO metadata, dual emails, and contact form...");
 Object.values(pagesConfig).forEach(cfg => processHtmlFile(cfg));
 console.log("All 14 pages successfully updated!");
