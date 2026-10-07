@@ -1,87 +1,228 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://nasaqfitout.ae/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nasaqfitout.ae/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nasaqfitout.ae/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/"/>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://nasaqfitout.ae/services/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <loc>https://nasaqfitout.ae/ar/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nasaqfitout.ae/ar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nasaqfitout.ae/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://nasaqfitout.ae/about/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nasaqfitout.ae/about/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nasaqfitout.ae/ar/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/about/"/>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nasaqfitout.ae/services/interior-fit-out/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <loc>https://nasaqfitout.ae/ar/about/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nasaqfitout.ae/ar/about/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nasaqfitout.ae/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/about/"/>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nasaqfitout.ae/services/villa-fit-out/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <loc>https://nasaqfitout.ae/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nasaqfitout.ae/contact/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nasaqfitout.ae/ar/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/contact/"/>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nasaqfitout.ae/services/office-fit-out/</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nasaqfitout.ae/services/commercial-fit-out/</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nasaqfitout.ae/services/gypsum-board-works/</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nasaqfitout.ae/services/false-ceilings/</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nasaqfitout.ae/services/interior-partitions/</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nasaqfitout.ae/services/interior-renovation/</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nasaqfitout.ae/services/residential-fit-out/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <loc>https://nasaqfitout.ae/ar/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nasaqfitout.ae/ar/contact/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nasaqfitout.ae/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/contact/"/>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://nasaqfitout.ae/projects/</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>monthly</changefreq>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nasaqfitout.ae/projects/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nasaqfitout.ae/ar/projects/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/projects/"/>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://nasaqfitout.ae/about/</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://nasaqfitout.ae/ar/projects/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nasaqfitout.ae/ar/projects/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nasaqfitout.ae/projects/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/projects/"/>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://nasaqfitout.ae/contact/</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://nasaqfitout.ae/services/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nasaqfitout.ae/services/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nasaqfitout.ae/ar/services/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/services/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://nasaqfitout.ae/ar/services/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nasaqfitout.ae/ar/services/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nasaqfitout.ae/services/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/services/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://nasaqfitout.ae/services/interior-fit-out/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nasaqfitout.ae/services/interior-fit-out/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nasaqfitout.ae/ar/services/interior-fit-out/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/services/interior-fit-out/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nasaqfitout.ae/ar/services/interior-fit-out/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nasaqfitout.ae/ar/services/interior-fit-out/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nasaqfitout.ae/services/interior-fit-out/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/services/interior-fit-out/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nasaqfitout.ae/services/villa-fit-out/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nasaqfitout.ae/services/villa-fit-out/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nasaqfitout.ae/ar/services/villa-fit-out/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/services/villa-fit-out/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nasaqfitout.ae/ar/services/villa-fit-out/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nasaqfitout.ae/ar/services/villa-fit-out/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nasaqfitout.ae/services/villa-fit-out/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/services/villa-fit-out/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nasaqfitout.ae/services/office-fit-out/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nasaqfitout.ae/services/office-fit-out/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nasaqfitout.ae/ar/services/office-fit-out/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/services/office-fit-out/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nasaqfitout.ae/ar/services/office-fit-out/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nasaqfitout.ae/ar/services/office-fit-out/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nasaqfitout.ae/services/office-fit-out/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/services/office-fit-out/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nasaqfitout.ae/services/commercial-fit-out/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nasaqfitout.ae/services/commercial-fit-out/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nasaqfitout.ae/ar/services/commercial-fit-out/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/services/commercial-fit-out/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nasaqfitout.ae/ar/services/commercial-fit-out/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nasaqfitout.ae/ar/services/commercial-fit-out/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nasaqfitout.ae/services/commercial-fit-out/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/services/commercial-fit-out/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nasaqfitout.ae/services/gypsum-board-works/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nasaqfitout.ae/services/gypsum-board-works/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nasaqfitout.ae/ar/services/gypsum-board-works/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/services/gypsum-board-works/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nasaqfitout.ae/ar/services/gypsum-board-works/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nasaqfitout.ae/ar/services/gypsum-board-works/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nasaqfitout.ae/services/gypsum-board-works/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/services/gypsum-board-works/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nasaqfitout.ae/services/false-ceilings/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nasaqfitout.ae/services/false-ceilings/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nasaqfitout.ae/ar/services/false-ceilings/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/services/false-ceilings/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nasaqfitout.ae/ar/services/false-ceilings/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nasaqfitout.ae/ar/services/false-ceilings/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nasaqfitout.ae/services/false-ceilings/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/services/false-ceilings/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nasaqfitout.ae/services/interior-partitions/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nasaqfitout.ae/services/interior-partitions/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nasaqfitout.ae/ar/services/interior-partitions/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/services/interior-partitions/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nasaqfitout.ae/ar/services/interior-partitions/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nasaqfitout.ae/ar/services/interior-partitions/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nasaqfitout.ae/services/interior-partitions/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/services/interior-partitions/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nasaqfitout.ae/services/interior-renovation/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nasaqfitout.ae/services/interior-renovation/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nasaqfitout.ae/ar/services/interior-renovation/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/services/interior-renovation/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nasaqfitout.ae/ar/services/interior-renovation/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nasaqfitout.ae/ar/services/interior-renovation/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nasaqfitout.ae/services/interior-renovation/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/services/interior-renovation/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nasaqfitout.ae/services/residential-fit-out/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nasaqfitout.ae/services/residential-fit-out/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nasaqfitout.ae/ar/services/residential-fit-out/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/services/residential-fit-out/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nasaqfitout.ae/ar/services/residential-fit-out/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nasaqfitout.ae/ar/services/residential-fit-out/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nasaqfitout.ae/services/residential-fit-out/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/services/residential-fit-out/"/>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 </urlset>
