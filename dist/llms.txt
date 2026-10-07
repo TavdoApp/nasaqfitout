@@ -106,3 +106,36 @@ NASAQ (نسق - meaning order, harmony, and disciplined arrangement) is an Abu D
 2. **الدراسة والتسعير**: يقوم فريق التسعير بدراسة المواصفات وتحديد نطاق العمل وتقديم عرض أسعار مفصل خلال 24-48 ساعة.
 3. **التنفيذ**: إشراف ميداني مباشر وضبط يومي لمعايير الجودة والسلامة بالموقع.
 4. **التسليم**: فحص Snagging دقيق وتسليم المساحة جاهزة بالكامل.
+
+
+## NASAQ Technical Insights & Guides (English)
+- **Interior Fit-Out Cost Guide in the UAE (2026): Abu Dhabi & Dubai Rates**: https://nasaqfitout.ae/insights/interior-fit-out-cost-uae-guide/
+  Summary: A realistic breakdown of fit-out costs per square foot in the UAE, covering shell & core vs. fitted upgrades, bespoke joinery, MEP modifications, and authority approval budgets.
+
+- **Abu Dhabi Fit-Out Approvals & NOC Guide: TAMM, Municipality & Civil Defence**: https://nasaqfitout.ae/insights/abu-dhabi-fit-out-approvals-noc-guide/
+  Summary: A step-by-step regulatory manual for homeowners and businesses navigating fit-out approvals, landlord NOCs, and civil defence compliance in Abu Dhabi.
+
+- **How to Prevent Gypsum Ceiling Cracks in UAE Homes: Framing, Humidity & Craft**: https://nasaqfitout.ae/insights/prevent-gypsum-ceiling-cracks-uae/
+  Summary: A technical guide examining thermal expansion, vibration, moisture behavior, and joint finishing protocols required to build crack-free gypsum ceilings in the UAE climate.
+
+- **Interior Design vs. Interior Fit-Out Implementation: What UAE Clients Must Know**: https://nasaqfitout.ae/insights/interior-design-vs-fit-out-implementation/
+  Summary: An essential guide explaining the roles of interior design consultants vs. licensed interior design implementation contractors (like NASAQ) on UAE residential and commercial sites.
+
+- **Acoustic Partition Walls & Soundproofing for UAE Villas and Offices**: https://nasaqfitout.ae/insights/acoustic-drywall-soundproofing-uae/
+  Summary: A technical guide to achieving Sound Transmission Class (STC 48-55dB) ratings with drywall partitions, deflection heads, and floor preservation techniques across UAE properties.
+
+## مقالات وأدلة شركة نسق التخصصية (باللغة العربية)
+- **دليل تكلفة الفيت آوت والتشطيب الداخلي في الإمارات (2026): أسعار أبوظبي ودبي**: https://nasaqfitout.ae/ar/insights/interior-fit-out-cost-uae-guide/
+  ملخص: تحليل دقيق لتكاليف الفيت آوت والتشطيب الداخلي في دولة الإمارات، يوضح متوسط الأسعار للقدم والمتر المربع، والفرق بين المساحات العظم والمشطبة، وتكاليف التراخيص والجبس والمواد.
+
+- **دليل تصاريح الفيت آوت وشهادات عدم الممانعة في أبوظبي: منصة تم والبلدية والدفاع المدني**: https://nasaqfitout.ae/ar/insights/abu-dhabi-fit-out-approvals-noc-guide/
+  ملخص: دليل إرشادي مفصل يوضح متطلبات التراخيص الرسمية لأعمال الفيت آوت في إمارة أبوظبي، وكيفية استخراج تصاريح الأعمال البسيطة وموافقات الدفاع المدني وشهادات المطورين.
+
+- **كيفية تجنب شروخ الأسقف الجبسية في مناخ الإمارات: المواد والهياكل والتشطيب**: https://nasaqfitout.ae/ar/insights/prevent-gypsum-ceiling-cracks-uae/
+  ملخص: دليل فني يستعرض تأثير التمدد الحراري والرطوبة على الجبس بورد في الإمارات، والبروتوكول الهندسي المعتمد لتنفيذ أسقف مستعارة ثابتة ومقاومة للشروخ لعشرات السنين.
+
+- **الفرق بين التصميم الداخلي وتنفيذ الديكور والفيت آوت: دليل الملاك في الإمارات**: https://nasaqfitout.ae/ar/insights/interior-design-vs-fit-out-implementation/
+  ملخص: مقارنة هندسية عملية توضح للملاك والشركات الفرق بين مرحلة التصميم ومرحلة التنفيذ الميداني، ودور مقاول تنفيذ التصميم الداخلي المرخص في تحويل المخططات إلى واقع.
+
+- **القواطع الجدارية العازلة للصوت في الفلل والمكاتب بدولة الإمارات**: https://nasaqfitout.ae/ar/insights/acoustic-drywall-soundproofing-uae/
+  ملخص: دليل هندسي متخصص يشرح أسس العزل الصوتي بالقواطع الجدارية الجبسية، وكيفية تحقيق درجات عزل STC 50+ لحماية الخصوصية في المقرات الإدارية والفلل الفاخرة.
