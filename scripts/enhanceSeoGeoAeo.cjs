@@ -211,6 +211,14 @@ const pagesConfig = {
       {
         q: "What should I send to get an accurate fit-out quotation?",
         a: "Please share your approved architectural drawings, BOQ (Bill of Quantities), project location, and preferred timeline so our team can provide an accurate quotation."
+      },
+      {
+        q: "How quickly does NASAQ provide a quotation?",
+        a: "Upon receiving your architectural drawings, BOQ, or project brief, our estimation team typically reviews specifications and provides an itemized quotation within 24 to 48 hours."
+      },
+      {
+        q: "Does NASAQ take on projects outside Abu Dhabi?",
+        a: "Yes. While our headquarters and primary operations are in Abu Dhabi, our logistics and specialized crews regularly execute residential and commercial fit-out projects in Dubai, Sharjah, and across all seven Emirates."
       }
     ]
   },
@@ -228,6 +236,14 @@ const pagesConfig = {
       {
         q: "What are the visuals displayed in the NASAQ concepts gallery?",
         a: "The visuals featured in the concepts gallery are architectural 3D concepts created to illustrate design possibilities, material combinations, and lighting integration for villas and offices."
+      },
+      {
+        q: "Can NASAQ execute custom concepts provided by our own interior designer?",
+        a: "Yes, absolutely. NASAQ specializes in interior design implementation. We take approved concepts, 3D renderings, and architectural drawings from external designers and execute them on-site with exact material matching and dimensional fidelity."
+      },
+      {
+        q: "How does NASAQ source materials to match design concepts?",
+        a: "We work directly with approved UAE and international suppliers for natural stones, premium timber finishes, architectural metals, and lighting channels, ensuring the finished space reflects the intended atmosphere."
       }
     ]
   },
@@ -245,6 +261,14 @@ const pagesConfig = {
       {
         q: "What services does NASAQ specialize in?",
         a: "NASAQ specializes in interior fit-out, villa fit-out, office fit-out, commercial fit-out, gypsum board works, false ceilings, interior partitions, interior finishing, and interior renovation."
+      },
+      {
+        q: "How does NASAQ ensure project quality and material compliance?",
+        a: "All works utilize ASTM C1396 compliant gypsum, moisture-resistant boards for wet areas, and heavy-gauge galvanized framing. Our on-site supervisors enforce strict Level-5 finishing protocols."
+      },
+      {
+        q: "What is NASAQ's typical execution timeline?",
+        a: "Timelines depend on project scale and approvals. Room and ceiling upgrades typically take 1 to 2 weeks, while full villa or office fit-outs take 4 to 8 weeks with structured milestones."
       }
     ]
   },
@@ -264,10 +288,32 @@ const pagesConfig = {
       serviceType: "Interior Design Implementation & Fit-Out",
       description: "End-to-end interior fit-out execution from approved drawings to handover, including site coordination, material alignment, and finishing works."
     },
+    features: [
+      {
+        title: "Turnkey Execution & Site Management",
+        desc: "Direct daily supervision coordinating civil framing, gypsum, MEP rough-ins, and surface finishing to ensure drawing fidelity."
+      },
+      {
+        title: "High-Precision Ceilings & Partitions",
+        desc: "Specialized installation of multi-level gypsum ceilings, perimeter shadow gaps, and acoustic drywall partitions."
+      },
+      {
+        title: "Authority Compliance & Snag-Free Handover",
+        desc: "Strict compliance with Abu Dhabi Municipality, developer NOC requirements, and UAE Civil Defence codes."
+      }
+    ],
     faqs: [
       {
         q: "What is included in NASAQ's interior fit-out service?",
         a: "NASAQ's interior fit-out service covers the complete physical execution of approved interior plans: material coordination, site execution, wall and ceiling works, and precision finishing."
+      },
+      {
+        q: "How do you coordinate with our interior design consultant or architect?",
+        a: "We work directly alongside your architect or interior consultant, attending technical site meetings and strictly honoring specified finishes, materials, and dimensional tolerances."
+      },
+      {
+        q: "Do you handle municipality and developer approvals (NOC)?",
+        a: "Yes. We coordinate with building managements and developer technical teams across Abu Dhabi to ensure compliance with permit criteria and work hour limitations."
       }
     ]
   },
@@ -287,6 +333,20 @@ const pagesConfig = {
       serviceType: "Villa Interior Fit-Out & Finishing",
       description: "Considered interior implementation for private villas across Abu Dhabi, including living rooms, majlis areas, bedrooms, gypsum ceilings, and custom partition works."
     },
+    features: [
+      {
+        title: "Majlis & Grand Living Spaces",
+        desc: "Multi-tiered decorative gypsum ceilings, concealed warm cove lighting channels, and acoustic zoning tailored for UAE homes."
+      },
+      {
+        title: "Master Suites & Custom Walk-In Closets",
+        desc: "Drywall partitioning, recessed lighting profiles, and Level-5 joint finishing creating seamless contemporary spaces."
+      },
+      {
+        title: "Whole-Villa Coordination",
+        desc: "Complete interior implementation across prime Abu Dhabi communities including Khalifa City, Yas Island, Saadiyat, and MBZ City."
+      }
+    ],
     faqs: [
       {
         q: "Which villa communities in Abu Dhabi does NASAQ serve?",
@@ -295,6 +355,10 @@ const pagesConfig = {
       {
         q: "Can NASAQ work from our interior designer's drawings and BOQ?",
         a: "Yes. NASAQ is an interior design implementation company that executes approved drawings and BOQs prepared by your architect or designer with strict attention to finishes and specifications."
+      },
+      {
+        q: "How do you ensure noise and dust control while working in residential villa areas?",
+        a: "Our crews erect protective dust containment barriers, follow strict residential working hours, and conduct daily site clean-ups to ensure comfort and respect for neighbors."
       }
     ]
   },
@@ -314,10 +378,32 @@ const pagesConfig = {
       serviceType: "Corporate & Commercial Office Fit-Out",
       description: "Professional workplace fit-out execution in Abu Dhabi balancing practical function with a strong corporate first impression."
     },
+    features: [
+      {
+        title: "Executive Boardrooms & Receptions",
+        desc: "High-impact corporate reception counters, acoustic drywall partitions (STC 45-55dB), and architectural ceiling details."
+      },
+      {
+        title: "Open-Plan Workspaces & Cabling",
+        desc: "Integrated service ceiling layouts, recessed linear diffusers, and durable commercial wall finishes."
+      },
+      {
+        title: "Fast-Track Implementation",
+        desc: "Structured programme scheduling to minimize downtime and ensure compliance with commercial building management rules."
+      }
+    ],
     faqs: [
       {
         q: "What types of office fit-out works does NASAQ handle?",
         a: "NASAQ handles office receptions, meeting rooms, executive suites, open-plan workspaces, ceiling systems, acoustic gypsum partitions, and overall interior finishing."
+      },
+      {
+        q: "Can fit-out works be scheduled after hours or during weekends in commercial towers?",
+        a: "Yes. We coordinate night-shift and weekend schedules in commercial towers to ensure compliance with building noise regulations and avoid disrupting neighboring tenants."
+      },
+      {
+        q: "How do you achieve acoustic privacy between executive offices?",
+        a: "We install dual-layer gypsum boards with high-density rockwool acoustic insulation and acoustic sealants, delivering verified STC ratings between confidential meeting spaces."
       }
     ]
   },
@@ -337,10 +423,32 @@ const pagesConfig = {
       serviceType: "Commercial & Retail Interior Fit-Out",
       description: "Interior design implementation for commercial properties, showrooms, and retail venues across Abu Dhabi."
     },
+    features: [
+      {
+        title: "Retail & Showroom Implementation",
+        desc: "Translating commercial retail concepts into durable, high-visibility customer experiences across Abu Dhabi."
+      },
+      {
+        title: "Mall Criteria & Authority Approvals",
+        desc: "Complete alignment with shopping mall fit-out guidelines, fire-rated materials, and utility connections."
+      },
+      {
+        title: "High-Traffic Durability",
+        desc: "Impact-resistant wall linings, heavy-duty ceiling framing, and scratch-resistant commercial coatings."
+      }
+    ],
     faqs: [
       {
         q: "Does NASAQ deliver commercial interior implementation in Abu Dhabi?",
         a: "Yes. NASAQ delivers commercial fit-out works adhering strictly to client drawings, BOQ parameters, and agreed completion milestones."
+      },
+      {
+        q: "How do you manage shopping mall work permits and night shift requirements?",
+        a: "We manage mall logistics end-to-end, including gate passes, security deposits, hot-work permits, and night execution according to mall management criteria."
+      },
+      {
+        q: "What standards do you apply for high-traffic retail wall and ceiling finishes?",
+        a: "We utilize impact-resistant plasterboard, reinforced corner beads, and commercial-grade washable coatings built to withstand heavy daily visitor traffic."
       }
     ]
   },
@@ -360,10 +468,32 @@ const pagesConfig = {
       serviceType: "Gypsum Drywall, Ceilings & Bulkheads",
       description: "High-precision gypsum drywall, false ceiling installation, recessed cove lighting recesses, and flush joint finishing for residential and commercial spaces."
     },
+    features: [
+      {
+        title: "ASTM C1396 Certified Boards",
+        desc: "Installing standard, moisture-resistant (MR) boards for wet areas, and fire-resistant Type-X gypsum boards."
+      },
+      {
+        title: "Concealed Lighting & Pelmets",
+        desc: "Precision fabrication of cove lighting recesses, curtain pelmets, and flush perimeter reveals."
+      },
+      {
+        title: "Level-5 Flush Surface Finishing",
+        desc: "Multi-coat compound application, continuous embedded joint tape, and machine-sanded zero-defect surfaces."
+      }
+    ],
     faqs: [
       {
         q: "What gypsum board works are offered by NASAQ?",
         a: "NASAQ offers flat ceiling boards, multi-level gypsum designs, cove lighting bulkheads, wall claddings, curtain pelmets, and seamless joint taping and finishing."
+      },
+      {
+        q: "What types of gypsum boards do you install for ceilings and walls?",
+        a: "We install regular boards for dry living spaces, green moisture-resistant (MR) boards for bathrooms and kitchens, and pink fire-rated boards for commercial utility areas."
+      },
+      {
+        q: "How do you prevent hairline cracking on gypsum board joints?",
+        a: "We embed high-strength fiberglass joint tape into premium joint compound, maintain proper expansion joints, and apply three graduated coats of joint compound before sanding."
       }
     ]
   },
@@ -383,10 +513,32 @@ const pagesConfig = {
       serviceType: "False & Suspended Ceiling Installation",
       description: "Installation of suspended architectural false ceilings, cove light profiles, and integrated service access details across Abu Dhabi villas and offices."
     },
+    features: [
+      {
+        title: "Heavy-Duty Suspended Framework",
+        desc: "Galvanized steel stud and channel framing, anti-vibration hangers, and engineered load-bearing stability."
+      },
+      {
+        title: "AC & Lighting Integration",
+        desc: "Seamless accommodation of linear slot diffusers, access trapdoors, and concealed architectural LED channels."
+      },
+      {
+        title: "Multi-Tiered Ceiling Architecture",
+        desc: "Stepped perimeter bulkheads, coffered ceilings, and floating ceiling islands with integrated indirect lighting."
+      }
+    ],
     faqs: [
       {
         q: "What types of false ceilings does NASAQ install?",
         a: "NASAQ installs architectural suspended gypsum ceilings, flat false ceilings, shadow gap ceiling details, and multi-tier lighting troughs."
+      },
+      {
+        q: "How do you coordinate ceiling grids with air conditioning ducts and linear diffusers?",
+        a: "We coordinate ceiling heights with MEP duct drawings prior to framing, framing dedicated plenum openings for linear diffusers and acoustic return air slots."
+      },
+      {
+        q: "What framing gauge and suspension hangers do you use for ceiling durability?",
+        a: "We utilize heavy-duty galvanized steel framing (0.50mm - 0.70mm gauge) with rigid suspension rods and anchors tested for long-term vibration stability."
       }
     ]
   },
@@ -406,10 +558,32 @@ const pagesConfig = {
       serviceType: "Interior Drywall & Partition Works",
       description: "Drywall partition systems and interior wall dividers engineered to optimize space, improve privacy, and create functional layouts."
     },
+    features: [
+      {
+        title: "Acoustic Separation",
+        desc: "Dual-layer gypsum boards with high-density rockwool acoustic insulation achieving verified STC ratings."
+      },
+      {
+        title: "Floor Track Protection",
+        desc: "Specialized floor fixing methods and deflection head details designed to protect existing tile and marble flooring."
+      },
+      {
+        title: "Fire-Rated Drywall Partitions",
+        desc: "1-hour and 2-hour fire-rated drywall partition assemblies compliant with UAE Civil Defence standards."
+      }
+    ],
     faqs: [
       {
         q: "Can NASAQ install gypsum partitions without disturbing existing flooring?",
         a: "Yes. Our team uses appropriate floor track installation techniques to preserve existing finishes wherever possible during partition installation."
+      },
+      {
+        q: "What acoustic Sound Transmission Class (STC) ratings can your partitions achieve?",
+        a: "By combining staggered studs, dual-layer drywall, and acoustic rockwool density (50kg/m³), our partitions achieve acoustic insulation ratings of STC 48dB to 55dB."
+      },
+      {
+        q: "Are your interior partition systems compliant with UAE Civil Defence fire codes?",
+        a: "Yes. We install fire-rated drywall partitions utilizing Type-X gypsum boards and intumescent acoustic sealants providing 60 to 120 minutes of verified fire resistance."
       }
     ]
   },
@@ -429,10 +603,32 @@ const pagesConfig = {
       serviceType: "Interior Renovation & Remodelling",
       description: "Thoughtful renovation and refurbishment of existing residential and commercial interiors in Abu Dhabi, refreshing layouts, ceilings, and decorative finishes."
     },
+    features: [
+      {
+        title: "Layout Modernization",
+        desc: "Removing redundant non-structural partitions, opening up floorplans, and modernizing room proportions."
+      },
+      {
+        title: "Ceiling & Lighting Refurbishment",
+        desc: "Replacing outdated decorative ceilings with clean, contemporary false ceilings and recessed lighting."
+      },
+      {
+        title: "Surface & Wall Restoration",
+        desc: "Complete surface skimming, hairline crack remediation, and premium paint finishes revitalizing tired interiors."
+      }
+    ],
     faqs: [
       {
         q: "Does NASAQ take on partial renovation projects like ceiling or partition upgrades?",
         a: "Yes. NASAQ undertakes both room-specific upgrades (such as living rooms, majlis, or reception refreshes) and comprehensive interior renovations."
+      },
+      {
+        q: "How do you protect existing furniture and finishes during interior renovations?",
+        a: "We apply heavy-duty Correx floor protection, shrink-wrap existing furniture, and erect zipper dust screens to safeguard living areas from debris."
+      },
+      {
+        q: "What is the typical sequence of an interior refurbishment project?",
+        a: "We follow a four-stage process: demolition and protection, MEP modifications, drywall and ceiling framing, followed by skimming, painting, and handover."
       }
     ]
   },
@@ -452,10 +648,32 @@ const pagesConfig = {
       serviceType: "Residential Fit-Out & Finishing",
       description: "Residential fit-out for Abu Dhabi apartments, penthouses, and townhouses, delivering precision gypsum works, wall finishes, and coordinated interiors."
     },
+    features: [
+      {
+        title: "Apartments & Penthouses",
+        desc: "Tailored interior fit-out for residential apartments and penthouses in Yas Island, Al Reem Island, and Saadiyat."
+      },
+      {
+        title: "Functional Spatial Division",
+        desc: "Drywall partitioning for home offices, dressing rooms, and ensuite transitions without structural impact."
+      },
+      {
+        title: "Smooth Building Management Access",
+        desc: "Professional handling of gate passes, work permits, and noise restrictions in residential developments."
+      }
+    ],
     faqs: [
       {
         q: "What residential properties does NASAQ work on in Abu Dhabi?",
         a: "NASAQ works on private villas, penthouses, apartments, and townhouses across prime Abu Dhabi areas including Saadiyat, Yas, Al Reem, and Khalifa City."
+      },
+      {
+        q: "Can you execute apartment fit-outs in high-rise residential towers?",
+        a: "Yes. Our team regularly coordinates tower fit-out works in Al Reem Island and Al Raha Beach, adhering strictly to property management work permits and service elevator bookings."
+      },
+      {
+        q: "How do you manage noise restrictions in apartment developments?",
+        a: "We schedule noisy drilling and demolition exclusively within developer-approved hours (typically 9:00 AM to 1:00 PM and 3:00 PM to 5:00 PM) to ensure community peace."
       }
     ]
   }
@@ -591,7 +809,110 @@ function processHtmlFile(cfg) {
     html = html.replace(oldFooterEmailsRegex, newFooterEmails);
   }
 
-  // Special enhancement for about page (11+ years UAE team presence, 1,000s of projects, 7 Emirates)
+  // Clean any previously injected feature or FAQ sections to remain strictly idempotent
+  html = html.replace(/<section class="section pale features-section">[\s\S]*?<\/section>/g, '');
+  html = html.replace(/<section class="section faq-section">[\s\S]*?<\/section>/g, '');
+
+  // 1. Service pages: inject features section & visible FAQ section
+  if (cfg.service && cfg.features) {
+    const featuresHtml = `
+      <section class="section pale features-section">
+        <div class="sectionhead">
+          <div>
+            <p class="eyebrow">Technical Deliverables</p>
+            <h2>Execution standards & specifications.</h2>
+          </div>
+          <p>Every detail engineered to Abu Dhabi Municipality, Civil Defence, and international building standards.</p>
+        </div>
+        <div class="features-grid">
+          ${cfg.features.map(feat => `
+            <div class="feature-item">
+              <h3>${feat.title}</h3>
+              <p>${feat.desc}</p>
+            </div>
+          `).join('')}
+        </div>
+      </section>
+    `;
+    const faqsHtml = `
+      <section class="section faq-section">
+        <div class="sectionhead">
+          <div>
+            <p class="eyebrow">Frequently Asked Questions</p>
+            <h2>Expert guidance on ${cfg.service.name}.</h2>
+          </div>
+          <p>Answers to common project and execution questions from our UAE site engineering team.</p>
+        </div>
+        <div class="faq-grid">
+          ${cfg.faqs.map(f => `
+            <article class="faq-card">
+              <h3>${f.q}</h3>
+              <p>${f.a}</p>
+            </article>
+          `).join('')}
+        </div>
+      </section>
+    `;
+
+    const ctaIndex = html.indexOf('<section class="cta">');
+    if (ctaIndex !== -1) {
+      html = html.substring(0, ctaIndex) + featuresHtml + faqsHtml + html.substring(ctaIndex);
+    }
+  }
+
+  // 2. Services Hub page: inject engineering standards & visible FAQs
+  if (cfg.path === "services/index.html") {
+    const featuresHtml = `
+      <section class="section pale features-section">
+        <div class="sectionhead">
+          <div>
+            <p class="eyebrow">Engineering Standards</p>
+            <h2>Disciplined execution on UAE sites.</h2>
+          </div>
+          <p>Our fit-out processes combine 11+ years of UAE craftsmanship with strict material specifications and compliance.</p>
+        </div>
+        <div class="features-grid">
+          <div class="feature-item">
+            <h3>11+ Years Continuous UAE Experience</h3>
+            <p>Decade-long site presence ensuring deep familiarity with UAE climatic demands, material behavior, and contractor coordination.</p>
+          </div>
+          <div class="feature-item">
+            <h3>Certified Architectural Materials</h3>
+            <p>Strict utilization of ASTM C1396 compliant gypsum, moisture-resistant MR boards, and heavy-gauge galvanized framing systems.</p>
+          </div>
+          <div class="feature-item">
+            <h3>Level-5 Finishing & Defect-Free Snagging</h3>
+            <p>Precision joint compounds, embedded fiberglass tapes, and rigorous snagging protocols delivering smooth architectural surfaces.</p>
+          </div>
+        </div>
+      </section>
+    `;
+    const faqsHtml = `
+      <section class="section faq-section">
+        <div class="sectionhead">
+          <div>
+            <p class="eyebrow">Services FAQ</p>
+            <h2>Frequently asked questions.</h2>
+          </div>
+          <p>Clear information regarding our interior fit-out scope, gypsum works, and turnkey execution across Abu Dhabi.</p>
+        </div>
+        <div class="faq-grid">
+          ${cfg.faqs.map(f => `
+            <article class="faq-card">
+              <h3>${f.q}</h3>
+              <p>${f.a}</p>
+            </article>
+          `).join('')}
+        </div>
+      </section>
+    `;
+    const ctaIndex = html.indexOf('<section class="cta">');
+    if (ctaIndex !== -1) {
+      html = html.substring(0, ctaIndex) + featuresHtml + faqsHtml + html.substring(ctaIndex);
+    }
+  }
+
+  // 3. Special enhancement for about page (11+ years UAE team presence, 1,000s of projects, 7 Emirates)
   if (cfg.path === "about/index.html") {
     const mainRegex = /<main id="main">[\s\S]*?<\/main>/;
     const newMainContent = `<main id="main">` +
@@ -670,7 +991,7 @@ function processHtmlFile(cfg) {
     html = html.replace(mainRegex, newMainContent);
   }
 
-  // Special enhancement for contact page
+  // 4. Special enhancement for contact page
   if (cfg.path === "contact/index.html") {
     const contactSectionRegex = /<section class="section contact">[\s\S]*?<\/section>/;
     const newContactSection = `<section class="section contact">` +
@@ -710,6 +1031,57 @@ function processHtmlFile(cfg) {
       `</form>` +
     `</section>`;
     html = html.replace(contactSectionRegex, newContactSection);
+
+    const faqsHtml = `
+      <section class="section faq-section">
+        <div class="sectionhead">
+          <div>
+            <p class="eyebrow">Quotation & Consultation FAQ</p>
+            <h2>Frequently asked questions.</h2>
+          </div>
+          <p>Clear details on how we review drawings, calculate BOQs, and schedule site consultations across Abu Dhabi and Dubai.</p>
+        </div>
+        <div class="faq-grid">
+          ${cfg.faqs.map(f => `
+            <article class="faq-card">
+              <h3>${f.q}</h3>
+              <p>${f.a}</p>
+            </article>
+          `).join('')}
+        </div>
+      </section>
+    `;
+    const mainCloseIndex = html.indexOf('</main>');
+    if (mainCloseIndex !== -1) {
+      html = html.substring(0, mainCloseIndex) + faqsHtml + html.substring(mainCloseIndex);
+    }
+  }
+
+  // 5. Special enhancement for projects page
+  if (cfg.path === "projects/index.html") {
+    const faqsHtml = `
+      <section class="section faq-section">
+        <div class="sectionhead">
+          <div>
+            <p class="eyebrow">Concept Execution FAQ</p>
+            <h2>From design concept to physical space.</h2>
+          </div>
+          <p>Everything you need to know about implementing architectural concepts, material selection, and site coordination.</p>
+        </div>
+        <div class="faq-grid">
+          ${cfg.faqs.map(f => `
+            <article class="faq-card">
+              <h3>${f.q}</h3>
+              <p>${f.a}</p>
+            </article>
+          `).join('')}
+        </div>
+      </section>
+    `;
+    const ctaIndex = html.indexOf('<section class="cta">');
+    if (ctaIndex !== -1) {
+      html = html.substring(0, ctaIndex) + faqsHtml + html.substring(ctaIndex);
+    }
   }
 
   fs.writeFileSync(filePath, html, 'utf8');

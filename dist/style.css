@@ -15,3 +15,14 @@ html[lang="ar"] .floating{right:auto;left:22px}
 html[lang="ar"] .skip{left:auto;right:-100px}
 html[lang="ar"] .skip:focus{right:0}
 
+/* FAQ Section & Feature Grids */
+.faq-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:40px}
+.faq-card{background:var(--paper);border:1px solid var(--line);padding:28px}
+.faq-card h3{font-size:18px;margin-bottom:12px;color:var(--ink);font-weight:600}
+.faq-card p{font-size:15px;line-height:1.65;margin:0;color:#62635d}
+.features-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:35px}
+.feature-item{border-top:1px solid var(--line);padding-top:22px}
+.feature-item h3{margin:0 0 10px;font-size:18px;font-weight:600;color:var(--ink)}
+.feature-item p{font-size:14px;color:#62635d;margin:0;line-height:1.6}
+@media(max-width:900px){.faq-grid{grid-template-columns:1fr}.features-grid{grid-template-columns:1fr}}
+
