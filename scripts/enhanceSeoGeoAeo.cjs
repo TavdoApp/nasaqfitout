@@ -765,7 +765,7 @@ function processHtmlFile(cfg) {
   metaTags.push(`<link rel="canonical" href="${cfg.canonical}">`);
   metaTags.push(`<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">`);
   metaTags.push(`<link rel="alternate icon" href="/assets/favicon.png">`);
-  metaTags.push(`<link rel="stylesheet" href="/style.css?v=2">`);
+  metaTags.push(`<link rel="stylesheet" href="/style.css?v=3">`);
 
   // UAE Geo Meta Tags
   metaTags.push(`<meta name="geo.region" content="AE-AZ">`);

@@ -960,7 +960,7 @@ for (const art of articles) {
     `<link rel="alternate" hreflang="x-default" href="${canonical}">` +
     `<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">` +
     `<link rel="alternate icon" href="/assets/favicon.png">` +
-    `<link rel="stylesheet" href="/style.css?v=2">` +
+    `<link rel="stylesheet" href="/style.css?v=3">` +
     `<meta name="geo.region" content="AE-AZ">` +
     `<meta name="geo.placename" content="Abu Dhabi">` +
     `<meta name="geo.position" content="24.4539;54.3773">` +
@@ -1086,7 +1086,7 @@ for (const art of articles) {
     `<link rel="alternate" hreflang="x-default" href="${enCanonical}">` +
     `<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">` +
     `<link rel="alternate icon" href="/assets/favicon.png">` +
-    `<link rel="stylesheet" href="/style.css?v=2">` +
+    `<link rel="stylesheet" href="/style.css?v=3">` +
     `<meta name="geo.region" content="AE-AZ">` +
     `<meta name="geo.placename" content="أبوظبي">` +
     `<meta name="geo.position" content="24.4539;54.3773">` +
@@ -1204,7 +1204,7 @@ const enHubHtml = `<!doctype html><html lang="en"><head>` +
   `<link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/insights/">` +
   `<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">` +
   `<link rel="alternate icon" href="/assets/favicon.png">` +
-  `<link rel="stylesheet" href="/style.css?v=2">` +
+  `<link rel="stylesheet" href="/style.css?v=3">` +
   `<meta name="geo.region" content="AE-AZ">` +
   `<meta name="geo.placename" content="Abu Dhabi">` +
   `<meta name="geo.position" content="24.4539;54.3773">` +
@@ -1330,7 +1330,7 @@ const arHubHtml = `<!doctype html><html lang="ar" dir="rtl"><head>` +
   `<link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/insights/">` +
   `<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">` +
   `<link rel="alternate icon" href="/assets/favicon.png">` +
-  `<link rel="stylesheet" href="/style.css?v=2">` +
+  `<link rel="stylesheet" href="/style.css?v=3">` +
   `<meta name="geo.region" content="AE-AZ">` +
   `<meta name="geo.placename" content="أبوظبي">` +
   `<meta name="geo.position" content="24.4539;54.3773">` +

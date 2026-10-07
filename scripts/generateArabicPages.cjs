@@ -1650,7 +1650,7 @@ function generateArabicHtml(subPath, cfg) {
     `<link rel="alternate" hreflang="x-default" href="${enCanonical}">` +
     `<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">` +
     `<link rel="alternate icon" href="/assets/favicon.png">` +
-    `<link rel="stylesheet" href="/style.css?v=2">` +
+    `<link rel="stylesheet" href="/style.css?v=3">` +
     `<meta name="geo.region" content="AE-AZ">` +
     `<meta name="geo.placename" content="أبوظبي">` +
     `<meta name="geo.position" content="24.4539;54.3773">` +
