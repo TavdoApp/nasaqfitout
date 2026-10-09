@@ -1480,41 +1480,194 @@ allExistingEn.forEach(rel => {
   updateNavInHtmlFile(path.join(distDir, 'ar', rel), true);
 });
 
-// 6. Update Sitemap.xml with all 40 URLs
-console.log("Regenerating 40-URL bilingual XML sitemap...");
+// 6. Update Sitemap.xml with all 40 URLs + Google Image Sitemap metadata
+console.log("Regenerating 40-URL bilingual XML sitemap with Google Image Sitemap schema...");
+
+function escapeXml(str) {
+  if (!str) return '';
+  return str
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&apos;');
+}
+
 const allUrls = [
   // 14 Core Pages
-  { en: "", ar: "", prio: "1.0" },
-  { en: "about/", ar: "about/", prio: "0.9" },
-  { en: "contact/", ar: "contact/", prio: "0.9" },
-  { en: "projects/", ar: "projects/", prio: "0.8" },
-  { en: "services/", ar: "services/", prio: "0.9" },
-  { en: "services/interior-fit-out/", ar: "services/interior-fit-out/", prio: "0.8" },
-  { en: "services/villa-fit-out/", ar: "services/villa-fit-out/", prio: "0.8" },
-  { en: "services/office-fit-out/", ar: "services/office-fit-out/", prio: "0.8" },
-  { en: "services/commercial-fit-out/", ar: "services/commercial-fit-out/", prio: "0.8" },
-  { en: "services/gypsum-board-works/", ar: "services/gypsum-board-works/", prio: "0.8" },
-  { en: "services/false-ceilings/", ar: "services/false-ceilings/", prio: "0.8" },
-  { en: "services/interior-partitions/", ar: "services/interior-partitions/", prio: "0.8" },
-  { en: "services/interior-renovation/", ar: "services/interior-renovation/", prio: "0.8" },
-  { en: "services/residential-fit-out/", ar: "services/residential-fit-out/", prio: "0.8" },
+  {
+    en: "",
+    ar: "",
+    prio: "1.0",
+    image: "/assets/logo.png",
+    titleEn: "NASAQ Interior Design Implementation Works – Abu Dhabi UAE",
+    captionEn: "Turnkey interior fit-out contractor with 11+ years of UAE engineering expertise in commercial and luxury residential projects.",
+    titleAr: "شركة نسق لأعمال تنفيذ التصميم الداخلي – أبوظبي الإمارات",
+    captionAr: "مقاول متخصص في تنفيذ الديكور الداخلي والتشطيب الفاخر والتجاري في أبوظبي ودبي بأكثر من 11 عاماً من الخبرة الهندسية."
+  },
+  {
+    en: "about/",
+    ar: "about/",
+    prio: "0.9",
+    image: "/assets/office.webp",
+    titleEn: "NASAQ Interior Fit-Out Engineering Team in Abu Dhabi",
+    captionEn: "Experienced engineering and craft team delivering turnkey fit-out projects across Abu Dhabi and UAE.",
+    titleAr: "فريق عمل شركة نسق لتنفيذ الديكور في أبوظبي",
+    captionAr: "فريق هندسي متخصص بخبرة ميدانية تفوق 11 عاماً في تنفيذ مشاريع الديكور الداخلي بدولة الإمارات."
+  },
+  {
+    en: "contact/",
+    ar: "contact/",
+    prio: "0.9",
+    image: "/assets/logo.png",
+    titleEn: "Contact NASAQ Fit-Out Abu Dhabi Office",
+    captionEn: "Book a site consultation, submit architectural drawings, or request BOQ verification in the UAE.",
+    titleAr: "تواصل مع شركة نسق لتنفيذ التصميم الداخلي بأبوظبي",
+    captionAr: "تواصل لطلب معاينات الموقع وتدقيق المخططات الهندسية وجداول الكميات في الإمارات."
+  },
+  {
+    en: "projects/",
+    ar: "projects/",
+    prio: "0.8",
+    image: "/assets/villa.webp",
+    titleEn: "Turnkey Interior Design & Fit-Out Project Portfolio UAE",
+    captionEn: "Portfolio of completed luxury villa, commercial office, and retail fit-out executions across UAE.",
+    titleAr: "معرض مشاريع التصميم الداخلي والتنفيذ في الإمارات",
+    captionAr: "معرض أعمال تنفيذ الديكور الداخلي للفلل الفاخرة والمكاتب التجارية والمحلات في الإمارات."
+  },
+  {
+    en: "services/",
+    ar: "services/",
+    prio: "0.9",
+    image: "/assets/villa.webp",
+    titleEn: "Comprehensive Interior Fit-Out Services in Abu Dhabi & Dubai",
+    captionEn: "Turnkey architectural interiors, gypsum ceilings, drywall partitions, and authority approvals.",
+    titleAr: "خدمات تنفيذ التصميم الداخلي والديكور في أبوظبي ودبي",
+    captionAr: "تنفيذ شامل لأعمال الديكور والجبس بورد والأسقف المستعارة والقواطع واعتماد المخططات."
+  },
+  {
+    en: "services/interior-fit-out/",
+    ar: "services/interior-fit-out/",
+    prio: "0.8",
+    image: "/assets/cost-guide.jpg",
+    titleEn: "Turnkey Interior Fit-Out Contracting Abu Dhabi",
+    captionEn: "Full-scope interior design implementation from MEP infrastructure to bespoke joinery and finishing.",
+    titleAr: "مقاولات تنفيذ التصميم الداخلي المتكامل بأبوظبي",
+    captionAr: "تنفيذ شامل لأعمال الديكور من البنية التحتية والكهرباء والتكييف إلى النجارة والتشطيب النهائي."
+  },
+  {
+    en: "services/villa-fit-out/",
+    ar: "services/villa-fit-out/",
+    prio: "0.8",
+    image: "/assets/villa.webp",
+    titleEn: "Luxury Villa Interior Fit-Out Abu Dhabi & Dubai",
+    captionEn: "Bespoke residential fit-out, modern majlis interiors, master suites, and turnkey architectural finishes.",
+    titleAr: "تنفيذ ديكور وتشطيب الفلل الفاخرة في أبوظبي ودبي",
+    captionAr: "تشطيب فلل راقية ومجالس مودرن وأجنحة نوم رئيسية بتشطيبات معمارية فاخرة."
+  },
+  {
+    en: "services/office-fit-out/",
+    ar: "services/office-fit-out/",
+    prio: "0.8",
+    image: "/assets/office.webp",
+    titleEn: "Corporate Office Fit-Out Abu Dhabi",
+    captionEn: "Commercial office fit-out, acoustic glass partition systems, and corporate meeting rooms.",
+    titleAr: "تنفيذ ديكور وتشطيب المكاتب والشركات بأبوظبي",
+    captionAr: "تشطيب بيئات العمل والمكاتب التجارية وقواطع الزجاج العازلة للصوت وغرف الاجتماعات."
+  },
+  {
+    en: "services/commercial-fit-out/",
+    ar: "services/commercial-fit-out/",
+    prio: "0.8",
+    image: "/assets/office.webp",
+    titleEn: "Commercial & Retail Interior Fit-Out UAE",
+    captionEn: "Fit-out execution for retail stores, showrooms, and commercial spaces adhering to authority codes.",
+    titleAr: "تنفيذ الديكور التجاري والمحلات في الإمارات",
+    captionAr: "تنفيذ تشطيبات المحلات التجارية والمعارض والمساحات الاستثمارية وفق اشتراطات الجهات المعنية."
+  },
+  {
+    en: "services/gypsum-board-works/",
+    ar: "services/gypsum-board-works/",
+    prio: "0.8",
+    image: "/assets/gypsum-guide.jpg",
+    titleEn: "Gypsum Board False Ceilings & Partitions UAE",
+    captionEn: "Level-5 drywall plastering, moisture-resistant boards, and concealed LED cove lighting troughs.",
+    titleAr: "أعمال ألواح الجبس بورد والأسقف المعلقة في الإمارات",
+    captionAr: "تنفيذ ديكورات الجبس بورد وألواح مقاومة الرطوبة وتشطيب Level-5 للإنارة المخفية بدون تشققات."
+  },
+  {
+    en: "services/false-ceilings/",
+    ar: "services/false-ceilings/",
+    prio: "0.8",
+    image: "/assets/gypsum-guide.jpg",
+    titleEn: "Modern Architectural False Ceilings UAE",
+    captionEn: "Custom suspended ceiling designs, shadow gaps, linear AC diffusers, and multi-tier lighting bulkheads.",
+    titleAr: "تصميم وتنفيذ الأسقف المستعارة الحديثة في الإمارات",
+    captionAr: "تنفيذ الأسقف المستعارة والشادو جاب وفتحات التكييف الطولية والإضاءات الديكورية المعمارية."
+  },
+  {
+    en: "services/interior-partitions/",
+    ar: "services/interior-partitions/",
+    prio: "0.8",
+    image: "/assets/office.webp",
+    titleEn: "Acoustic Drywall & Interior Partitions UAE",
+    captionEn: "Sound-rated drywall partition walls, Rockwool acoustic insulation, and glazed office dividing screens.",
+    titleAr: "تنفيذ القواطع الجدارية العازلة للصوت في الإمارات",
+    captionAr: "قواطع جدارية جبسية عازلة للصوت بالصوف الصخري وقواطع زجاجية للمكاتب والفلل."
+  },
+  {
+    en: "services/interior-renovation/",
+    ar: "services/interior-renovation/",
+    prio: "0.8",
+    image: "/assets/villa.webp",
+    titleEn: "Interior Renovation & Remodeling UAE",
+    captionEn: "Comprehensive villa and commercial space renovation, layout modifications, and turnkey upgrades.",
+    titleAr: "تجديد وترميم الديكور الداخلي في الإمارات",
+    captionAr: "تجديد وتحديث شامل للفلل والمكاتب وإعادة توزيع المساحات والتشطيبات الحديثة."
+  },
+  {
+    en: "services/residential-fit-out/",
+    ar: "services/residential-fit-out/",
+    prio: "0.8",
+    image: "/assets/villa.webp",
+    titleEn: "Residential Interior Fit-Out Abu Dhabi",
+    captionEn: "Turnkey apartment and residential fit-out, joinery, and tailored interior finishes.",
+    titleAr: "تنفيذ الديكور السكني والشقق في أبوظبي",
+    captionAr: "تشطيب الشقق والمساكن والديكورات العصرية وأعمال النجارة المخصصة."
+  },
   // Insights Hub
-  { en: "insights/", ar: "insights/", prio: "0.9" },
+  {
+    en: "insights/",
+    ar: "insights/",
+    prio: "0.9",
+    image: "/assets/cost-guide.jpg",
+    titleEn: "UAE Interior Fit-Out Technical Knowledge & Guides",
+    captionEn: "In-depth engineering insights on fit-out costs, authority approvals, gypsum durability, and acoustic design.",
+    titleAr: "أدلة ومقالات تنفيذ الديكور الداخلي في الإمارات",
+    captionAr: "مقالات فنية متخصصة في تكاليف الديكور وتراخيص أبوظبي وحلول الجبس بورد والعزل الصوتي."
+  },
   // 5 Articles
   ...articles.map(a => ({
     en: `insights/${a.slug}/`,
     ar: `insights/${a.slug}/`,
-    prio: "0.8"
+    prio: "0.8",
+    image: a.image,
+    titleEn: a.titleEn,
+    captionEn: a.descEn,
+    titleAr: a.titleAr,
+    captionAr: a.descAr
   }))
 ];
 
 let sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>\n` +
   `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n` +
-  `        xmlns:xhtml="http://www.w3.org/1999/xhtml">\n`;
+  `        xmlns:xhtml="http://www.w3.org/1999/xhtml"\n` +
+  `        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n`;
 
 for (const u of allUrls) {
   const enUrl = `https://nasaqfitout.ae/${u.en}`;
   const arUrl = `https://nasaqfitout.ae/ar/${u.ar}`;
+  const imgUrl = `https://nasaqfitout.ae${u.image}`;
 
   sitemapXml += `  <url>\n` +
     `    <loc>${enUrl}</loc>\n` +
@@ -1523,6 +1676,11 @@ for (const u of allUrls) {
     `    <xhtml:link rel="alternate" hreflang="x-default" href="${enUrl}"/>\n` +
     `    <changefreq>weekly</changefreq>\n` +
     `    <priority>${u.prio}</priority>\n` +
+    `    <image:image>\n` +
+    `      <image:loc>${imgUrl}</image:loc>\n` +
+    `      <image:title>${escapeXml(u.titleEn)}</image:title>\n` +
+    `      <image:caption>${escapeXml(u.captionEn)}</image:caption>\n` +
+    `    </image:image>\n` +
     `  </url>\n`;
 
   sitemapXml += `  <url>\n` +
@@ -1532,12 +1690,17 @@ for (const u of allUrls) {
     `    <xhtml:link rel="alternate" hreflang="x-default" href="${enUrl}"/>\n` +
     `    <changefreq>weekly</changefreq>\n` +
     `    <priority>${u.prio}</priority>\n` +
+    `    <image:image>\n` +
+    `      <image:loc>${imgUrl}</image:loc>\n` +
+    `      <image:title>${escapeXml(u.titleAr)}</image:title>\n` +
+    `      <image:caption>${escapeXml(u.captionAr)}</image:caption>\n` +
+    `    </image:image>\n` +
     `  </url>\n`;
 }
 
 sitemapXml += `</urlset>\n`;
 fs.writeFileSync(path.join(distDir, 'sitemap.xml'), sitemapXml, 'utf8');
-console.log(`Bilingual XML Sitemap generated at dist/sitemap.xml with ${allUrls.length * 2} URLs.`);
+console.log(`Bilingual XML Sitemap generated at dist/sitemap.xml with ${allUrls.length * 2} URLs and Google Image schemas.`);
 
 // 7. Update llms.txt with Articles summaries for AI Bots
 console.log("Updating dist/llms.txt with Insights and Technical Knowledge base...");

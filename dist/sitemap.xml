@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://nasaqfitout.ae/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://nasaqfitout.ae/"/>
@@ -8,6 +9,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/"/>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://nasaqfitout.ae/assets/logo.png</image:loc>
+      <image:title>NASAQ Interior Design Implementation Works – Abu Dhabi UAE</image:title>
+      <image:caption>Turnkey interior fit-out contractor with 11+ years of UAE engineering expertise in commercial and luxury residential projects.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://nasaqfitout.ae/ar/</loc>
@@ -16,6 +22,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/"/>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://nasaqfitout.ae/assets/logo.png</image:loc>
+      <image:title>شركة نسق لأعمال تنفيذ التصميم الداخلي – أبوظبي الإمارات</image:title>
+      <image:caption>مقاول متخصص في تنفيذ الديكور الداخلي والتشطيب الفاخر والتجاري في أبوظبي ودبي بأكثر من 11 عاماً من الخبرة الهندسية.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://nasaqfitout.ae/about/</loc>
@@ -24,6 +35,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/about/"/>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://nasaqfitout.ae/assets/office.webp</image:loc>
+      <image:title>NASAQ Interior Fit-Out Engineering Team in Abu Dhabi</image:title>
+      <image:caption>Experienced engineering and craft team delivering turnkey fit-out projects across Abu Dhabi and UAE.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://nasaqfitout.ae/ar/about/</loc>
@@ -32,6 +48,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/about/"/>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://nasaqfitout.ae/assets/office.webp</image:loc>
+      <image:title>فريق عمل شركة نسق لتنفيذ الديكور في أبوظبي</image:title>
+      <image:caption>فريق هندسي متخصص بخبرة ميدانية تفوق 11 عاماً في تنفيذ مشاريع الديكور الداخلي بدولة الإمارات.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://nasaqfitout.ae/contact/</loc>
@@ -40,6 +61,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/contact/"/>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://nasaqfitout.ae/assets/logo.png</image:loc>
+      <image:title>Contact NASAQ Fit-Out Abu Dhabi Office</image:title>
+      <image:caption>Book a site consultation, submit architectural drawings, or request BOQ verification in the UAE.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://nasaqfitout.ae/ar/contact/</loc>
@@ -48,6 +74,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/contact/"/>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://nasaqfitout.ae/assets/logo.png</image:loc>
+      <image:title>تواصل مع شركة نسق لتنفيذ التصميم الداخلي بأبوظبي</image:title>
+      <image:caption>تواصل لطلب معاينات الموقع وتدقيق المخططات الهندسية وجداول الكميات في الإمارات.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://nasaqfitout.ae/projects/</loc>
@@ -56,6 +87,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/projects/"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://nasaqfitout.ae/assets/villa.webp</image:loc>
+      <image:title>Turnkey Interior Design &amp; Fit-Out Project Portfolio UAE</image:title>
+      <image:caption>Portfolio of completed luxury villa, commercial office, and retail fit-out executions across UAE.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://nasaqfitout.ae/ar/projects/</loc>
@@ -64,6 +100,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/projects/"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://nasaqfitout.ae/assets/villa.webp</image:loc>
+      <image:title>معرض مشاريع التصميم الداخلي والتنفيذ في الإمارات</image:title>
+      <image:caption>معرض أعمال تنفيذ الديكور الداخلي للفلل الفاخرة والمكاتب التجارية والمحلات في الإمارات.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://nasaqfitout.ae/services/</loc>
@@ -72,6 +113,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/services/"/>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://nasaqfitout.ae/assets/villa.webp</image:loc>
+      <image:title>Comprehensive Interior Fit-Out Services in Abu Dhabi &amp; Dubai</image:title>
+      <image:caption>Turnkey architectural interiors, gypsum ceilings, drywall partitions, and authority approvals.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://nasaqfitout.ae/ar/services/</loc>
@@ -80,6 +126,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/services/"/>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://nasaqfitout.ae/assets/villa.webp</image:loc>
+      <image:title>خدمات تنفيذ التصميم الداخلي والديكور في أبوظبي ودبي</image:title>
+      <image:caption>تنفيذ شامل لأعمال الديكور والجبس بورد والأسقف المستعارة والقواطع واعتماد المخططات.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://nasaqfitout.ae/services/interior-fit-out/</loc>
@@ -88,6 +139,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/services/interior-fit-out/"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://nasaqfitout.ae/assets/cost-guide.jpg</image:loc>
+      <image:title>Turnkey Interior Fit-Out Contracting Abu Dhabi</image:title>
+      <image:caption>Full-scope interior design implementation from MEP infrastructure to bespoke joinery and finishing.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://nasaqfitout.ae/ar/services/interior-fit-out/</loc>
@@ -96,6 +152,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/services/interior-fit-out/"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://nasaqfitout.ae/assets/cost-guide.jpg</image:loc>
+      <image:title>مقاولات تنفيذ التصميم الداخلي المتكامل بأبوظبي</image:title>
+      <image:caption>تنفيذ شامل لأعمال الديكور من البنية التحتية والكهرباء والتكييف إلى النجارة والتشطيب النهائي.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://nasaqfitout.ae/services/villa-fit-out/</loc>
@@ -104,6 +165,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/services/villa-fit-out/"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://nasaqfitout.ae/assets/villa.webp</image:loc>
+      <image:title>Luxury Villa Interior Fit-Out Abu Dhabi &amp; Dubai</image:title>
+      <image:caption>Bespoke residential fit-out, modern majlis interiors, master suites, and turnkey architectural finishes.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://nasaqfitout.ae/ar/services/villa-fit-out/</loc>
@@ -112,6 +178,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/services/villa-fit-out/"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://nasaqfitout.ae/assets/villa.webp</image:loc>
+      <image:title>تنفيذ ديكور وتشطيب الفلل الفاخرة في أبوظبي ودبي</image:title>
+      <image:caption>تشطيب فلل راقية ومجالس مودرن وأجنحة نوم رئيسية بتشطيبات معمارية فاخرة.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://nasaqfitout.ae/services/office-fit-out/</loc>
@@ -120,6 +191,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/services/office-fit-out/"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://nasaqfitout.ae/assets/office.webp</image:loc>
+      <image:title>Corporate Office Fit-Out Abu Dhabi</image:title>
+      <image:caption>Commercial office fit-out, acoustic glass partition systems, and corporate meeting rooms.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://nasaqfitout.ae/ar/services/office-fit-out/</loc>
@@ -128,6 +204,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/services/office-fit-out/"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://nasaqfitout.ae/assets/office.webp</image:loc>
+      <image:title>تنفيذ ديكور وتشطيب المكاتب والشركات بأبوظبي</image:title>
+      <image:caption>تشطيب بيئات العمل والمكاتب التجارية وقواطع الزجاج العازلة للصوت وغرف الاجتماعات.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://nasaqfitout.ae/services/commercial-fit-out/</loc>
@@ -136,6 +217,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/services/commercial-fit-out/"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://nasaqfitout.ae/assets/office.webp</image:loc>
+      <image:title>Commercial &amp; Retail Interior Fit-Out UAE</image:title>
+      <image:caption>Fit-out execution for retail stores, showrooms, and commercial spaces adhering to authority codes.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://nasaqfitout.ae/ar/services/commercial-fit-out/</loc>
@@ -144,6 +230,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/services/commercial-fit-out/"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://nasaqfitout.ae/assets/office.webp</image:loc>
+      <image:title>تنفيذ الديكور التجاري والمحلات في الإمارات</image:title>
+      <image:caption>تنفيذ تشطيبات المحلات التجارية والمعارض والمساحات الاستثمارية وفق اشتراطات الجهات المعنية.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://nasaqfitout.ae/services/gypsum-board-works/</loc>
@@ -152,6 +243,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/services/gypsum-board-works/"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://nasaqfitout.ae/assets/gypsum-guide.jpg</image:loc>
+      <image:title>Gypsum Board False Ceilings &amp; Partitions UAE</image:title>
+      <image:caption>Level-5 drywall plastering, moisture-resistant boards, and concealed LED cove lighting troughs.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://nasaqfitout.ae/ar/services/gypsum-board-works/</loc>
@@ -160,6 +256,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/services/gypsum-board-works/"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://nasaqfitout.ae/assets/gypsum-guide.jpg</image:loc>
+      <image:title>أعمال ألواح الجبس بورد والأسقف المعلقة في الإمارات</image:title>
+      <image:caption>تنفيذ ديكورات الجبس بورد وألواح مقاومة الرطوبة وتشطيب Level-5 للإنارة المخفية بدون تشققات.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://nasaqfitout.ae/services/false-ceilings/</loc>
@@ -168,6 +269,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/services/false-ceilings/"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://nasaqfitout.ae/assets/gypsum-guide.jpg</image:loc>
+      <image:title>Modern Architectural False Ceilings UAE</image:title>
+      <image:caption>Custom suspended ceiling designs, shadow gaps, linear AC diffusers, and multi-tier lighting bulkheads.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://nasaqfitout.ae/ar/services/false-ceilings/</loc>
@@ -176,6 +282,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/services/false-ceilings/"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://nasaqfitout.ae/assets/gypsum-guide.jpg</image:loc>
+      <image:title>تصميم وتنفيذ الأسقف المستعارة الحديثة في الإمارات</image:title>
+      <image:caption>تنفيذ الأسقف المستعارة والشادو جاب وفتحات التكييف الطولية والإضاءات الديكورية المعمارية.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://nasaqfitout.ae/services/interior-partitions/</loc>
@@ -184,6 +295,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/services/interior-partitions/"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://nasaqfitout.ae/assets/office.webp</image:loc>
+      <image:title>Acoustic Drywall &amp; Interior Partitions UAE</image:title>
+      <image:caption>Sound-rated drywall partition walls, Rockwool acoustic insulation, and glazed office dividing screens.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://nasaqfitout.ae/ar/services/interior-partitions/</loc>
@@ -192,6 +308,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/services/interior-partitions/"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://nasaqfitout.ae/assets/office.webp</image:loc>
+      <image:title>تنفيذ القواطع الجدارية العازلة للصوت في الإمارات</image:title>
+      <image:caption>قواطع جدارية جبسية عازلة للصوت بالصوف الصخري وقواطع زجاجية للمكاتب والفلل.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://nasaqfitout.ae/services/interior-renovation/</loc>
@@ -200,6 +321,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/services/interior-renovation/"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://nasaqfitout.ae/assets/villa.webp</image:loc>
+      <image:title>Interior Renovation &amp; Remodeling UAE</image:title>
+      <image:caption>Comprehensive villa and commercial space renovation, layout modifications, and turnkey upgrades.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://nasaqfitout.ae/ar/services/interior-renovation/</loc>
@@ -208,6 +334,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/services/interior-renovation/"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://nasaqfitout.ae/assets/villa.webp</image:loc>
+      <image:title>تجديد وترميم الديكور الداخلي في الإمارات</image:title>
+      <image:caption>تجديد وتحديث شامل للفلل والمكاتب وإعادة توزيع المساحات والتشطيبات الحديثة.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://nasaqfitout.ae/services/residential-fit-out/</loc>
@@ -216,6 +347,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/services/residential-fit-out/"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://nasaqfitout.ae/assets/villa.webp</image:loc>
+      <image:title>Residential Interior Fit-Out Abu Dhabi</image:title>
+      <image:caption>Turnkey apartment and residential fit-out, joinery, and tailored interior finishes.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://nasaqfitout.ae/ar/services/residential-fit-out/</loc>
@@ -224,6 +360,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/services/residential-fit-out/"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://nasaqfitout.ae/assets/villa.webp</image:loc>
+      <image:title>تنفيذ الديكور السكني والشقق في أبوظبي</image:title>
+      <image:caption>تشطيب الشقق والمساكن والديكورات العصرية وأعمال النجارة المخصصة.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://nasaqfitout.ae/insights/</loc>
@@ -232,6 +373,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/insights/"/>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://nasaqfitout.ae/assets/cost-guide.jpg</image:loc>
+      <image:title>UAE Interior Fit-Out Technical Knowledge &amp; Guides</image:title>
+      <image:caption>In-depth engineering insights on fit-out costs, authority approvals, gypsum durability, and acoustic design.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://nasaqfitout.ae/ar/insights/</loc>
@@ -240,6 +386,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/insights/"/>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://nasaqfitout.ae/assets/cost-guide.jpg</image:loc>
+      <image:title>أدلة ومقالات تنفيذ الديكور الداخلي في الإمارات</image:title>
+      <image:caption>مقالات فنية متخصصة في تكاليف الديكور وتراخيص أبوظبي وحلول الجبس بورد والعزل الصوتي.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://nasaqfitout.ae/insights/interior-fit-out-cost-uae-guide/</loc>
@@ -248,6 +399,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/insights/interior-fit-out-cost-uae-guide/"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://nasaqfitout.ae/assets/cost-guide.jpg</image:loc>
+      <image:title>Interior Fit-Out Cost Guide in the UAE (2026): Abu Dhabi &amp; Dubai Rates</image:title>
+      <image:caption>Comprehensive guide to interior fit-out costs per sqft in Abu Dhabi and Dubai. Cost benchmarks for villas, offices, and retail, plus key cost drivers and hidden fees.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://nasaqfitout.ae/ar/insights/interior-fit-out-cost-uae-guide/</loc>
@@ -256,6 +412,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/insights/interior-fit-out-cost-uae-guide/"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://nasaqfitout.ae/assets/cost-guide.jpg</image:loc>
+      <image:title>دليل تكلفة الفيت آوت والتشطيب الداخلي في الإمارات (2026): أسعار أبوظبي ودبي</image:title>
+      <image:caption>دليل شامل لاحتساب تكاليف الفيت آوت والتشطيب الداخلي للمتر المربع والقدم المربع في أبوظبي ودبي. مقارنة أسعار الفلل والمكاتب والمحلات وأهم العوامل المؤثرة.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://nasaqfitout.ae/insights/abu-dhabi-fit-out-approvals-noc-guide/</loc>
@@ -264,6 +425,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/insights/abu-dhabi-fit-out-approvals-noc-guide/"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://nasaqfitout.ae/assets/approvals-guide.jpg</image:loc>
+      <image:title>Abu Dhabi Fit-Out Approvals &amp; NOC Guide: TAMM, Municipality &amp; Civil Defence</image:title>
+      <image:caption>Complete roadmap to obtaining fit-out permits in Abu Dhabi. Learn the TAMM portal process, Department of Municipalities and Transport (DMT) rules, ADCD fire safety, and developer NOCs.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://nasaqfitout.ae/ar/insights/abu-dhabi-fit-out-approvals-noc-guide/</loc>
@@ -272,6 +438,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/insights/abu-dhabi-fit-out-approvals-noc-guide/"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://nasaqfitout.ae/assets/approvals-guide.jpg</image:loc>
+      <image:title>دليل تصاريح الفيت آوت وشهادات عدم الممانعة في أبوظبي: منصة تم والبلدية والدفاع المدني</image:title>
+      <image:caption>الدليل الشامل لاستخراج تصاريح الفيت آوت والتشطيب الداخلي في أبوظبي. خطوات منصة تم، اشتراطات دائرة البلديات والنقل، الدفاع المدني، وشهادات عدم الممانعة من المطورين.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://nasaqfitout.ae/insights/prevent-gypsum-ceiling-cracks-uae/</loc>
@@ -280,6 +451,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/insights/prevent-gypsum-ceiling-cracks-uae/"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://nasaqfitout.ae/assets/gypsum-guide.jpg</image:loc>
+      <image:title>How to Prevent Gypsum Ceiling Cracks in UAE Homes: Framing, Humidity &amp; Craft</image:title>
+      <image:caption>Why gypsum ceilings develop cracks in UAE villas and offices, and the engineering best practices to eliminate them: heavy-gauge framing, ASTM C1396 boards, and Level-5 joint finishing.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://nasaqfitout.ae/ar/insights/prevent-gypsum-ceiling-cracks-uae/</loc>
@@ -288,6 +464,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/insights/prevent-gypsum-ceiling-cracks-uae/"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://nasaqfitout.ae/assets/gypsum-guide.jpg</image:loc>
+      <image:title>كيفية تجنب شروخ الأسقف الجبسية في مناخ الإمارات: المواد والهياكل والتشطيب</image:title>
+      <image:caption>أسباب ظهور التشققات والشروخ في الأسقف الجبسية بالفلل والمكاتب في الإمارات، وأفضل المعايير الهندسية لتفاديها: الهياكل المجلفنة، ألواح MR المقاومة للرطوبة، وتشطيب Level-5.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://nasaqfitout.ae/insights/interior-design-vs-fit-out-implementation/</loc>
@@ -296,6 +477,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/insights/interior-design-vs-fit-out-implementation/"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://nasaqfitout.ae/assets/villa.webp</image:loc>
+      <image:title>Interior Design vs. Interior Fit-Out Implementation: What UAE Clients Must Know</image:title>
+      <image:caption>Discover the vital distinction between concept design and physical fit-out implementation in the UAE. Avoid scope gaps, cost overruns, and construction delays.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://nasaqfitout.ae/ar/insights/interior-design-vs-fit-out-implementation/</loc>
@@ -304,6 +490,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/insights/interior-design-vs-fit-out-implementation/"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://nasaqfitout.ae/assets/villa.webp</image:loc>
+      <image:title>الفرق بين التصميم الداخلي وتنفيذ الديكور والفيت آوت: دليل الملاك في الإمارات</image:title>
+      <image:caption>تعرف على الفرق الجوهري بين مكاتب التصميم الداخلي وشركات تنفيذ الديكور والفيت آوت في الإمارات. كيف تتجنب تجاوز الميزانية وفجوات التنفيذ الميداني.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://nasaqfitout.ae/insights/acoustic-drywall-soundproofing-uae/</loc>
@@ -312,6 +503,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/insights/acoustic-drywall-soundproofing-uae/"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://nasaqfitout.ae/assets/office.webp</image:loc>
+      <image:title>Acoustic Partition Walls &amp; Soundproofing for UAE Villas and Offices</image:title>
+      <image:caption>How to engineer soundproof drywall partition walls in UAE executive offices, boardrooms, and residential majlis areas. STC ratings, Rockwool insulation, and acoustic detailing.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://nasaqfitout.ae/ar/insights/acoustic-drywall-soundproofing-uae/</loc>
@@ -320,5 +516,10 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/insights/acoustic-drywall-soundproofing-uae/"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://nasaqfitout.ae/assets/office.webp</image:loc>
+      <image:title>القواطع الجدارية العازلة للصوت في الفلل والمكاتب بدولة الإمارات</image:title>
+      <image:caption>كيفية تنفيذ قواطع جبسية عازلة للصوت في المكاتب التنفيذية وقاعات الاجتماعات ومجالس الفلل في الإمارات. معايير STC، عزل الصوف الصخري، وحماية الأرضيات.</image:caption>
+    </image:image>
   </url>
 </urlset>
