@@ -17,7 +17,12 @@ const businessEntityEn = {
   "url": "https://nasaqfitout.ae/",
   "logo": "https://nasaqfitout.ae/assets/logo.svg",
   "telephone": "+971505334861",
-  "email": "info@nasaqfitout.ae"
+  "email": "info@nasaqfitout.ae",
+  "hasMap": "https://share.google/jD1fYkpZ96pX0pQPN",
+  "sameAs": [
+    "https://www.instagram.com/nasaq.fitout/",
+    "https://share.google/jD1fYkpZ96pX0pQPN"
+  ]
 };
 
 const businessEntityAr = {
@@ -27,7 +32,12 @@ const businessEntityAr = {
   "url": "https://nasaqfitout.ae/ar/",
   "logo": "https://nasaqfitout.ae/assets/logo.svg",
   "telephone": "+971505334861",
-  "email": "info@nasaqfitout.ae"
+  "email": "info@nasaqfitout.ae",
+  "hasMap": "https://share.google/jD1fYkpZ96pX0pQPN",
+  "sameAs": [
+    "https://www.instagram.com/nasaq.fitout/",
+    "https://share.google/jD1fYkpZ96pX0pQPN"
+  ]
 };
 
 // 5 Pillar Articles Data
@@ -1047,7 +1057,8 @@ for (const art of articles) {
         `<a href="tel:+971505334861">+971 50 533 4861</a>` +
         `<a href="mailto:info@nasaqfitout.ae">info@nasaqfitout.ae</a>` +
         `<a href="mailto:ossama@nasaqfitout.ae">ossama@nasaqfitout.ae</a>` +
-        `<a href="https://www.instagram.com/nasaq.fitout/">Instagram · @nasaq.fitout</a>` +
+        `<a href="https://www.instagram.com/nasaq.fitout/" target="_blank" rel="noopener noreferrer">Instagram · @nasaq.fitout</a>` +
+        `<a href="https://share.google/jD1fYkpZ96pX0pQPN" target="_blank" rel="noopener noreferrer">Google Maps · NASAQ Profile</a>` +
       `</div>` +
       `<div>` +
         `<a href="/services/">Our services</a>` +
@@ -1173,7 +1184,8 @@ for (const art of articles) {
         `<a href="tel:+971505334861">+971 50 533 4861</a>` +
         `<a href="mailto:info@nasaqfitout.ae">info@nasaqfitout.ae</a>` +
         `<a href="mailto:ossama@nasaqfitout.ae">ossama@nasaqfitout.ae</a>` +
-        `<a href="https://www.instagram.com/nasaq.fitout/">إنستغرام · @nasaq.fitout</a>` +
+        `<a href="https://www.instagram.com/nasaq.fitout/" target="_blank" rel="noopener noreferrer">إنستغرام · @nasaq.fitout</a>` +
+        `<a href="https://share.google/jD1fYkpZ96pX0pQPN" target="_blank" rel="noopener noreferrer">خرائط Google · ملف نسق</a>` +
       `</div>` +
       `<div>` +
         `<a href="/ar/services/">خدماتنا</a>` +
@@ -1300,7 +1312,8 @@ const enHubHtml = `<!doctype html><html lang="en"><head>` +
       `<a href="tel:+971505334861">+971 50 533 4861</a>` +
       `<a href="mailto:info@nasaqfitout.ae">info@nasaqfitout.ae</a>` +
       `<a href="mailto:ossama@nasaqfitout.ae">ossama@nasaqfitout.ae</a>` +
-      `<a href="https://www.instagram.com/nasaq.fitout/">Instagram · @nasaq.fitout</a>` +
+      `<a href="https://www.instagram.com/nasaq.fitout/" target="_blank" rel="noopener noreferrer">Instagram · @nasaq.fitout</a>` +
+      `<a href="https://share.google/jD1fYkpZ96pX0pQPN" target="_blank" rel="noopener noreferrer">Google Maps · NASAQ Profile</a>` +
     `</div>` +
     `<div>` +
       `<a href="/services/">Our services</a>` +
@@ -1426,7 +1439,8 @@ const arHubHtml = `<!doctype html><html lang="ar" dir="rtl"><head>` +
       `<a href="tel:+971505334861">+971 50 533 4861</a>` +
       `<a href="mailto:info@nasaqfitout.ae">info@nasaqfitout.ae</a>` +
       `<a href="mailto:ossama@nasaqfitout.ae">ossama@nasaqfitout.ae</a>` +
-      `<a href="https://www.instagram.com/nasaq.fitout/">إنستغرام · @nasaq.fitout</a>` +
+      `<a href="https://www.instagram.com/nasaq.fitout/" target="_blank" rel="noopener noreferrer">إنستغرام · @nasaq.fitout</a>` +
+      `<a href="https://share.google/jD1fYkpZ96pX0pQPN" target="_blank" rel="noopener noreferrer">خرائط Google · ملف نسق</a>` +
     `</div>` +
     `<div>` +
       `<a href="/ar/services/">خدماتنا</a>` +

@@ -36,7 +36,7 @@ const businessEntity = {
     "latitude": 24.4539,
     "longitude": 54.3773
   },
-  "hasMap": "https://maps.google.com/?q=Abu+Dhabi,+United+Arab+Emirates",
+  "hasMap": "https://share.google/jD1fYkpZ96pX0pQPN",
   "contactPoint": [
     {
       "@type": "ContactPoint",
@@ -83,7 +83,8 @@ const businessEntity = {
     }
   ],
   "sameAs": [
-    "https://www.instagram.com/nasaq.fitout/"
+    "https://www.instagram.com/nasaq.fitout/",
+    "https://share.google/jD1fYkpZ96pX0pQPN"
   ],
   "knowsAbout": [
     "Interior Fit-Out",
@@ -1004,6 +1005,7 @@ function processHtmlFile(cfg) {
         `<p style="margin-bottom:4px;font-size:13px;color:#9b7145;text-transform:uppercase;letter-spacing:0.12em;font-weight:600;">Business & Commercial</p>` +
         `<a href="mailto:ossama@nasaqfitout.ae" style="margin-bottom:22px;">ossama@nasaqfitout.ae</a>` +
         `<p style="margin-bottom:6px;">Abu Dhabi, United Arab Emirates</p>` +
+        `<p style="margin-bottom:14px;"><a href="https://share.google/jD1fYkpZ96pX0pQPN" target="_blank" rel="noopener noreferrer" style="color:#9b7145;font-weight:600;display:inline-flex;align-items:center;gap:6px;">📍 View on Google Maps / Business Profile</a></p>` +
         `<p style="margin-bottom:18px;">Secondary phone: <a href="tel:+971528600115" style="display:inline;margin-bottom:0;">+971 52 860 0115</a></p>` +
         `<p>Have architectural drawings or a BOQ? Send them directly via WhatsApp or email for immediate review.</p>` +
       `</div>` +
