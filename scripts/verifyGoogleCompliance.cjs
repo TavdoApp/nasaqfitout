@@ -108,7 +108,32 @@ if (!fs.existsSync(llmsPath)) {
     errors.push('dist/llms.txt missing English or Arabic AI knowledge base!');
     passed = false;
   }
-  console.log('✅ llms.txt bilingual AI knowledge base verified.');
+  if (!llmsContent.includes('[') || !llmsContent.includes('](https://nasaqfitout.ae')) {
+    errors.push('dist/llms.txt must contain standard markdown links [Title](url) for Agentic Browsing compliance!');
+    passed = false;
+  }
+  console.log('✅ llms.txt bilingual AI knowledge base & markdown links verified.');
+}
+
+// 4b. Check ARD 1.0 ai-catalog.json
+const aiCatalogPath = path.join(DIST_DIR, 'ai-catalog.json');
+const wellKnownCatalogPath = path.join(DIST_DIR, '.well-known', 'ai-catalog.json');
+if (!fs.existsSync(aiCatalogPath) || !fs.existsSync(wellKnownCatalogPath)) {
+  errors.push('dist/ai-catalog.json or dist/.well-known/ai-catalog.json missing!');
+  passed = false;
+} else {
+  try {
+    const catalog = JSON.parse(fs.readFileSync(aiCatalogPath, 'utf8'));
+    if (!catalog.specVersion || !Array.isArray(catalog.entries)) {
+      errors.push('dist/ai-catalog.json does not follow ARD 1.0 schema (missing specVersion or entries array)!');
+      passed = false;
+    } else {
+      console.log('✅ ARD 1.0 ai-catalog.json manifest verified.');
+    }
+  } catch (err) {
+    errors.push(`dist/ai-catalog.json has invalid JSON: ${err.message}`);
+    passed = false;
+  }
 }
 
 // 5. Audit all HTML files

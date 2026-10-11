@@ -1722,9 +1722,9 @@ const llmsPath = path.join(distDir, 'llms.txt');
 let llmsContent = fs.readFileSync(llmsPath, 'utf8');
 
 const newEnLlmsSection = `\n\n## NASAQ Technical Insights & Guides (English)\n` +
-  articles.map(a => `- **${a.titleEn}**: https://nasaqfitout.ae/insights/${a.slug}/\n  Summary: ${a.summaryEn}`).join('\n\n') +
+  articles.map(a => `- [${a.titleEn}](https://nasaqfitout.ae/insights/${a.slug}/): ${a.summaryEn}`).join('\n\n') +
   `\n\n## مقالات وأدلة شركة نسق التخصصية (باللغة العربية)\n` +
-  articles.map(a => `- **${a.titleAr}**: https://nasaqfitout.ae/ar/insights/${a.slug}/\n  ملخص: ${a.summaryAr}`).join('\n\n');
+  articles.map(a => `- [${a.titleAr}](https://nasaqfitout.ae/ar/insights/${a.slug}/): ${a.summaryAr}`).join('\n\n');
 
 if (!llmsContent.includes('## NASAQ Technical Insights & Guides')) {
   llmsContent += newEnLlmsSection;
