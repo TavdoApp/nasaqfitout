@@ -1,48 +1,62 @@
 {
   "specVersion": "1.0",
   "host": {
-    "displayName": "NASAQ Interior Design Implementation Works – L.L.C – S.P.C",
+    "displayName": "NASAQ Interior Design Implementation Works LLC",
     "identifier": "did:web:nasaqfitout.ae",
     "documentationUrl": "https://nasaqfitout.ae/about/",
     "logoUrl": "https://nasaqfitout.ae/assets/logo.svg"
   },
   "entries": [
     {
-      "identifier": "urn:ai:nasaqfitout.ae:resource:llms-txt",
+      "identifier": "urn:air:nasaqfitout.ae:knowledge:llms-txt",
       "displayName": "NASAQ AI Knowledge Directory (llms.txt)",
-      "type": "text/markdown",
+      "type": "text/markdown; profile=\"urn:air:agent-skills\"",
       "url": "https://nasaqfitout.ae/llms.txt",
-      "description": "Comprehensive bilingual AI knowledge directory and specifications for NASAQ interior fit-out, gypsum works, and ceiling implementations across Abu Dhabi and the UAE.",
+      "description": "Comprehensive bilingual knowledge directory and specifications for NASAQ interior fit-out, gypsum works, and false ceiling implementations in Abu Dhabi and UAE.",
+      "capabilities": [
+        "InteriorFitOut",
+        "VillaFitOut",
+        "OfficeFitOut",
+        "GypsumCeilings",
+        "AcousticPartitions"
+      ],
+      "tags": [
+        "fit-out",
+        "abu-dhabi",
+        "gypsum",
+        "ceilings",
+        "villa",
+        "office"
+      ],
       "representativeQueries": [
         "Interior fit out contractor in Abu Dhabi",
         "Villa fit out and gypsum ceiling works UAE",
         "Commercial office fit out specifications Abu Dhabi",
-        "أفضل مقاول فيت آوت وتنفيذ ديكور في أبوظبي"
+        "تكلفة الفيت آوت والتشطيب الداخلي في الإمارات"
       ]
     },
     {
-      "identifier": "urn:ai:nasaqfitout.ae:service:consultation",
+      "identifier": "urn:air:nasaqfitout.ae:agent:fitout-consultation",
       "displayName": "NASAQ Project Consultation & Quotations",
-      "type": "text/html",
-      "url": "https://nasaqfitout.ae/contact/",
-      "description": "Direct project inquiry, architectural BOQ review, and structured quotation portal for residential and commercial fit-out works.",
+      "type": "application/agent-card+json",
+      "url": "https://nasaqfitout.ae/agent-card.json",
+      "description": "Direct interior fit-out quotation request, architectural BOQ review, and project inquiry portal for residential and commercial spaces across UAE.",
+      "capabilities": [
+        "FitOutQuotation",
+        "BOQReview",
+        "SiteConsultation",
+        "CostEstimation"
+      ],
+      "tags": [
+        "quotation",
+        "cost-estimate",
+        "consultation",
+        "boq-review"
+      ],
       "representativeQueries": [
         "Request interior fit out quotation Abu Dhabi",
         "Contact NASAQ fit out team WhatsApp",
         "طلب تسعير أعمال فيت آوت وجبس بورد أبوظبي"
-      ]
-    },
-    {
-      "identifier": "urn:ai:nasaqfitout.ae:guides:insights",
-      "displayName": "NASAQ Technical Insights & Cost Manuals",
-      "type": "text/html",
-      "url": "https://nasaqfitout.ae/insights/",
-      "description": "Bilingual engineering guides detailing UAE fit-out costs per square foot, municipality NOC approvals, crack-free gypsum ceilings, and acoustic partitions.",
-      "representativeQueries": [
-        "Interior fit out cost per square foot Abu Dhabi 2026",
-        "TAMM Abu Dhabi fit out approvals and NOC guide",
-        "How to prevent gypsum ceiling cracks UAE",
-        "تكلفة الفيت آوت والتشطيب الداخلي في الإمارات"
       ]
     }
   ]

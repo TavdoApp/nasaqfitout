@@ -128,7 +128,29 @@ if (!fs.existsSync(aiCatalogPath) || !fs.existsSync(wellKnownCatalogPath)) {
       errors.push('dist/ai-catalog.json does not follow ARD 1.0 schema (missing specVersion or entries array)!');
       passed = false;
     } else {
-      console.log('✅ ARD 1.0 ai-catalog.json manifest verified.');
+      const airRegex = /^urn:air:[a-zA-Z0-9.-]+(:[a-zA-Z0-9._-]+)+$/;
+      const allowedTypes = [
+        'application/ai-catalog+json',
+        'application/agent-card+json',
+        'application/a2a-agent-card+json',
+        'application/mcp-server-card+json',
+        'application/agent-skills+zip',
+        'application/agent-skills+gzip',
+        'text/markdown; profile="urn:air:agent-skills"',
+        'application/ai-registry',
+        'application/ai-registry+json'
+      ];
+      for (const entry of catalog.entries) {
+        if (!airRegex.test(entry.identifier)) {
+          errors.push(`dist/ai-catalog.json entry identifier "${entry.identifier}" does not match URN pattern ^urn:air:...`);
+          passed = false;
+        }
+        if (!allowedTypes.includes(entry.type)) {
+          errors.push(`dist/ai-catalog.json entry type "${entry.type}" is not an ARD standard discovery media type!`);
+          passed = false;
+        }
+      }
+      console.log('✅ ARD 1.0 ai-catalog.json manifest verified (URNs & standard discovery media types).');
     }
   } catch (err) {
     errors.push(`dist/ai-catalog.json has invalid JSON: ${err.message}`);

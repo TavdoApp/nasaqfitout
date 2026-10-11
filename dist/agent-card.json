@@ -1,0 +1,22 @@
+{
+  "specVersion": "1.0",
+  "identifier": "urn:air:nasaqfitout.ae:agent:fitout-consultation",
+  "name": "NASAQ Fit-Out Consultation Agent",
+  "description": "AI agent service for interior fit-out inquiries, BOQ assessments, and project scope consultation in Abu Dhabi and across the UAE.",
+  "provider": {
+    "name": "NASAQ Interior Design Implementation Works LLC",
+    "url": "https://nasaqfitout.ae/"
+  },
+  "capabilities": [
+    "FitOutQuotation",
+    "BOQReview",
+    "VillaFitOutConsultation",
+    "OfficeFitOutConsultation",
+    "GypsumCeilingSpecifications"
+  ],
+  "contact": {
+    "telephone": "+971505334861",
+    "email": "info@nasaqfitout.ae",
+    "whatsapp": "https://wa.me/971505334861"
+  }
+}
