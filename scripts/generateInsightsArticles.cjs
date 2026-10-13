@@ -868,6 +868,459 @@ const articles = [
         a: "ننفذ القواطع والأسقف العازلة لقاعات مجالس الإدارة، المكاتب التنفيذية، العيادات، المجالس العائلية، وغرف النوم والسينما المنزلية في كافة الإمارات."
       }
     ]
+  },
+  {
+    slug: "best-interior-design-companies-uae",
+    badgeEn: "UAE Industry Guide & Rankings 2026",
+    badgeAr: "دليل الشركات والأسعار 2026",
+    image: "/assets/villa.webp",
+    readTimeEn: "10 min read",
+    readTimeAr: "قراءة 10 دقائق",
+    date: "2026-04-01",
+    
+    // English Content
+    titleEn: "Top Interior Design & Fit-Out Companies in the UAE (2026 Guide): Rankings, Execution & Costs",
+    descEn: "Comprehensive guide to the best interior design and fit-out companies in the UAE (Abu Dhabi & Dubai). Compare top firms, market cost benchmarks for villas and offices, and selection criteria.",
+    summaryEn: "An authoritative market guide comparing top interior design firms and turnkey fit-out contractors across the UAE, detailing service scopes, market price benchmarks, and contractor verification standards.",
+    
+    itemListEn: [
+      {
+        name: "NASAQ Interior Design Implementation Works LLC",
+        description: "Specialized turnkey interior fit-out and implementation contractor in Abu Dhabi and UAE with 11+ years site experience, precision gypsum ceilings, and luxury villa execution.",
+        url: "https://nasaqfitout.ae/"
+      },
+      {
+        name: "Algedra Interior Design",
+        description: "Prominent luxury architectural and concept interior design consultancy operating across Dubai, Abu Dhabi, and the GCC region.",
+        url: "https://algedra.ae/"
+      },
+      {
+        name: "Antonovich Group",
+        description: "High-end bespoke classical interior design, custom furniture manufacturing, and palace fit-out in Dubai and Abu Dhabi.",
+        url: "https://antonovich-design.ae/"
+      },
+      {
+        name: "Arcave",
+        description: "Integrated architectural and interior design firm delivering residential and commercial projects across Abu Dhabi, Dubai, and Al Ain.",
+        url: "https://arcave.ae/"
+      },
+      {
+        name: "4SPACE Design",
+        description: "Commercial interior design studio in Dubai specializing in restaurants, cafes, hospitality, and innovative corporate workplaces.",
+        url: "https://4space.ae/"
+      }
+    ],
+
+    contentHtmlEn: `
+      <p class="article-lead">The United Arab Emirates is home to one of the world's most vibrant interior design and construction markets. From lavish private villas on Saadiyat Island to executive boardrooms in DIFC, finding the right partner to design and execute your space is decisive for project success, compliance, and investment value.</p>
+      
+      <p>When searching for the <strong>best interior design companies in the UAE</strong>, clients frequently face confusion between two distinct professional scopes: <strong>Interior Design Consultancies</strong> (who produce 3D visual concepts, mood boards, and layouts) and <strong>Licensed Interior Design Implementation & Fit-Out Contractors</strong> (who manage on-site material procurement, MEP coordination, gypsum framing, and physical handover). Achieving a flawless space requires understanding both roles.</p>
+
+      <h2>The Crucial Distinction: Design Consultant vs. Implementation Contractor</h2>
+      <p>Before selecting a company, property owners must understand how responsibilities divide across UAE residential and commercial projects:</p>
+
+      <div class="data-table-wrap">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Comparison Aspect</th>
+              <th>Interior Design Studio (Consultant)</th>
+              <th>Interior Implementation Contractor (Fit-Out / NASAQ)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Primary Output</strong></td>
+              <td>3D renders, space planning, color schemes, material mood boards, BOQs.</td>
+              <td>Physical on-site construction, MEP modifications, gypsum ceilings, carpentry, handover.</td>
+            </tr>
+            <tr>
+              <td><strong>Licensing & Activity</strong></td>
+              <td>Architectural & Interior Design Consultancy license.</td>
+              <td>Interior Design Implementation Works & Decor contracting license.</td>
+            </tr>
+            <tr>
+              <td><strong>Site Presence</strong></td>
+              <td>Periodic quality inspections and design intent compliance reviews.</td>
+              <td>Full-time daily site supervision, craft execution, safety management.</td>
+            </tr>
+            <tr>
+              <td><strong>Direct Authority Approvals</strong></td>
+              <td>Architectural drawing preparation.</td>
+              <td>Execution permit processing via TAMM / Municipality, Civil Defence inspection.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Top Interior Design & Fit-Out Companies in the UAE (2026 Overview)</h2>
+      <p>Based on verified UAE track records, statutory licensing, craftsmanship, and market reputation, here are the leading interior firms across Abu Dhabi and Dubai:</p>
+
+      <h3>1. NASAQ Interior Design Implementation Works (Abu Dhabi & UAE)</h3>
+      <p><strong>Primary Focus:</strong> High-precision interior fit-out, luxury villa interiors, executive offices, architectural gypsum ceilings, and Level-5 finishing.</p>
+      <p><strong>Headquarters & Service Area:</strong> Based in Abu Dhabi, executing turnkey projects across all 7 Emirates (including Yas Island, Saadiyat, Al Reem, Khalifa City, Dubai, and Al Ain).</p>
+      <p><strong>Track Record & Strengths:</strong> Backed by an in-house engineering and craft crew with <strong>11+ continuous years of UAE site experience</strong> and thousands of completed projects. NASAQ specializes in taking approved architectural drawings and turning them into reality with strict adherence to BOQ specifications, crack-resistant ceiling engineering, and seamless authority coordination.</p>
+
+      <h3>2. Algedra Interior Design (Dubai & Abu Dhabi)</h3>
+      <p><strong>Primary Focus:</strong> Luxury architectural concept design, villa exterior facades, landscape integration, and classical-to-modern residential concepts.</p>
+      <p><strong>Service Area:</strong> Dubai, Abu Dhabi, and wider GCC markets.</p>
+      <p><strong>Strengths:</strong> Expansive design team recognized for grandiose Middle Eastern aesthetics, palatial proportions, and comprehensive conceptual master planning.</p>
+
+      <h3>3. Antonovich Group (Dubai & Abu Dhabi)</h3>
+      <p><strong>Primary Focus:</strong> High-end bespoke luxury, royal interior styling, turnkey fit-out, and custom imported Italian furniture.</p>
+      <p><strong>Strengths:</strong> Renowned for ornate classical detailing, gold-leaf accents, luxury marble installations, and exclusive custom joinery.</p>
+
+      <h3>4. Arcave (Abu Dhabi, Dubai & Al Ain)</h3>
+      <p><strong>Primary Focus:</strong> Integrated architectural design, interior design, and residential/commercial fit-out delivery.</p>
+      <p><strong>Strengths:</strong> Strong presence in Abu Dhabi and Al Ain, offering cohesive design-to-build workflows for private villas and corporate developments.</p>
+
+      <h3>5. 4SPACE Design (Dubai)</h3>
+      <p><strong>Primary Focus:</strong> Hospitality interior design, restaurants, cafes, retail flagships, and contemporary creative offices.</p>
+      <p><strong>Strengths:</strong> Dynamic, trendsetting design concepts tailored for commercial brand identity, Instagrammable aesthetics, and customer flow optimization.</p>
+
+      <h2>Comprehensive Company Comparison Matrix</h2>
+      <div class="data-table-wrap">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Company Name</th>
+              <th>Core Specialization</th>
+              <th>Headquarters</th>
+              <th>Target Project Types</th>
+              <th>Ideal Client Match</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>NASAQ | نسق</strong></td>
+              <td>Turnkey Fit-Out & Gypsum Implementation</td>
+              <td>Abu Dhabi</td>
+              <td>Luxury Villas, Offices, Gypsum Ceilings, Commercial</td>
+              <td>Clients with drawings seeking high-precision execution & on-time site delivery.</td>
+            </tr>
+            <tr>
+              <td><strong>Algedra</strong></td>
+              <td>Architectural & Interior Design Concepts</td>
+              <td>Dubai & Abu Dhabi</td>
+              <td>Palaces, Mansions, Large Residential Estates</td>
+              <td>Homeowners seeking expansive luxury conceptual blueprints.</td>
+            </tr>
+            <tr>
+              <td><strong>Antonovich Group</strong></td>
+              <td>Bespoke Classical & Ultra-Luxury Decor</td>
+              <td>Dubai & Abu Dhabi</td>
+              <td>Royal Villas, Penthouses, Custom Furnishings</td>
+              <td>Clients seeking opulent classical styling and imported bespoke furniture.</td>
+            </tr>
+            <tr>
+              <td><strong>Arcave</strong></td>
+              <td>Architecture & Interior Delivery</td>
+              <td>Abu Dhabi & Dubai</td>
+              <td>Residential Villas, Mixed Commercial</td>
+              <td>Clients seeking unified architectural and interior consulting in Abu Dhabi.</td>
+            </tr>
+            <tr>
+              <td><strong>4SPACE Design</strong></td>
+              <td>Commercial Hospitality & Creative Spaces</td>
+              <td>Dubai</td>
+              <td>Restaurants, Cafes, Retail, Tech Workplaces</td>
+              <td>Commercial operators and F&B brands seeking bold modern interiors.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Average Market Costs for Interior Design & Fit-Out in the UAE (2026 Benchmark)</h2>
+      <p>Pricing across the UAE depends on the scope (consultancy only vs. full turnkey construction), unit handover state, and material specifications:</p>
+
+      <div class="data-table-wrap">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Property Type</th>
+              <th>Estimated Market Range (Total Project)</th>
+              <th>Average Cost Per Sq. Ft.</th>
+              <th>Scope & Finish Level</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Private Villas</strong></td>
+              <td>AED 100,000 – AED 500,000+</td>
+              <td>AED 400 – AED 1,200 / sqft</td>
+              <td>Full drywall ceilings, LED cove recesses, majlis finishes, custom joinery, flooring.</td>
+            </tr>
+            <tr>
+              <td><strong>Apartments & Penthouses</strong></td>
+              <td>AED 25,000 – AED 150,000</td>
+              <td>AED 250 – AED 650 / sqft</td>
+              <td>Living room upgrades, false ceilings, partition reconfigurations, sanitary & lighting.</td>
+            </tr>
+            <tr>
+              <td><strong>Commercial Offices</strong></td>
+              <td>AED 150 – AED 500 / sq. meter</td>
+              <td>AED 250 – AED 550 / sqft</td>
+              <td>Acoustic partitions (STC 48+), reception joinery, MEP rebalancing, fire safety approval.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>How to Choose the Best Contractor for Your Project (Client Checklist)</h2>
+      <p>Before committing to an interior contractor in Abu Dhabi or Dubai, verify these essential qualification criteria:</p>
+
+      <ol class="steps-list">
+        <li><strong>Verify Commercial Activity License:</strong> Ensure the contractor holds an official <em>Interior Design Implementation Works</em> license registered with the Department of Economic Development (DED / Abu Dhabi Municipality).</li>
+        <li><strong>Evaluate True Site Track Record:</strong> Ask for real site photos and inspect finished projects. NASAQ's in-house execution crew brings 11+ continuous years of hands-on UAE site experience.</li>
+        <li><strong>Insist on a Transparent Itemized BOQ:</strong> Avoid vague lump-sum quotes. An honest quote breaks down square meters, metal framing gauges, gypsum board types, and paint finish coats.</li>
+        <li><strong>Examine Statutory Approvals Proficiency:</strong> Ensure the contractor has active experience obtaining developer NOCs (Aldar, Provis) and municipal clearances via Abu Dhabi's TAMM platform.</li>
+      </ol>
+
+      <div class="callout">
+        <h4>Need Expert Execution for Your Approved Interior Plans?</h4>
+        <p>If you already have architectural drawings or want a transparent review of your project's BOQ, connect with NASAQ's technical team. We provide structured, itemized quotations within 24 to 48 hours.</p>
+      </div>
+    `,
+    faqsEn: [
+      {
+        q: "What are the top interior design and fit-out companies in the UAE?",
+        a: "Leading firms include NASAQ Interior Design Implementation Works (Abu Dhabi execution specialist with 11+ years site experience), Algedra (luxury design concepts), Antonovich Group (classical bespoke decor), Arcave (architecture and interior delivery), and 4SPACE Design (commercial hospitality)."
+      },
+      {
+        q: "What is the difference between an interior designer and an interior fit-out contractor?",
+        a: "An interior designer focuses on aesthetic concepts, 3D renderings, and specifications. An interior fit-out contractor (like NASAQ) executes the physical construction on-site, including drywall partitions, gypsum ceilings, MEP modifications, and authority approvals."
+      },
+      {
+        q: "How much does interior fit-out cost for a villa in the UAE?",
+        a: "Villa fit-out in the UAE typically ranges between AED 100,000 to AED 500,000+ depending on villa size and finish specifications, averaging between AED 400 to AED 1,200 per square foot for premium materials."
+      },
+      {
+        q: "Why should clients choose NASAQ for interior implementation in Abu Dhabi?",
+        a: "NASAQ provides direct, disciplined site execution with an in-house crew backed by 11+ continuous years of UAE site experience, thousands of delivered projects, transparent BOQ pricing, and strict adherence to architectural drawings."
+      }
+    ],
+
+    // Arabic Content
+    titleAr: "أفضل شركات التصميم الداخلي والفيت آوت في الإمارات (دليل 2026 الشامل): التصنيف، التكاليف، وأبرز الشركات",
+    descAr: "دليل شامل ومقارنة موضوعية لأفضل شركات التصميم الداخلي وتنفيذ الفيت آوت في الإمارات (أبوظبي ودبي). معايير الاختيار، متوسط الأسعار للفلل والمكاتب، ودور شركة نسق كجهة تنفيذ متخصصة.",
+    summaryAr: "دليل متكامل يستعرض أبرز شركات التصميم الداخلي والفيت آوت في دولة الإمارات، مع تصنيف الشركات حسب التخصص (استشارات وتصميم مقابل تنفيذ ميداني وتسليم مفتاح)، وجدول مقارنة الأسعار والخدمات.",
+
+    itemListAr: [
+      {
+        name: "شركة نسق لأعمال تنفيذ التصميم الداخلي (NASAQ)",
+        description: "مقاول متخصص في تنفيذ التصميم الداخلي والفيت آوت للفلل الفاخرة والمكاتب والأسقف المعمارية بأبوظبي والإمارات بخبرة ميدانية تفوق 11 عاماً.",
+        url: "https://nasaqfitout.ae/ar/"
+      },
+      {
+        name: "مجموعة الكيدرا للتصميم الداخلي (Algedra)",
+        description: "مجموعة رائدة في استشارات التصميم المعماري والداخلي الفاخر للمشاريع السكنية والتجارية في دبي وأبوظبي والخليج.",
+        url: "https://algedra.ae/ar"
+      },
+      {
+        name: "مجموعة أنتونوفيتش (Antonovich Group)",
+        description: "متخصصة في التصميم الكلاسيكي الفاخر، وتأثيث القصور، والديكورات الحصرية في دبي وأبوظبي.",
+        url: "https://antonovich-design.ae/ar"
+      },
+      {
+        name: "شركة أركيف (Arcave)",
+        description: "استوديو تصميم معماري وداخلي يقدم خدمات تنفيذ للمشاريع السكنية والتجارية في أبوظبي ودبي والعين.",
+        url: "https://arcave.ae/ar/"
+      },
+      {
+        name: "شركة فور سبيس للتصميم (4SPACE Design)",
+        description: "شركة تصميم تجاري في دبي متخصصة في قطاع الضيافة والمطاعم والمقاهي وبيئات العمل المبتكرة.",
+        url: "https://4space.ae/ar/"
+      }
+    ],
+
+    contentHtmlAr: `
+      <p class="article-lead">تعد دولة الإمارات العربية المتحدة وجهة عالمية رائدة للابتكار المعماري والتشطيب الداخلي الفاخر. وسواء كنت تخطط لتجهيز فيلا سكنية فاخرة في جزيرة السعديات بأبوظبي أو مقر إداري في دبي، فإن العثور على <strong>أفضل شركات التصميم الداخلي في الإمارات</strong> يمثل نقطة التحول الأساسية لنجاح مشروعك وتحقيق القيمة المرجوة لاستثمارك.</p>
+      
+      <p>يقع الكثير من الملاك في حيرة عند البحث عن "أفضل شركات الديكور والتصميم" بسبب الخلط بين دور <strong>مكاتب استشارات التصميم (Design Consultancies)</strong> التي تعد الرسوم ثلاثية الأبعاد ولوحات المزاج، ودور <strong>مقاولي تنفيذ التصميم الداخلي والفيت آوت (Fit-Out Contractors)</strong> المرخصين رسمياً لتحويل تلك المخططات إلى واقع مبني على أرض الموقع. في هذا الدليل، يقدم الفريق الهندسي لشركة نسق مرجعاً موضوعياً شاملاً لتصنيف أفضل الشركات، متوسط التكاليف في السوق، ومعايير الاختيار السليم.</p>
+
+      <h2>الفرق الجوهري: استشارات التصميم مقابل مقاول التنفيذ الميداني</h2>
+      <p>يقوم قطاع الديكور والإنشاءات في الإمارات على تكامل واضح بين مرحلتين، واختيارك للشركة يعتمد على المرحلة التي وصل إليها مشروعك:</p>
+
+      <div class="data-table-wrap">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>وجه المقارنة</th>
+              <th>مكتب استشارات التصميم (Design Studio)</th>
+              <th>مقاول تنفيذ التصميم الداخلي (Fit-Out / شركة نسق)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>المخرج الأساسي</strong></td>
+              <td>المخططات المعمارية، الرندر 3D، جداول الكميات، واختيار الألوان.</td>
+              <td>التنفيذ الميداني الكامل، تعديلات الكهروميكانيك، الأسقف المعلقة، التشطيب والتسليم.</td>
+            </tr>
+            <tr>
+              <td><strong>النشاط والرخصة</strong></td>
+              <td>استشارات تصميم داخلي ومعماري.</td>
+              <td>تنفيذ التصميم الداخلي (ديكور) ومقاولات فيت آوت.</td>
+            </tr>
+            <tr>
+              <td><strong>التواجد في الموقع</strong></td>
+              <td>زيارات إشراف دورية لمطابقة التصميم.</td>
+              <td>تواجد يومي دائم، إدارة العمالة الحرفية، وضبط الجودة والسلامة.</td>
+            </tr>
+            <tr>
+              <td><strong>التراخيص والموافقات</strong></td>
+              <td>إعداد المخططات للاعتماد.</td>
+              <td>استخراج تصاريح العمل عبر منصة تم / البلدية والدفاع المدني وإدارة المبنى.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>أبرز وأفضل شركات التصميم الداخلي والفيت آوت في الإمارات (دليل 2026)</h2>
+      <p>بناءً على سجل الأعمال الفعلي، التراخيص الرسمية المعتمدة، ومستوى الثقة في السوق الإماراتي، نستعرض أبرز الشركات العاملة في أبوظبي ودبي:</p>
+
+      <h3>1. شركة نسق لأعمال تنفيذ التصميم الداخلي (NASAQ) - أبوظبي وكافة الإمارات</h3>
+      <p><strong>التخصص الأساسي:</strong> التنفيذ المتكامل للتصميم الداخلي (Fit-Out)، تشطيب الفلل الفاخرة والمجالس، المقرات الإدارية والمكاتب، أعمال ألواح الجبس بورد الدقيقة، والأسقف المعمارية المقاومة للشروخ.</p>
+      <p><strong>المقر ونطاق التغطية:</strong> يقع المقر الرئيسي في أبوظبي، وتخدم الشركة كافة الإمارات السبع (بما في ذلك جزيرة السعديات، جزيرة ياس، جزيرة الريم، مدينة خليفة، شاطئ الراحة، ومشاريع دبي والعين).</p>
+      <p><strong>نقاط القوة وسجل الإنجاز:</strong> يتميز فريق نسق بخبرة ميدانية مستمرة تتجاوز <strong>11 عاماً في مواقع العمل بدولة الإمارات</strong> مع تسليم آلاف المساحات بنجاح. تكمن القوة الجوهرية للشركة في قدرتها على استلام المخططات المعتمدة من أي استشاري وتطبيقها بصرامة فائقة على أرض الواقع مع وضوح مالي تام في جدول الكميات (BOQ)، والتحكم الهندسي في جودة المعجون والفواصل بمستوى Level-5.</p>
+
+      <h3>2. مجموعة الكيدرا للتصميم الداخلي (Algedra) - دبي وأبوظبي</h3>
+      <p><strong>التخصص الأساسي:</strong> استشارات التصميم المعماري والداخلي الفاخر للمشاريع السكنية والتجارية الكبرى والقصور.</p>
+      <p><strong>نطاق التغطية:</strong> دبي، أبوظبي، ودول مجلس التعاون الخليجي.</p>
+      <p><strong>نقاط القوة:</strong> فريق تصميم متكامل يركز على المخططات الفاخرة، والواجهات الخارجية للفلل، والدمج بين الطرازين الكلاسيكي والإسلامي الحديث.</p>
+
+      <h3>3. مجموعة أنتونوفيتش (Antonovich Group) - دبي وأبوظبي</h3>
+      <p><strong>التخصص الأساسي:</strong> التصميم الكلاسيكي الملكي، تأثيث القصور والمساحات الفخمة، وتسليم المفتاح مع استيراد وتصنيع الأثاث الحصري.</p>
+      <p><strong>نقاط القوة:</strong> تشطيبات مذهبة غنية بالتفاصيل، استخدام الرخام النادر، وتوفير أثاث إيطالي وأوروبي مخصص للعملاء الباحثين عن الفخامة الكلاسيكية المطلقة.</p>
+
+      <h3>4. شركة أركيف (Arcave) - أبوظبي، دبي والعين</h3>
+      <p><strong>التخصص الأساسي:</strong> التصميم المعماري والداخلي المتكامل وتنفيذ المشاريع السكنية والتجارية.</p>
+      <p><strong>نقاط القوة:</strong> تواجد مميز في أبوظبي والعين، مع تقديم خدمات متوازنة تشمل التصميم والتنفيذ للمنازل والشركات الخاصة.</p>
+
+      <h3>5. شركة 4SPACE Design - دبي</h3>
+      <p><strong>التخصص الأساسي:</strong> تصميم المساحات التجارية، المطاعم، المقاهي، العيادات، وبيئات العمل الإبداعية.</p>
+      <p><strong>نقاط القوة:</strong> تصاميم مبتكرة وعصرية تستهدف هوية العلامات التجارية وتجربة العملاء والمساحات القابلة للتصوير والمشاركة الرقمية.</p>
+
+      <h2>جدول المقارنة الشامل بين أبرز الشركات في السوق</h2>
+      <div class="data-table-wrap">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>اسم الشركة</th>
+              <th>التخصص الجوهري</th>
+              <th>المقر الرئيسي</th>
+              <th>نوع المشاريع المستهدفة</th>
+              <th>العميل المثالي</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>شركة نسق (NASAQ)</strong></td>
+              <td>مقاولات فيت آوت وتنفيذ ميداني وتشطيبات جبسية</td>
+              <td>أبوظبي</td>
+              <td>فلل سكنية فاخرة، مكاتب، مساحات تجارية، أسقف</td>
+              <td>الملاك الذين لديهم مخططات ويرغبون في تنفيذ دقيق ومضمون في الموقع.</td>
+            </tr>
+            <tr>
+              <td><strong>الكيدرا (Algedra)</strong></td>
+              <td>استشارات تصميم معماري وداخلي فاخر</td>
+              <td>دبي وأبوظبي</td>
+              <td>قصور، فلل كبرى، عقارات تجارية فخمة</td>
+              <td>الملاك الباحثون عن تصاميم مفاهيمية معمارية شاملة من الصفر.</td>
+            </tr>
+            <tr>
+              <td><strong>أنتونوفيتش (Antonovich)</strong></td>
+              <td>تصميم كلاسيكي ملوكي وتأثيث حصري</td>
+              <td>دبي وأبوظبي</td>
+              <td>قصور فارهة، بنتهاوس راقٍ، أثاث مفصل</td>
+              <td>الباحثون عن الفخامة الكلاسيكية والتذهيب والأثاث المستورد الخاص.</td>
+            </tr>
+            <tr>
+              <td><strong>أركيف (Arcave)</strong></td>
+              <td>تصميم معماري وتجهيز داخلي متكامل</td>
+              <td>أبوظبي ودبي</td>
+              <td>مشاريع سكنية، فلل خاصة، مكاتب</td>
+              <td>العملاء الباحثون عن حلول متكاملة تغطي التصميم المعماري والتجهيز.</td>
+            </tr>
+            <tr>
+              <td><strong>فور سبيس (4SPACE)</strong></td>
+              <td>تصميم تجاري عصري ومطاعم وضيافة</td>
+              <td>دبي</td>
+              <td>مطاعم، كافيهات، علامات تجارية، مكاتب تقنية</td>
+              <td>أصحاب العلامات التجارية والمشاريع التجارية الباحثون عن تصاميم مبتكرة.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>متوسط التكاليف التقديرية في السوق الإماراتي (2026)</h2>
+      <p>تختلف تكلفة التصميم والتنفيذ في دولة الإمارات بحسب مساحة العقار ومستوى المواد والتشطيبات المطلوبة:</p>
+
+      <div class="data-table-wrap">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>نوع العقار</th>
+              <th>متوسط التكلفة الإجمالية التقديرية</th>
+              <th>متوسط السعر للقدم / المتر المربع</th>
+              <th>طبيعة النطاق والمواد</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>الفلل السكنية الفاخرة</strong></td>
+              <td>100,000 إلى 500,000+ درهم إماراتي</td>
+              <td>400 – 1,200 درهم / قدم مربع</td>
+              <td>أسقف جبسية معمارية، إضاءات ليد مخفية، مجالس فاخرة، نجارة مخصصة، تشطيبات حجرية ورخام.</td>
+            </tr>
+            <tr>
+              <td><strong>الشقق والبنتهاوس</strong></td>
+              <td>25,000 إلى 150,000 درهم إماراتي</td>
+              <td>250 – 650 درهم / قدم مربع</td>
+              <td>تجديد الأسقف المستعارة، قواطع الغرف، تجديد الإضاءة، أعمال الدهانات الدقيقة والباركيه.</td>
+            </tr>
+            <tr>
+              <td><strong>المكاتب والمقرات الإدارية</strong></td>
+              <td>150 إلى 500 درهم / متر مربع</td>
+              <td>250 – 550 درهم / قدم مربع</td>
+              <td>قواطع زجاجية وجبسية عازلة للصوت، أسقف صوتية، تعديل أنظمة التكييف والإنارة ومكافحة الحريق.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>كيف تختار الشركة الأنسب لمشروعك؟ (Checklist للملاك)</h2>
+      <p>قبل توقيع أي عقد أو دفع دفعات مقدمة، ينصح الفريق الهندسي لشركة نسق بالتحقق من النقاط الأربع التالية:</p>
+
+      <ol class="steps-list">
+        <li><strong>التأكد من الرخصة التجارية:</strong> يجب أن تتضمن رخصة الشركة نشاط "أعمال تنفيذ التصميم الداخلي (ديكور)" لدى دائرة التنمية الاقتصادية والبلدية المختصة لضمان صلاحيتها للعمل في الموقع.</li>
+        <li><strong>معاينة سجل المشاريع الواقعية:</strong> اطلب صوراً حقيقية لمواقع تم تسليمها مؤخراً. يمتلك فريق نسق خبرة ميدانية تفوق 11 عاماً مع آلاف المشاريع المنجزة عبر كافة الإمارات.</li>
+        <li><strong>طلب جدول كميات (BOQ) مفصل بدقة:</strong> احذر من عروض الأسعار الإجمالية الغامضة (Lump Sum). يجب أن يوضح العرض نوع ألواح الجبس، سماكة الهيكل المعدني، نوع الدهانات، وعدد طبقات المعجون.</li>
+        <li><strong>معرفة اشتراطات التراخيص المحلية:</strong> تأكد من قدرة المقاول على استخراج تصاريح منصة تم في أبوظبي، وموافقات الدفاع المدني، وشهادات عدم الممانعة (NOC) من المطورين العقاريين مثل الدار وبروفيس.</li>
+      </ol>
+
+      <div class="callout">
+        <h4>هل لديك مخططات هندسية ترغب في تنفيذها بأعلى معايير الدقة؟</h4>
+        <p>إذا كنت تملك بالفعل مخططات معتمدة من المصمم وتبحث عن مقاول فيت آوت موثوق يتولى التنفيذ الميداني الكامل، شارك مخططاتك مع فريق التسعير بشركة نسق للحصول على عرض أسعار شفاف وتفصيلي خلال 24-48 ساعة.</p>
+      </div>
+    `,
+    faqsAr: [
+      {
+        q: "من هي أبرز شركات التصميم الداخلي والفيت آوت في دولة الإمارات؟",
+        a: "تضم السوق الإماراتي شركات رائدة تشمل: شركة نسق لأعمال تنفيذ التصميم الداخلي (المتخصصة في التنفيذ الميداني والفلل والمكاتب بأبوظبي بخبرة 11+ عاماً)، ومجموعة الكيدرا (استشارات التصميم الفاخر)، ومجموعة أنتونوفيتش (الديكور الكلاسيكي والقصور)، وشركة أركيف (التصميم والتنفيذ)، وفور سبيس (التصميم التجاري والضيافة)."
+      },
+      {
+        q: "ما هو الفرق بين مصمم الديكور ومقاول تنفيذ التصميم الداخلي؟",
+        a: "مصمم الديكور مسؤول عن إعداد الرؤية الجمالية والمخططات المعمارية ثلاثية الأبعاد واختيار المواد، بينما مقاول التنفيذ (مثل شركة نسق) هو المقاول المرخص الذي ينزل إلى الموقع لتنفيذ الهياكل المعدنية، الجبس بورد، التكييف، الإنارة، والدهانات والتسليم النهائي."
+      },
+      {
+        q: "كم تبلغ تكلفة التصميم الداخلي والتشطيب للفلل في الإمارات؟",
+        a: "تتراوح تكلفة فيت آوت الفلل عموماً بين 100,000 إلى 500,000+ درهم إماراتي، بمتوسط سعر يتراوح بين 400 إلى 1,200 درهم للقدم المربع اعتماداً على مواصفات الرخام والجبس بورد وأعمال النجارة المخصصة."
+      },
+      {
+        q: "لماذا يفضل الملاك الاستعانة بشركة نسق لتنفيذ مشروعاتهم في أبوظبي؟",
+        a: "لأن نسق توفر تنفيذاً مباشراً دقيقاً بإشراف هندسي وفريق عمل يمتلك 11+ عاماً من الخبرة المستمرة في مواقع العمل الإماراتية وآلاف المشاريع المنفذة، مع شفافية كاملة في جداول الكميات، والتزام صارم بالمخططات المعتمدة دون تكاليف خفية."
+      }
+    ]
   }
 ];
 
@@ -881,9 +1334,7 @@ function buildArticleSchema(art, isArabic) {
   const desc = isArabic ? art.descAr : art.descEn;
   const faqs = isArabic ? art.faqsAr : art.faqsEn;
 
-  return {
-    "@context": "https://schema.org",
-    "@graph": [
+  const graph = [
       isArabic ? businessEntityAr : businessEntityEn,
       {
         "@type": "Article",
@@ -944,7 +1395,28 @@ function buildArticleSchema(art, isArabic) {
           }
         }))
       }
-    ]
+    ];
+
+  if (art.itemListEn && art.itemListAr) {
+    const items = isArabic ? art.itemListAr : art.itemListEn;
+    graph.push({
+      "@type": "ItemList",
+      "name": title,
+      "description": desc,
+      "numberOfItems": items.length,
+      "itemListElement": items.map((item, idx) => ({
+        "@type": "ListItem",
+        "position": idx + 1,
+        "name": item.name,
+        "description": item.description,
+        "url": item.url
+      }))
+    });
+  }
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": graph
   };
 }
 
@@ -1494,7 +1966,7 @@ allExistingEn.forEach(rel => {
   updateNavInHtmlFile(path.join(distDir, 'ar', rel), true);
 });
 
-// 6. Update Sitemap.xml with all 40 URLs + Google Image Sitemap metadata
+// 6. Update Sitemap.xml with all 42 URLs + Google Image Sitemap metadata
 console.log("Regenerating 40-URL bilingual XML sitemap with Google Image Sitemap schema...");
 
 function escapeXml(str) {
@@ -1732,4 +2204,4 @@ if (!llmsContent.includes('## NASAQ Technical Insights & Guides')) {
   console.log("Appended guides to dist/llms.txt");
 }
 
-console.log("All 10 bilingual articles, 2 hubs, 40 sitemap URLs, and AI index successfully generated!");
+console.log("All 12 bilingual articles, 2 hubs, 42 sitemap URLs, and AI index successfully generated!");

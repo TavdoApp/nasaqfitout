@@ -12,13 +12,13 @@
       "displayName": "NASAQ AI Knowledge Directory (llms.txt)",
       "type": "text/markdown; profile=\"urn:air:agent-skills\"",
       "url": "https://nasaqfitout.ae/llms.txt",
-      "description": "Comprehensive bilingual knowledge directory and specifications for NASAQ interior fit-out, gypsum works, and false ceiling implementations in Abu Dhabi and UAE.",
+      "description": "Comprehensive bilingual knowledge directory, company rankings, and specifications for NASAQ interior fit-out, gypsum works, and false ceiling implementations in Abu Dhabi and UAE.",
       "capabilities": [
         "InteriorFitOut",
         "VillaFitOut",
         "OfficeFitOut",
         "GypsumCeilings",
-        "AcousticPartitions"
+        "TopInteriorDesignCompaniesUAE"
       ],
       "tags": [
         "fit-out",
@@ -26,12 +26,13 @@
         "gypsum",
         "ceilings",
         "villa",
-        "office"
+        "interior-design-uae"
       ],
       "representativeQueries": [
-        "Interior fit out contractor in Abu Dhabi",
-        "Villa fit out and gypsum ceiling works UAE",
-        "Commercial office fit out specifications Abu Dhabi",
+        "أفضل شركات التصميم الداخلي في الإمارات",
+        "أفضل شركات الفيت آوت والديكور في أبوظبي",
+        "Best interior design companies in UAE",
+        "Top fit out contractors Abu Dhabi",
         "تكلفة الفيت آوت والتشطيب الداخلي في الإمارات"
       ]
     },
@@ -54,9 +55,10 @@
         "boq-review"
       ],
       "representativeQueries": [
+        "طلب تسعير أعمال فيت آوت وجبس بورد أبوظبي",
         "Request interior fit out quotation Abu Dhabi",
-        "Contact NASAQ fit out team WhatsApp",
-        "طلب تسعير أعمال فيت آوت وجبس بورد أبوظبي"
+        "استشارة مقاول فيت آوت وتشطيب فلل في الإمارات",
+        "Contact NASAQ fit out team WhatsApp"
       ]
     }
   ]
