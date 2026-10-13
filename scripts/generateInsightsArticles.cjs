@@ -1517,6 +1517,21 @@ for (const art of articles) {
             `<a class="button" href="https://wa.me/971505334861?text=Hello%20NASAQ%2C%20I%20read%20your%20article%20and%20would%20like%20to%20discuss%20a%20project." style="background:#fff;color:#151613;border-color:#fff;">WhatsApp our estimators</a>` +
           `</div>` +
         `</div>` +
+        `<div class="related-insights" style="margin-top:60px;border-top:1px solid #e2e3de;padding-top:40px;">` +
+          `<h3 style="font-size:24px;margin-bottom:24px;">Related Technical Guides & UAE Benchmarks</h3>` +
+          `<div class="insights-grid">` +
+            articles.filter(o => o.slug !== art.slug).slice(0, 3).map(rel => `
+              <a class="article-card" href="/insights/${rel.slug}/">
+                <img class="article-card-img" src="${rel.image}" alt="${rel.titleEn}" width="600" height="338" loading="lazy">
+                <div class="article-card-body">
+                  <span class="article-badge">${rel.badgeEn}</span>
+                  <h4 style="font-size:18px;margin:8px 0;line-height:1.4;">${rel.titleEn}</h4>
+                  <p style="font-size:13px;line-height:1.6;color:#555;">${rel.summaryEn}</p>
+                </div>
+              </a>
+            `).join('') +
+          `</div>` +
+        `</div>` +
       `</article>` +
     `</main>` +
     `<footer>` +
@@ -1642,6 +1657,21 @@ for (const art of articles) {
           `<div style="margin-top:20px;display:flex;gap:14px;flex-wrap:wrap;">` +
             `<a class="button" href="/ar/contact/">طلب عرض أسعار</a>` +
             `<a class="button" href="https://wa.me/971505334861?text=مرحباً%20فريق%20نسق%2C%20قرأت%20المقال%20وأود%20مناقشة%20مشروع%20فيت%20آوت." style="background:#fff;color:#151613;border-color:#fff;">تواصل عبر الواتساب مباشرة</a>` +
+          `</div>` +
+        `</div>` +
+        `<div class="related-insights" style="margin-top:60px;border-top:1px solid #e2e3de;padding-top:40px;">` +
+          `<h3 style="font-size:24px;margin-bottom:24px;">مقالات وأدلة فنية ومقارنات ذات صلة</h3>` +
+          `<div class="insights-grid">` +
+            articles.filter(o => o.slug !== art.slug).slice(0, 3).map(rel => `
+              <a class="article-card" href="/ar/insights/${rel.slug}/">
+                <img class="article-card-img" src="${rel.image}" alt="${rel.titleAr}" width="600" height="338" loading="lazy">
+                <div class="article-card-body">
+                  <span class="article-badge">${rel.badgeAr}</span>
+                  <h4 style="font-size:18px;margin:8px 0;line-height:1.4;">${rel.titleAr}</h4>
+                  <p style="font-size:13px;line-height:1.6;color:#555;">${rel.summaryAr}</p>
+                </div>
+              </a>
+            `).join('') +
           `</div>` +
         `</div>` +
       `</article>` +
