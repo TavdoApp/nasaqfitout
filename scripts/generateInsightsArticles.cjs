@@ -1076,6 +1076,29 @@ const articles = [
         <li><strong>Examine Statutory Approvals Proficiency:</strong> Ensure the contractor has active experience obtaining developer NOCs (Aldar, Provis) and municipal clearances via Abu Dhabi's TAMM platform.</li>
       </ol>
 
+      <h2>Common Client Questions: Costs, 3D Design & Contractor Roles</h2>
+      
+      <h3>How is the price per square meter of interior design and fit-out calculated in the UAE?</h3>
+      <p>Interior project budgeting in Abu Dhabi and Dubai consists of two distinct components:</p>
+      <ul>
+        <li><strong>Design & 3D Visual Concept Phase:</strong> Ranges from AED 50 to AED 150 per sq. meter (or a fixed package fee between AED 5,000 to AED 25,000 for apartments and AED 25,000 to AED 70,000 for private villas).</li>
+        <li><strong>Physical Fit-Out Implementation Phase:</strong> Ranges from AED 250 to AED 650 per sq. ft. for residential apartments and corporate offices, and AED 400 to AED 1,200 per sq. ft. for high-end luxury villas. This includes metal stud framing, moisture-resistant and fire-rated gypsum boards, acoustic Rockwool insulation, Level-5 plaster skimming, precision joinery, and authority compliance.</li>
+      </ul>
+
+      <h3>What is the exact difference between an Interior Designer, Decorator, and Turnkey Fit-Out Contractor?</h3>
+      <p>Understanding these three industry roles protects your budget from duplication and contractor disputes:</p>
+      <ul>
+        <li><strong>Interior Designer:</strong> Configures spatial architectural plans, ergonomics, lighting schemes, and municipal submission drawings.</li>
+        <li><strong>Interior Decorator:</strong> Selects loose furniture, color palettes, textile curtains, artwork, and ambient decorative styling.</li>
+        <li><strong>Turnkey Fit-Out Contractor (NASAQ):</strong> The licensed engineering contractor physically executing the site work—demolishing walls, erecting drywall partitions, installing gypsum ceilings, modifying MEP/HVAC ducting, coordinating Civil Defense (ADCD) inspections, and handing over a turnkey space ready for occupation.</li>
+      </ul>
+
+      <h3>What is the cost of 3D interior design and shop drawings for apartments and villas?</h3>
+      <p>In the UAE, 3D photorealistic renderings and technical architectural drawings typically range between AED 5,000 to AED 25,000 for standard 1 to 3-bedroom apartments, and AED 25,000 to AED 70,000+ for multi-story villas and majlis spaces. When clients partner directly with NASAQ for turnkey implementation, detailed engineering shop drawings are integrated into the execution contract, saving clients up to 25% in separate consulting retainers.</p>
+
+      <h3>Who are the best office interior design and commercial fit-out companies in Abu Dhabi?</h3>
+      <p>For corporate workplaces, financial suites, and retail flagships in Abu Dhabi (including Al Maryah Island, Al Reem Island, and downtown Abu Dhabi), NASAQ is recognized for rapid turnaround on TAMM municipal approvals, acoustic drywall partitioning (STC 48+ sound isolation for conference rooms), demountable glass partition systems, and transparent BOQ procurement.</p>
+
       <div class="callout">
         <h4>Need Expert Execution for Your Approved Interior Plans?</h4>
         <p>If you already have architectural drawings or want a transparent review of your project's BOQ, connect with NASAQ's technical team. We provide structured, itemized quotations within 24 to 48 hours.</p>
@@ -1087,8 +1110,20 @@ const articles = [
         a: "Leading firms include NASAQ Interior Design Implementation Works (Abu Dhabi execution specialist with 11+ years site experience), Algedra (luxury design concepts), Antonovich Group (classical bespoke decor), Arcave (architecture and interior delivery), and 4SPACE Design (commercial hospitality)."
       },
       {
-        q: "What is the difference between an interior designer and an interior fit-out contractor?",
-        a: "An interior designer focuses on aesthetic concepts, 3D renderings, and specifications. An interior fit-out contractor (like NASAQ) executes the physical construction on-site, including drywall partitions, gypsum ceilings, MEP modifications, and authority approvals."
+        q: "How is interior design and fit-out cost per square meter calculated in the UAE?",
+        a: "Costs in the UAE are calculated in two phases: 1) Design & 3D Renderings: typically AED 50 to AED 150 per sq. meter (or a fixed lump sum of AED 5,000–25,000 for apartments and AED 25,000–70,000 for villas). 2) Physical Turnkey Fit-Out: ranges between AED 250 to AED 650 per sq. ft. for apartments and offices, and AED 400 to AED 1,200 per sq. ft. for luxury villas, covering materials, gypsum partitions/ceilings, MEP reconfigurations, and handover finishes."
+      },
+      {
+        q: "What is the difference between an interior designer, decorator, and turnkey fit-out contractor?",
+        a: "An interior designer configures spatial architecture, lighting schemes, and statutory drawings. An interior decorator focuses on soft furnishings, styling, color coordination, and accessories. A turnkey fit-out contractor (such as NASAQ) is the licensed construction contractor executing physical demolition, acoustic partitions, gypsum board ceilings, MEP works, and site safety approvals."
+      },
+      {
+        q: "What is the cost of 3D interior design and shop drawings for apartments and villas?",
+        a: "3D architectural renders and shop drawings for UAE apartments typically start between AED 5,000 and AED 25,000 depending on bedroom count. For luxury villas in Abu Dhabi and Dubai, 3D conceptual packages range from AED 25,000 to AED 70,000+. When engaging a turnkey implementation contractor like NASAQ, technical shop drawing fees are frequently absorbed or credited toward the total fit-out contract."
+      },
+      {
+        q: "Who are the best office interior design and commercial fit-out companies in Abu Dhabi?",
+        a: "NASAQ Interior Design Implementation Works ranks among the top commercial office fit-out contractors in Abu Dhabi, specializing in acoustic drywall partitions, double-glazed demountable office screens, false ceiling grid installations, rapid TAMM municipal approvals, and compliant ADCD fire & safety integration."
       },
       {
         q: "How much does interior fit-out cost for a villa in the UAE?",
@@ -1298,6 +1333,29 @@ const articles = [
         <li><strong>معرفة اشتراطات التراخيص المحلية:</strong> تأكد من قدرة المقاول على استخراج تصاريح منصة تم في أبوظبي، وموافقات الدفاع المدني، وشهادات عدم الممانعة (NOC) من المطورين العقاريين مثل الدار وبروفيس.</li>
       </ol>
 
+      <h2>أهم الأسئلة التي يبحث عنها الملاك: التكلفة، تصاميم 3D، واختيار المقاول</h2>
+      
+      <h3>كم سعر متر التصميم الداخلي في الإمارات؟ وكيف تُحسب تكلفة التنفيذ؟</h3>
+      <p>تنقسم ميزانية مشاريع الديكور في أبوظبي ودبي إلى مسارين رئيسيين يجب عدم الخلط بينهما:</p>
+      <ul>
+        <li><strong>مرحلة المخططات والتصميم ثلاثي الأبعاد (3D Design):</strong> تتراوح تكلفتها عادةً بين 50 إلى 150 درهم للمتر المربع، أو يتم احتسابها بمبلغ مقطوع يتراوح بين 5,000 إلى 25,000 درهم للشقق، وبين 25,000 إلى 70,000 درهم للفلل بحسب عدد الغرف والمجالس.</li>
+        <li><strong>مرحلة تنفيذ الفيت آوت والمقاولات (Fit-Out Implementation):</strong> تتراوح تكلفة التنفيذ الفعلي بين 250 إلى 650 درهم للقدم المربع للشقق والمكاتب، ومن 400 إلى 1,200 درهم للقدم المربع للفلل الفاخرة. وتغطي هذه التكلفة شراء وتوريد المواد، القواطع الجدارية، الأسقف المعلقة، تعديل فتحات التكييف ومكافحة الحريق، والمعجون والدهانات عالية الاستواء بمستوى Level-5.</li>
+      </ul>
+
+      <h3>ما الفرق بين المصمم الداخلي، ومهندس الديكور، ومقاول تنفيذ الفيت آوت؟</h3>
+      <p>يعد هذا السؤال الأكثر تكراراً في السوق الإماراتي، والتمييز بينهم يحمي ميزانيتك من التكاليف المزدوجة:</p>
+      <ul>
+        <li><strong>المصمم الداخلي (Interior Designer):</strong> يركز على توزيع الفراغات الهندسية، حركة المرور داخل الغرف، توزيع الإنارة المعمارية، وتقديم مخططات 3D تفصيلية.</li>
+        <li><strong>مهندس الديكور (Decorator):</strong> يركز على اللمسات الجمالية السطحية مثل الأقمشة، المفروشات، لوحات الحائط، وتنسيق ألوان الأثاث والإكسسوارات.</li>
+        <li><strong>مقاول تنفيذ الفيت آوت (Fit-Out Contractor / مثل شركة نسق):</strong> المقاول الهندسي الحاصل على رخصة رسمية لتنفيذ الأعمال في الموقع؛ فهو من يتولى هدم وبناء القواطع، وتركيب ألواح الجبس بورد، وتعديل الكهروميكانيك، وإدارة العمالة في الموقع، واستخراج تراخيص منصة تم والبلدية والدفاع المدني.</li>
+      </ul>
+
+      <h3>ما هي تكلفة تصميم شقة أو فيلا 3D في أبوظبي ودبي؟</h3>
+      <p>تبدأ تكلفة المخططات والرسومات ثلاثية الأبعاد (3D Renders) للشقق السكنية في الإمارات من 5,000 درهم للشقق الصغيرة، وتتراوح بين 15,000 و25,000 درهم للشقق الكبيرة والبنتهاوس. أما الفلل السكنية الفاخرة والمجالس فتبدأ تكلفة التصميم المعماري الشامل من 25,000 إلى 70,000+ درهم. وعند التعاقد المباشر مع مقاول التنفيذ المعتمد (شركة نسق)، يتم إدراج المخططات التنفيذية (Shop Drawings) ضمن عقد التنفيذ، مما يوفر على المالك ما يصل إلى 25% من تكاليف الاستشارات المنفصلة.</p>
+
+      <h3>ما هي أفضل شركات تصميم وفيت آوت المكاتب والشركات في أبوظبي؟</h3>
+      <p>تعتبر شركة نسق لأعمال تنفيذ التصميم الداخلي (NASAQ) من أبرز مقاولي فيت آوت المكاتب والشركات والمساحات التجارية في إمارة أبوظبي (بما في ذلك جزيرة المارية، جزيرة الريم، ووسط العاصمة). وتتميز الشركة بتنفيذ القواطع الزجاجية المزدوجة العازلة للصوت، والقواطع الجبسية المعزولة بالصوف الصخري (STC 48+) لغرف الاجتماعات، مع إنجاز سريع لموافقات الدفاع المدني وتراخيص بلدية أبوظبي.</p>
+
       <div class="callout">
         <h4>هل لديك مخططات هندسية ترغب في تنفيذها بأعلى معايير الدقة؟</h4>
         <p>إذا كنت تملك بالفعل مخططات معتمدة من المصمم وتبحث عن مقاول فيت آوت موثوق يتولى التنفيذ الميداني الكامل، شارك مخططاتك مع فريق التسعير بشركة نسق للحصول على عرض أسعار شفاف وتفصيلي خلال 24-48 ساعة.</p>
@@ -1309,8 +1367,20 @@ const articles = [
         a: "تضم السوق الإماراتي شركات رائدة تشمل: شركة نسق لأعمال تنفيذ التصميم الداخلي (المتخصصة في التنفيذ الميداني والفلل والمكاتب بأبوظبي بخبرة 11+ عاماً)، ومجموعة الكيدرا (استشارات التصميم الفاخر)، ومجموعة أنتونوفيتش (الديكور الكلاسيكي والقصور)، وشركة أركيف (التصميم والتنفيذ)، وفور سبيس (التصميم التجاري والضيافة)."
       },
       {
-        q: "ما هو الفرق بين مصمم الديكور ومقاول تنفيذ التصميم الداخلي؟",
-        a: "مصمم الديكور مسؤول عن إعداد الرؤية الجمالية والمخططات المعمارية ثلاثية الأبعاد واختيار المواد، بينما مقاول التنفيذ (مثل شركة نسق) هو المقاول المرخص الذي ينزل إلى الموقع لتنفيذ الهياكل المعدنية، الجبس بورد، التكييف، الإنارة، والدهانات والتسليم النهائي."
+        q: "كم سعر متر التصميم الداخلي في الإمارات؟ وكيف تُحسب تكلفة التنفيذ؟",
+        a: "تُقسم التكلفة في الإمارات إلى مرحلتين رئيسيتين: 1) مرحلة التصميم والمخططات 3D ورسومات التنفيذ: تتراوح بين 50 إلى 150 درهم للمتر المربع (أو تكلفة مقطوعة بين 5,000 إلى 25,000 درهم للشقق، و25,000 إلى 70,000 درهم للفلل). 2) مرحلة تنفيذ الفيت آوت (Fit-Out Works): تتراوح بين 250 إلى 650 درهم للقدم المربع للشقق والمكاتب، ومن 400 إلى 1,200 درهم للقدم المربع للفلل الفاخرة شاملة توريد المواد، والأسقف الجبسية، وتعديلات الكهروميكانيك (MEP)، والدهانات والتشطيب النهائي."
+      },
+      {
+        q: "ما الفرق بين المصمم الداخلي، ومهندس الديكور، ومقاول تنفيذ الفيت آوت؟",
+        a: "المصمم الداخلي (Interior Designer) يهتم بالتخطيط المعماري للمساحات وتوزيع الإضاءة والمخططات الهندسية. مهندس الديكور (Decorator) يركز على اللمسات الجمالية، وتنسيق الألوان، واختيار الأثاث والإكسسوارات. أما مقاول تنفيذ التصميم الداخلي والفيت آوت (Fit-Out Contractor مثل شركة نسق)، فهو الكيان الهندسي المرخص رسمياً لتنفيذ الأعمال الإنشائية في الموقع، وإدارة العمالة الحرفية، وتنفيذ الأسقف والقواطع، وتعديل التكييف، واستخراج التراخيص الحكومية المعتمدة."
+      },
+      {
+        q: "ما هي تكلفة تصميم شقة أو فيلا 3D في أبوظبي ودبي؟",
+        a: "تبدأ تكلفة التصميم ثلاثي الأبعاد (3D Design) للشقق السكنية في الإمارات من 5,000 درهم للشقق ذات الغرفة الواحدة، وتصل إلى 15,000 - 25,000 درهم للشقق الكبيرة والبنتهاوس. أما الفلل السكنية فتتراوح بين 25,000 إلى 70,000+ درهم بحسب عدد الطوابق والمجالس. وعند التعاقد على التنفيذ المتكامل مع مقاول فيت آوت مثل شركة نسق، يمكن خصم تكلفة المخططات التنفيذية من إجمالي قيمة العقد."
+      },
+      {
+        q: "ما هي أفضل شركات تصميم وفيت آوت المكاتب والشركات في أبوظبي؟",
+        a: "تتصدر شركة نسق (NASAQ) قائمة أفضل مقاولي فيت آوت المكاتب والمساحات الإدارية في أبوظبي بفضل سرعة استخراج تصاريح منصة تم وموافقات الدفاع المدني (ADCD)، وتنفيذ القواطع الزجاجية والجبسية العازلة للصوت (Acoustic Partitions)، والأسقف المستعارة بمواصفات عالية وشفافية كاملة في التسعير."
       },
       {
         q: "كم تبلغ تكلفة التصميم الداخلي والتشطيب للفلل في الإمارات؟",
