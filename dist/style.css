@@ -110,6 +110,17 @@ input,select,textarea{display:block;width:100%;padding:14px;margin-top:8px;borde
 .feature-item h3{margin:0 0 10px;font-size:18px;font-weight:600;color:var(--ink)}
 .feature-item p{font-size:14px;color:#62635d;margin:0;line-height:1.6}
 
+/* Specialist Sectors & Trades Scope Grid */
+.sectors-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:40px;width:100%}
+.sector-card{background:var(--paper);border:1px solid var(--line);padding:32px 28px;display:flex;flex-direction:column;justify-content:space-between;transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease}
+.sector-card:hover{transform:translateY(-4px);border-color:var(--bronze);box-shadow:0 14px 32px rgba(0,0,0,.06)}
+.sector-tag{font-size:11px;text-transform:uppercase;letter-spacing:.16em;font-weight:600;color:var(--bronze);margin-bottom:14px}
+.sector-card h3{font-size:20px;line-height:1.3;margin:0 0 14px;font-weight:500;color:var(--ink)}
+.sector-card p{font-size:14.5px;line-height:1.65;color:#62635d;margin:0 0 20px}
+.sector-pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:auto;padding-top:18px;border-top:1px solid var(--line)}
+.sector-pill{display:inline-block;font-size:11.5px;padding:4px 10px;background:#eae6dd;color:#454640;border:1px solid #dcd7ce;letter-spacing:.02em}
+html[lang="ar"] .sector-pill{letter-spacing:0}
+
 /* Insights & Editorial Articles */
 .insights-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:40px;width:100%}
 .article-card{background:var(--paper);border:1px solid var(--line);display:flex;flex-direction:column;transition:transform .2s,box-shadow .2s;text-decoration:none;color:inherit;width:100%}
@@ -176,6 +187,7 @@ html[lang="ar"] .skip:focus{right:0}
   .ribbon{gap:18px;flex-wrap:wrap}
   .faq-grid{grid-template-columns:1fr}
   .features-grid{grid-template-columns:1fr}
+  .sectors-grid{grid-template-columns:repeat(2,1fr);gap:24px}
   .insights-grid{grid-template-columns:1fr;gap:26px}
 }
 
@@ -247,6 +259,9 @@ html[lang="ar"] .skip:focus{right:0}
   .faq-card{padding:20px}
   .faq-card h3{font-size:16px}
   .faq-card p{font-size:14px}
+  .sectors-grid{grid-template-columns:1fr;gap:20px}
+  .sector-card{padding:24px 20px}
+  .sector-card h3{font-size:18px}
 }
 
 @media(prefers-reduced-motion:reduce){
