@@ -19,10 +19,7 @@ const businessEntityEn = {
   "telephone": "+971505334861",
   "email": "info@nasaqfitout.ae",
   "hasMap": "https://share.google/jD1fYkpZ96pX0pQPN",
-  "sameAs": [
-    "https://www.instagram.com/nasaq.fitout/",
-    "https://share.google/jD1fYkpZ96pX0pQPN"
-  ]
+  "sameAs":["https://www.instagram.com/nasaq.fitout/","https://www.linkedin.com/company/nasaq-fitout","https://share.google/jD1fYkpZ96pX0pQPN"]
 };
 
 const businessEntityAr = {
@@ -34,10 +31,7 @@ const businessEntityAr = {
   "telephone": "+971505334861",
   "email": "info@nasaqfitout.ae",
   "hasMap": "https://share.google/jD1fYkpZ96pX0pQPN",
-  "sameAs": [
-    "https://www.instagram.com/nasaq.fitout/",
-    "https://share.google/jD1fYkpZ96pX0pQPN"
-  ]
+  "sameAs":["https://www.instagram.com/nasaq.fitout/","https://www.linkedin.com/company/nasaq-fitout","https://share.google/jD1fYkpZ96pX0pQPN"]
 };
 
 // 5 Pillar Articles Data

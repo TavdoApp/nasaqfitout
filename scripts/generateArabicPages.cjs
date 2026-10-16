@@ -106,10 +106,7 @@ const businessEntityAr = {
       "closes": "18:00"
     }
   ],
-  "sameAs": [
-    "https://www.instagram.com/nasaq.fitout/",
-    "https://share.google/jD1fYkpZ96pX0pQPN"
-  ],
+  "sameAs":["https://www.instagram.com/nasaq.fitout/","https://www.linkedin.com/company/nasaq-fitout","https://share.google/jD1fYkpZ96pX0pQPN"],
   "knowsAbout": [
     "أعمال الفيت آوت الداخلي",
     "تنفيذ التصميم الداخلي",
