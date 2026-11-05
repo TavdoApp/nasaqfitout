@@ -49,3 +49,46 @@ document.querySelector('#enquiry')?.addEventListener('submit',e=>{
   }
 });
 
+
+// Instant WhatsApp Fit-Out Estimator
+function initEstimators(){
+  document.querySelectorAll('.fitout-estimator').forEach(estimator=>{
+    const isAr = document.documentElement.lang === 'ar';
+    const typeSelect = estimator.querySelector('.est-type');
+    const locSelect = estimator.querySelector('.est-loc');
+    const timeSelect = estimator.querySelector('.est-time');
+    const waBtn = estimator.querySelector('.est-whatsapp-btn');
+
+    function update(){
+      const type = typeSelect ? typeSelect.value : '';
+      const loc = locSelect ? locSelect.value : '';
+      const time = timeSelect ? timeSelect.value : '';
+
+      const text = isAr
+        ? 'مرحباً فريق نسق، استخدمت حاسبة التقدير السريع على موقعكم:\n\n' +
+          '• نوع المشروع: ' + type + '\n' +
+          '• المجمع / الموقع: ' + loc + '\n' +
+          '• الجدول الزمني المطلوب: ' + time + '\n\n' +
+          'أرجو تزويدي بالتقدير الأولي وتفاصيل المعاينة وموافقات المبنى.'
+        : 'Hello NASAQ, I used the instant fit-out estimator on your website:\n\n' +
+          '• Project Vision: ' + type + '\n' +
+          '• Community / Location: ' + loc + '\n' +
+          '• Preferred Timeline: ' + time + '\n\n' +
+          'Please provide the preliminary estimate and discuss the site survey and building gate pass.';
+
+      if(waBtn){
+        waBtn.href = 'https://wa.me/971505334861?text=' + encodeURIComponent(text);
+      }
+    }
+
+    [typeSelect, locSelect, timeSelect].forEach(sel => {
+      sel && sel.addEventListener('change', update);
+    });
+    update();
+  });
+}
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initEstimators);
+} else {
+  initEstimators();
+}

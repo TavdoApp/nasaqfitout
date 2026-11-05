@@ -282,3 +282,22 @@ html[lang="ar"] .skip:focus{right:0}
   html{scroll-behavior:auto}
   *{transition:none!important}
 }
+
+/* Instant Fit-Out WhatsApp Estimator */
+.fitout-estimator{background:#fff;border:1px solid #dcded8;border-radius:4px;padding:36px;box-shadow:0 10px 30px rgba(0,0,0,0.04);margin-top:35px}
+.est-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-bottom:25px}
+.est-field label{display:block;font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:#181918;margin-bottom:8px}
+.est-field select{width:100%;padding:14px 16px;background:#fbfbf9;border:1px solid #cfd0c9;border-radius:3px;font-size:15px;color:#181918;font-family:inherit;outline:none;cursor:pointer;transition:border-color 0.2s}
+.est-field select:focus{border-color:var(--bronze,#b89158)}
+.est-output-card{background:#181918;color:#fff;border-radius:3px;padding:24px 28px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:20px}
+.est-output-info h4{font-size:18px;color:#fff;margin:0 0 6px 0;font-weight:600}
+.est-output-info p{font-size:14px;color:#bbb;margin:0;line-height:1.5}
+.est-whatsapp-btn{display:inline-flex;align-items:center;gap:10px;background:#25d366;color:#fff;padding:14px 24px;border-radius:3px;font-size:15px;font-weight:700;text-decoration:none;transition:transform 0.2s,background 0.2s}
+.est-whatsapp-btn:hover{background:#20ba5a;transform:translateY(-2px);color:#fff}
+.est-whatsapp-btn svg{flex-shrink:0}
+@media(max-width:860px){
+  .fitout-estimator{padding:24px 18px}
+  .est-grid{grid-template-columns:1fr;gap:16px}
+  .est-output-card{flex-direction:column;align-items:flex-start}
+  .est-whatsapp-btn{width:100%;justify-content:center}
+}
