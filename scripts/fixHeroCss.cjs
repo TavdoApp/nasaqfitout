@@ -94,3 +94,4 @@ function updateHtmlVersion(dir) {
 
 const bumpedCount = updateHtmlVersion(distDir);
 console.log(`Bumped CSS version from ?v=3 to ?v=4 across ${bumpedCount} HTML files.`);
+
