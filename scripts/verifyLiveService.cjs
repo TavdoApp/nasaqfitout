@@ -1,10 +1,12 @@
 const https = require('https');
 
 const urls = [
-  'https://d6a56183.nasaqfitout.pages.dev/services/wall-mouldings-boiserie/',
-  'https://d6a56183.nasaqfitout.pages.dev/ar/services/wall-mouldings-boiserie/',
-  'https://nasaqfitout.ae/services/wall-mouldings-boiserie/',
-  'https://nasaqfitout.ae/ar/services/wall-mouldings-boiserie/'
+  'https://nasaqfitout.ae/insights/saadiyat-island-luxury-interior-fitout-guide/',
+  'https://nasaqfitout.ae/ar/insights/saadiyat-island-luxury-interior-fitout-guide/',
+  'https://nasaqfitout.ae/insights/yas-island-villa-apartment-interior-fitout-guide/',
+  'https://nasaqfitout.ae/ar/insights/yas-island-villa-apartment-interior-fitout-guide/',
+  'https://nasaqfitout.ae/insights/al-reem-island-luxury-apartment-makeover-guide/',
+  'https://nasaqfitout.ae/ar/insights/al-reem-island-luxury-apartment-makeover-guide/'
 ];
 
 function check(url) {
