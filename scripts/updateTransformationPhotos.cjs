@@ -150,3 +150,4 @@ if (updatedAr) {
 
 fs.writeFileSync(generatorFile, code, 'utf8');
 console.log('generateInsightsArticles.cjs updated with after transformation photos!');
+
