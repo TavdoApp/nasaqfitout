@@ -269,3 +269,4 @@ function injectIntoContact() {
 injectIntoContact();
 
 console.log('\n🚀 Instant WhatsApp Estimator Widget built and deployed successfully!');
+
