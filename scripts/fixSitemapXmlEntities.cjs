@@ -17,3 +17,4 @@ if (remaining) {
 
 fs.writeFileSync(sitemapPath, content, 'utf8');
 console.log('✅ Saved dist/sitemap.xml');
+

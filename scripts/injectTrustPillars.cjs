@@ -198,3 +198,4 @@ const wellKnownCatalogPath = path.join(DIST_DIR, '.well-known', 'ai-catalog.json
 });
 
 console.log('\n🚀 Trust Pillars and Bring Your Design Card injected successfully!');
+

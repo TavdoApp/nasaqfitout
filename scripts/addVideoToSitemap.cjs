@@ -61,3 +61,4 @@ if (!sitemap.includes('saadiyat-completed-handover.mp4')) {
 } else {
   console.log('ℹ️ Video schema already present in dist/sitemap.xml');
 }
+
