@@ -79,3 +79,4 @@ htmlFiles.forEach(file => {
 console.log(`✅ Bumped style.css?v=5 across ${countBusted} HTML files`);
 console.log(`✅ Applied inline beige/bronze style to .est-whatsapp-btn across ${countBtnStyled} HTML files`);
 console.log('\n🎉 Done! The estimator button is now warm beige/bronze, perfectly matching the hero.');
+
