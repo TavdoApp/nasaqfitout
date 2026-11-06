@@ -314,3 +314,19 @@ html[lang="ar"] .skip:focus{right:0}
   .guarantees-grid{grid-template-columns:1fr;gap:20px}
   .guarantee-card{padding:26px 22px}
 }
+
+/* Trust Ribbon & Bring Your Design Callout */
+.trust-ribbon{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;background:#181918;color:#fff;padding:26px 7%;border-bottom:1px solid rgba(255,255,255,0.08);width:100%}
+.trust-pill{display:flex;align-items:flex-start;gap:12px}
+.trust-pill-icon{width:36px;height:36px;border-radius:50%;background:rgba(184,145,88,0.15);color:var(--bronze,#b89158);display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0}
+.trust-pill-text h4{font-size:14.5px;margin:0 0 3px 0;color:#fff;font-weight:600}
+.trust-pill-text p{font-size:12.5px;color:#aaa;margin:0;line-height:1.45}
+.bring-design-card{background:#222321;color:#fff;border:1px solid var(--bronze,#b89158);padding:36px 32px;border-radius:4px;margin-top:35px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:24px}
+@media(max-width:960px){
+  .trust-ribbon{grid-template-columns:repeat(2,1fr);padding:22px 6%;gap:16px}
+  .bring-design-card{padding:26px 20px;flex-direction:column;align-items:flex-start}
+  .bring-design-card .button{width:100%;justify-content:center;text-align:center}
+}
+@media(max-width:600px){
+  .trust-ribbon{grid-template-columns:1fr;gap:14px}
+}

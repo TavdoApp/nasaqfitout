@@ -262,3 +262,4 @@ const wellKnownCatalogPath = path.join(DIST_DIR, '.well-known', 'ai-catalog.json
 });
 
 console.log('\n🚀 6 Ironclad Guarantees injected and synchronized successfully!');
+
