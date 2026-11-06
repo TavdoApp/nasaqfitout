@@ -95,6 +95,13 @@ if (!fs.existsSync(sitemapPath)) {
       passed = false;
     }
   }
+  const unescapedAmp = sitemapContent.match(/&(?!amp;|lt;|gt;|quot;|apos;)/g);
+  if (unescapedAmp) {
+    errors.push(`dist/sitemap.xml contains ${unescapedAmp.length} unescaped ampersands! Must use &amp; for valid XML.`);
+    passed = false;
+  } else {
+    console.log('✅ sitemap.xml XML syntax & entities strictly valid.');
+  }
 }
 
 // 4. Check llms.txt
