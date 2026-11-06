@@ -301,3 +301,16 @@ html[lang="ar"] .skip:focus{right:0}
   .est-output-card{flex-direction:column;align-items:flex-start}
   .est-whatsapp-btn{width:100%;justify-content:center}
 }
+
+/* NASAQ 6 Ironclad Guarantees */
+.guarantees-section{padding:90px 7%}
+.guarantees-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:40px;width:100%}
+.guarantee-card{background:#fff;border:1px solid #dcded8;border-top:4px solid var(--bronze,#b89158);padding:32px 28px;box-shadow:0 6px 20px rgba(0,0,0,0.03);display:flex;flex-direction:column;justify-content:space-between}
+.guarantee-num{font-size:12px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--bronze,#b89158);margin-bottom:12px;display:inline-block}
+.guarantee-card h3{font-size:19px;color:#181918;margin:0 0 12px 0;line-height:1.35}
+.guarantee-card p{font-size:14.5px;color:#555750;line-height:1.7;margin:0}
+.guarantee-badge{margin-top:18px;display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;color:#181918;background:#f4f5f0;padding:4px 10px;border-radius:3px;align-self:flex-start}
+@media(max-width:960px){
+  .guarantees-grid{grid-template-columns:1fr;gap:20px}
+  .guarantee-card{padding:26px 22px}
+}
