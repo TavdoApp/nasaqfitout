@@ -18,3 +18,4 @@ const DIST_DIR = path.join(__dirname, '..', 'dist');
     console.log(`ℹ️ No trust-ribbon found in ${relPath}`);
   }
 });
+
