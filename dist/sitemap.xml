@@ -765,4 +765,46 @@
       <video:family_friendly>yes</video:family_friendly>
     </video:video>
   </url>
+  <url>
+    <loc>https://nasaqfitout.ae/insights/al-ain-villa-fitout-al-kaabi-al-dhahir-case-study/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nasaqfitout.ae/insights/al-ain-villa-fitout-al-kaabi-al-dhahir-case-study/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nasaqfitout.ae/ar/insights/al-ain-villa-fitout-al-kaabi-al-dhahir-case-study/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/insights/al-ain-villa-fitout-al-kaabi-al-dhahir-case-study/"/>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://nasaqfitout.ae/assets/alkaabi-project/modern-rectangular-track-boiserie-room.jpg</image:loc>
+      <image:title>Al Ain Luxury Villa Fit-Out Case Study: Modern Magnetic Track Lighting &amp; Turnkey Craft for Mr. Ahmed Al Kaabi in Al Dhahir</image:title>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://nasaqfitout.ae/assets/alkaabi-project/modern-rectangular-track-boiserie-room.jpg</video:thumbnail_loc>
+      <video:title>Mr. Ahmed Al Kaabi Villa Al Ain Al Dhahir Turnkey Fit-Out Walkthrough</video:title>
+      <video:description>Walkthrough video showing modern flush magnetic track lighting, crisp geometric gypsum false ceilings, and precision wall mouldings executed in December 2023 in Al Dhahir, Al Ain.</video:description>
+      <video:content_loc>https://nasaqfitout.ae/assets/alkaabi-project/alkaabi-villa-walkthrough-1.mp4</video:content_loc>
+      <video:publication_date>2026-11-08T08:30:00+04:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://nasaqfitout.ae/ar/insights/al-ain-villa-fitout-al-kaabi-al-dhahir-case-study/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nasaqfitout.ae/ar/insights/al-ain-villa-fitout-al-kaabi-al-dhahir-case-study/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nasaqfitout.ae/insights/al-ain-villa-fitout-al-kaabi-al-dhahir-case-study/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nasaqfitout.ae/insights/al-ain-villa-fitout-al-kaabi-al-dhahir-case-study/"/>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://nasaqfitout.ae/assets/alkaabi-project/modern-rectangular-track-boiserie-room.jpg</image:loc>
+      <image:title>قصة نجاح تشطيب فيلا السيد أحمد عوض الكعبي في العين (منطقة الظاهر): الإضاءة المغناطيسية والتشطيب الفاخر</image:title>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://nasaqfitout.ae/assets/alkaabi-project/modern-rectangular-track-boiserie-room.jpg</video:thumbnail_loc>
+      <video:title>توثيق تشطيب فيلا السيد أحمد عوض الكعبي في العين منطقة الظاهر</video:title>
+      <video:description>فيديو توثيقي شامل يوضح دقة استقامة مسارات الإضاءة المغناطيسية الحديثة وأسقف الجبس الهندسية والبانوهات في منطقة الظاهر بالعين.</video:description>
+      <video:content_loc>https://nasaqfitout.ae/assets/alkaabi-project/alkaabi-villa-walkthrough-1.mp4</video:content_loc>
+      <video:publication_date>2026-11-08T08:30:00+04:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
 </urlset>
