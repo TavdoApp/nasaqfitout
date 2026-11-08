@@ -88,3 +88,4 @@ fs.writeFileSync(arHtmlPath, arHtml, 'utf8');
 console.log('✅ Updated dist/ar/index.html bring-design card copy');
 
 console.log('\n🎉 Real-world photo replication and ready 3D design capabilities fully codified!');
+

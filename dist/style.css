@@ -8,9 +8,9 @@ button,input,select,textarea{font:inherit}
 button,a,input,select,textarea{outline-offset:5px}
 a:hover{color:var(--bronze)}
 
-header{height:108px;padding:12px 5%;display:flex;align-items:center;gap:40px;background:var(--paper);color:var(--ink);border-bottom:1px solid var(--line);width:100%;max-width:100%}
-header .brand{margin-right:auto;display:flex;align-items:center;justify-content:center}
-header .brand img{width:84px;height:84px;object-fit:contain}
+body > header{height:108px;padding:12px 5%;display:flex;align-items:center;gap:40px;background:var(--paper);color:var(--ink);border-bottom:1px solid var(--line);width:100%;max-width:100%}
+body > header .brand{margin-right:auto;display:flex;align-items:center;justify-content:center}
+body > header .brand img{width:84px;height:84px;object-fit:contain}
 nav{display:flex;gap:34px;font-size:14px}
 .navcta{background:var(--bronze);color:#151613;border:1px solid var(--bronze);padding:12px 20px;font-size:14px;font-weight:500;letter-spacing:.02em;transition:background .2s,color .2s}
 .navcta:hover{background:#d3ae81;color:#151613}
@@ -170,7 +170,7 @@ html[lang="ar"] .data-table{text-align:right}
 
 /* RTL Arabic Typography & Overrides */
 html[lang="ar"]{direction:rtl;text-align:right;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Cairo","Tajawal","Tahoma",Arial,sans-serif}
-html[lang="ar"] header .brand{margin-right:0;margin-left:auto}
+html[lang="ar"] body > header .brand{margin-right:0;margin-left:auto}
 html[lang="ar"] .services{border-left:none;border-right:1px solid #bfbab0}
 html[lang="ar"] .services>a{border-right:none;border-left:1px solid #bfbab0}
 html[lang="ar"] .floating{right:auto;left:22px}
@@ -181,8 +181,8 @@ html[lang="ar"] .skip:focus{right:0}
 @media(min-width:1600px){.hero-copy{padding-top:140px}}
 
 @media(max-width:900px){
-  header{height:90px;gap:20px}
-  header img,header .brand img{height:66px;width:66px}
+  body > header{height:90px;gap:20px}
+  header img,body > header .brand img{height:66px;width:66px}
   nav{gap:18px}
   .navcta{display:none}
   .hero{min-height:calc(100svh - 90px);height:auto}
@@ -203,8 +203,8 @@ html[lang="ar"] .skip:focus{right:0}
 }
 
 @media(max-width:600px){
-  header{position:relative;height:78px;padding:10px 5%;gap:12px;justify-content:space-between}
-  header img,header .brand img{height:54px;width:54px}
+  body > header{position:relative;height:78px;padding:10px 5%;gap:12px;justify-content:space-between}
+  header img,body > header .brand img{height:54px;width:54px}
   #menu{display:block;background:none;border:1px solid var(--line);color:var(--ink);padding:7px 12px;font-size:13px}
   .lang-switch{padding:7px 11px;font-size:12.5px}
   nav{display:none;position:absolute;top:78px;left:0;right:0;background:var(--paper);border-bottom:1px solid var(--line);padding:22px 5%;z-index:100;flex-direction:column;gap:16px}
@@ -335,3 +335,19 @@ html[lang="ar"] .skip:focus{right:0}
 
 .bring-design-card .button{background:#262a22;color:#ffffff;border:1px solid #b38b5a;font-weight:600;white-space:nowrap;transition:all 0.25s ease}
 .bring-design-card .button:hover{background:var(--bronze);border-color:var(--bronze);color:#151613}
+
+/* Comprehensive Article Layout & Mobile Defense */
+.article-wrap, .article-container{width:100%;max-width:860px;margin:0 auto;padding:60px 7% 100px}
+.article-header{display:block!important;height:auto!important;position:static!important;padding:0!important;border:none!important;background:transparent!important;margin-bottom:35px;width:100%}
+.article-header h1{font-size:clamp(28px,4vw,52px);line-height:1.2;margin:15px 0 20px;word-break:break-word;overflow-wrap:break-word}
+.article-meta, .article-meta-row{display:flex;gap:14px;font-size:13px;color:#8a8b84;align-items:center;margin-bottom:28px;flex-wrap:wrap}
+.article-featured-image, .article-featured-img{width:100%;max-width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;margin:20px 0 45px;border:1px solid var(--line);display:block}
+.article-featured-image img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;display:block}
+.article-body, .article-content{width:100%}
+@media(max-width:900px){
+  .article-wrap, .article-container{padding:30px 5% 60px}
+  .article-header{margin-bottom:25px}
+  .article-header h1{font-size:clamp(22px,6vw,32px);line-height:1.24;margin:12px 0 16px}
+  .article-meta, .article-meta-row{font-size:12px;gap:10px;margin-bottom:20px}
+  .article-featured-image, .article-featured-img{margin:15px 0 28px;border-radius:2px}
+}
