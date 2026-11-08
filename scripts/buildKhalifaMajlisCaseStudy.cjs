@@ -776,3 +776,4 @@ const wellKnownCatalogPath = path.join(DIST_DIR, '.well-known', 'ai-catalog.json
 });
 
 console.log('\n🚀 Khalifa City A Majlis Case Study successfully built and integrated!');
+

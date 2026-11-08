@@ -781,3 +781,4 @@ const wellKnownCatalogPath = path.join(DIST_DIR, '.well-known', 'ai-catalog.json
 });
 
 console.log('\n🚀 Al Bateen Palatial Villa Case Study successfully built and integrated!');
+

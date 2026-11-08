@@ -832,3 +832,4 @@ const wellKnownCatalogPath = path.join(DIST_DIR, '.well-known', 'ai-catalog.json
 });
 
 console.log('\n🚀 Saadiyat SDE3 Handcrafted Villa Case Study successfully built and integrated!');
+
