@@ -358,7 +358,7 @@ const enHtml = `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta
             <div class="article-card-body">
               <span class="article-badge">Client Case Study & Engineering Integrity</span>
               <h4>MBZ City Luxury Villa Fit-Out Case Study: Integrity, Defect Whistleblowing & 7-Year Crack-Free Handover for Mr. Ali Al Ketbi</h4>
-              <p>How NASAQ stopped contractor-consultant collusion hiding structural cracks, protected the client, and delivered flawless neoclassical fit-out that remains 100% crack-free 7 years later in MBZ City Zone 24.</p>
+              <p>How NASAQ stopped contractor-consultant collusion hiding structural cracks, protected the client, and delivered flawless neoclassical fit-out that remains 100% crack-free 7 years later in MBZ City Zone 30 (Z30).</p>
             </div>
           </a>
           <a class="article-card" href="/insights/abu-dhabi-luxury-villa-majlis-fitout-guide/">
@@ -688,10 +688,10 @@ const arHtml = `<!doctype html><html lang="ar" dir="rtl"><head><meta charset="ut
         <h3 style="font-size:24px;margin-bottom:24px;">مقالات هندسية وأدلة ذات صلة بتشطيب الفلل في الإمارات</h3>
         <div class="insights-grid">
           <a class="article-card" href="/ar/insights/villa-fitout-al-ketbi-mbz-integrity-case-study/">
-            <img class="article-card-img" src="/assets/alketbi-project/ceiling-chandeliers-rosette.jpg" alt="قصة نجاح فيلا السيد علي الكتبي حوض 24 مدينة محمد بن زايد" width="600" height="338" loading="lazy">
+            <img class="article-card-img" src="/assets/alketbi-project/ceiling-chandeliers-rosette.jpg" alt="قصة نجاح فيلا السيد علي الكتبي حوض 30 (Z30) مدينة محمد بن زايد" width="600" height="338" loading="lazy">
             <div class="article-card-body">
               <span class="article-badge">دراسة حالة واقعية ونزاهة هندسية</span>
-              <h4>قصة نجاح تشطيب فيلا السيد علي الكتبي في مدينة محمد بن زايد (حوض 24): النزاهة الهندسية وكشف عيوب المقاول والاستشاري</h4>
+              <h4>قصة نجاح تشطيب فيلا السيد علي الكتبي في مدينة محمد بن زايد (حوض 30 (Z30)): النزاهة الهندسية وكشف عيوب المقاول والاستشاري</h4>
               <p>كيف رفضت نسق طلب المقاول والاستشاري إخفاء شروخ الجدران بالجبس بورد، وحمت العميل علي الكتبي غدير، وسلمت تشطيباً ملكياً لا يزال بلا شروخ بعد 7 سنوات.</p>
             </div>
           </a>
@@ -858,3 +858,4 @@ const wellKnownCatalogPath = path.join(DIST_DIR, '.well-known', 'ai-catalog.json
 });
 
 console.log('\n🚀 Ahmed Al Kaabi Al Ain Al Dhahir Case Study successfully built and integrated!');
+
