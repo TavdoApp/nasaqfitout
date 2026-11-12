@@ -106,60 +106,45 @@ function querySearchAnalytics(accessToken, siteUrl, requestBody) {
   });
 }
 
-async function main() {
+async function run() {
   const jwt = getJwtToken();
   const token = await fetchAccessToken(jwt);
-
   const siteUrl = 'sc-domain:nasaqfitout.ae';
-  console.log(`📡 Querying live Google Search Console for: ${siteUrl}...`);
 
-  // Query top keywords over the last 28 days
-  const endDate = new Date().toISOString().split('T')[0];
-  const startDateObj = new Date();
-  startDateObj.setDate(startDateObj.getDate() - 28);
-  const startDate = startDateObj.toISOString().split('T')[0];
+  const filterKeyword = process.argv[2] || '';
 
-  const queryPayload = {
-    startDate: startDate,
-    endDate: endDate,
-    dimensions: ['query'],
+  const payload = {
+    startDate: '2026-10-15',
+    endDate: '2026-11-12',
+    dimensions: ['query', 'page'],
     rowLimit: 50
   };
 
-  const res = await querySearchAnalytics(token, siteUrl, queryPayload);
+  if (filterKeyword) {
+    payload.dimensionFilterGroups = [{
+      filters: [{
+        dimension: 'query',
+        operator: 'contains',
+        expression: filterKeyword
+      }]
+    }];
+  }
+
+  console.log(`📡 Querying GSC with filter: "${filterKeyword || 'ALL'}"...`);
+  const res = await querySearchAnalytics(token, siteUrl, payload);
 
   if (res.status === 200 && res.data.rows) {
-    console.log(`\n🏆 Top Ranking Search Queries (Last 28 Days):`);
     console.table(res.data.rows.map(r => ({
       Query: r.keys[0],
+      Page: r.keys[1].replace('https://nasaqfitout.ae', ''),
       Clicks: r.clicks,
       Impressions: r.impressions,
       CTR: (r.ctr * 100).toFixed(1) + '%',
       Position: r.position.toFixed(1)
     })));
-
-    // Also query top pages
-    const pagePayload = {
-      startDate: startDate,
-      endDate: endDate,
-      dimensions: ['page'],
-      rowLimit: 20
-    };
-    const pageRes = await querySearchAnalytics(token, siteUrl, pagePayload);
-    if (pageRes.data && pageRes.data.rows) {
-      console.log(`\n📄 Top Performing Landing Pages:`);
-      console.table(pageRes.data.rows.map(r => ({
-        Page: r.keys[0].replace('https://nasaqfitout.ae', ''),
-        Clicks: r.clicks,
-        Impressions: r.impressions,
-        CTR: (r.ctr * 100).toFixed(1) + '%',
-        Position: r.position.toFixed(1)
-      })));
-    }
   } else {
-    console.log(`Response Status: ${res.status}`);
-    console.log(res.data);
+    console.log(res);
   }
 }
 
-main().catch(console.error);
+run().catch(console.error);
